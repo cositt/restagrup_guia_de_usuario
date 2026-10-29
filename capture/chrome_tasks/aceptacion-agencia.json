@@ -1,0 +1,10 @@
+{
+ "title": "La agencia acepta el presupuesto",
+ "cat": "presupuestos",
+ "summary": "La agencia acepta y firma el presupuesto desde el enlace del correo. Odoo lo confirma solo, crea la hoja de servicio de cada restaurante y pasa el grupo a Expediente.",
+ "when": "Has enviado el presupuesto y la agencia lo da por bueno.",
+ "before": ["Presupuesto enviado a la agencia (**Presupuesto enviado**)."],
+ "tags": ["aceptar", "firma", "firmado", "confirmar", "pedido de venta", "portal"],
+ "result": "El presupuesto es **Pedido de venta**, hay hoja de servicio por restaurante y el grupo está en **Expediente**.",
+ "next": ["expediente"]
+}

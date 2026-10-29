@@ -1,0 +1,10 @@
+{
+ "title": "Cambiar el texto de un correo automático",
+ "cat": "correos",
+ "summary": "Cada correo que prepara el sistema sale de una plantilla: puedes cambiar su asunto y su texto, y decidir si sale solo o espera a que alguien lo apruebe.",
+ "when": "Quieres cambiar cómo se le escribe a la agencia o al restaurante, o que un correo salga sin revisar.",
+ "before": ["Permiso de administración de Restagrup."],
+ "tags": ["plantilla", "texto", "correo automatico", "asunto", "enviar solo", "marcadores"],
+ "result": "Los próximos correos de ese tipo salen con el texto nuevo.",
+ "next": ["pendientes-aprobar"]
+}

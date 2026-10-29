@@ -1,0 +1,65 @@
+[
+ {
+  "text": "En la hoja de servicio sale un aviso con lo que ha leído la IA: **número**, **importe** y el PDF, y si **cuadra con la hoja** (1). La respuesta está a la derecha (2). Ábrela, compruébala y pulsa **Factura correcta** (3). Si no vale, **Descartar factura** (4).",
+  "tip": null,
+  "warn": "Si no cuadra (otro importe, otro NIF, faltan datos), el aviso dice qué falla. Pídele al restaurante una factura corregida.",
+  "stop": null,
+  "detail": null,
+  "labels": [
+   "Aviso",
+   "Respuesta",
+   "Factura correcta",
+   "Descartar"
+  ],
+  "img": "img/factura-restaurante/01.webp",
+  "w": 1568,
+  "h": 499,
+  "marks": [
+   {
+    "x": 0.63,
+    "y": 23.41,
+    "w": 64.62,
+    "h": 10.8
+   },
+   {
+    "x": 65.6,
+    "y": 27.14,
+    "w": 29.2,
+    "h": 35.71
+   },
+   {
+    "x": 41.59,
+    "y": 10.66,
+    "w": 7.25,
+    "h": 6.71
+   },
+   {
+    "x": 48.63,
+    "y": 10.66,
+    "w": 7.59,
+    "h": 6.71
+   }
+  ],
+  "doc": false
+ },
+ {
+  "text": "La hoja queda con **Factura recibida y revisada**, el número y la fecha de la factura y cuántas reclamaciones hicieron falta (1).",
+  "tip": "Si te equivocas, **Desmarcar factura**.",
+  "warn": null,
+  "stop": null,
+  "detail": null,
+  "labels": [],
+  "img": "img/factura-restaurante/02.webp",
+  "w": 1035,
+  "h": 534,
+  "marks": [
+   {
+    "x": 2.27,
+    "y": 50.0,
+    "w": 30.3,
+    "h": 39.33
+   }
+  ],
+  "doc": false
+ }
+]

@@ -1,0 +1,10 @@
+{
+ "title": "Enviar el bono de agencia",
+ "cat": "pagos",
+ "summary": "Con el pago recibido, se manda a la agencia el bono de servicio: el documento que presenta el grupo en el restaurante el día del servicio.",
+ "when": "El pedido está **Pagado**.",
+ "before": ["Pedido de venta marcado como **Pagado** (justificante confirmado)."],
+ "tags": ["bono", "bono de agencia", "voucher", "documento grupo"],
+ "result": "La agencia tiene el bono en PDF y queda anotado en el pedido.",
+ "next": ["pagar-restaurante"]
+}

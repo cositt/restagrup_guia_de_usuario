@@ -1,0 +1,10 @@
+{
+ "title": "Ver lo que tengo pendiente (avisos)",
+ "cat": "empezar",
+ "summary": "Las burbujas con número te dicen qué tienes por hacer y te llevan directo a ello.",
+ "when": "Al empezar el día o cuando veas un número nuevo.",
+ "before": [],
+ "tags": ["avisos", "burbuja", "pendientes", "notificacion"],
+ "result": "Ves la lista exacta de lo que tienes pendiente y entras en cada cosa.",
+ "next": ["peticion-correo", "pendientes-aprobar"]
+}

@@ -1,0 +1,2260 @@
+[
+ {
+  "title": "Moverse por Restagrup",
+  "cat": "empezar",
+  "summary": "Dónde está cada cosa: el menú de arriba sigue el camino de un grupo, de la petición al expediente terminado.",
+  "when": "La primera vez que entras, o cuando no encuentras una pantalla.",
+  "before": [
+   "Tienes usuario en Odoo y entras por **restagrup.cositt.net**."
+  ],
+  "tags": [
+   "menu",
+   "inicio",
+   "donde esta",
+   "pantallas",
+   "navegar",
+   "empezar"
+  ],
+  "result": "Sabes en qué menú está cada fase del grupo y dónde están los correos y la configuración.",
+  "next": [
+   "avisos",
+   "peticion-correo"
+  ],
+  "id": "menu",
+  "steps": [
+   {
+    "text": "En la pantalla de inicio pulsa **Restagrup**. Todo el trabajo del día a día está dentro de esta aplicación.",
+    "tip": "Las demás aplicaciones (CRM, Ventas, Compra, Facturación) son las de Odoo: Restagrup ya trae dentro lo que necesitas de ellas.",
+    "warn": null,
+    "stop": null,
+    "detail": null,
+    "labels": [],
+    "img": "img/menu/01.webp",
+    "w": 878,
+    "h": 299,
+    "marks": [
+     {
+      "x": 24.27,
+      "y": 48.38,
+      "w": 13.43,
+      "h": 33.55
+     }
+    ],
+    "doc": false
+   },
+   {
+    "text": "Arriba está todo el menú de Restagrup. Los grupos siguen el camino de un grupo: **Peticiones → Presupuestos → Expedientes → Terminados** (1). Después los **Pagos** a la agencia y a los restaurantes (2). Lo de configuración está en **+** (3).",
+    "tip": "**Restaurantes**, **Menús** y **Buscar restaurantes** son para encontrar sitio y preparar menús; **Pendientes de aprobar** y **Correos por revisar** son los correos que esperan a una persona.",
+    "warn": null,
+    "stop": null,
+    "detail": null,
+    "labels": [
+     "Trabajo diario",
+     "Pagos",
+     "Más opciones"
+    ],
+    "img": "img/menu/02.webp",
+    "w": 1568,
+    "h": 86,
+    "marks": [
+     {
+      "x": 6.84,
+      "y": 5.75,
+      "w": 20.93,
+      "h": 32.42
+     },
+     {
+      "x": 31.31,
+      "y": 5.75,
+      "w": 15.65,
+      "h": 32.42
+     },
+     {
+      "x": 79.72,
+      "y": 5.75,
+      "w": 2.12,
+      "h": 32.42
+     }
+    ],
+    "doc": false
+   },
+   {
+    "text": "Pulsa **+** para ver el resto: **Presupuestos sin respuesta**, los **avisos**, la **Actividad IA** y la configuración (**Plantillas de correo**, **Baremos de precio estimado**, **Cortafuegos**…).",
+    "tip": "La configuración solo la ve quien tiene permiso de administración de Restagrup.",
+    "warn": null,
+    "stop": null,
+    "detail": null,
+    "labels": [],
+    "img": "img/menu/03.webp",
+    "w": 706,
+    "h": 356,
+    "marks": [
+     {
+      "x": 55.33,
+      "y": 9.2,
+      "w": 26.22,
+      "h": 80.0
+     }
+    ],
+    "doc": false
+   }
+  ]
+ },
+ {
+  "title": "Ver lo que tengo pendiente (avisos)",
+  "cat": "empezar",
+  "summary": "Las burbujas con número te dicen qué tienes por hacer y te llevan directo a ello.",
+  "when": "Al empezar el día o cuando veas un número nuevo.",
+  "before": [],
+  "tags": [
+   "avisos",
+   "burbuja",
+   "pendientes",
+   "notificacion"
+  ],
+  "result": "Ves la lista exacta de lo que tienes pendiente y entras en cada cosa.",
+  "next": [
+   "peticion-correo",
+   "pendientes-aprobar"
+  ],
+  "id": "avisos",
+  "steps": [
+   {
+    "text": "Abajo a la izquierda está la **burbuja de avisos**. El número es cuántas cosas tienes pendientes. Púlsala.",
+    "tip": "Si no hay nada pendiente, la burbuja no sale.",
+    "warn": null,
+    "stop": null,
+    "detail": null,
+    "labels": [],
+    "img": "img/avisos/01.webp",
+    "w": 627,
+    "h": 321,
+    "marks": [
+     {
+      "x": 0.75,
+      "y": 82.89,
+      "w": 7.25,
+      "h": 14.22
+     }
+    ],
+    "doc": false
+   },
+   {
+    "text": "Se abre la lista de lo pendiente, aquí **1 presupuesto de restaurante por confirmar**. Entra en la línea para resolverlo.",
+    "tip": null,
+    "warn": null,
+    "stop": null,
+    "detail": null,
+    "labels": [
+     "Qué es",
+     "Lo pendiente"
+    ],
+    "img": "img/avisos/02.webp",
+    "w": 1568,
+    "h": 285,
+    "marks": [
+     {
+      "x": 4.2,
+      "y": 16.0,
+      "w": 16.2,
+      "h": 10.5
+     },
+     {
+      "x": 0.5,
+      "y": 41.5,
+      "w": 99.0,
+      "h": 11.5
+     }
+    ],
+    "doc": false
+   }
+  ]
+ },
+ {
+  "title": "Cambiar el texto de un correo automático",
+  "cat": "correos",
+  "summary": "Cada correo que prepara el sistema sale de una plantilla: puedes cambiar su asunto y su texto, y decidir si sale solo o espera a que alguien lo apruebe.",
+  "when": "Quieres cambiar cómo se le escribe a la agencia o al restaurante, o que un correo salga sin revisar.",
+  "before": [
+   "Permiso de administración de Restagrup."
+  ],
+  "tags": [
+   "plantilla",
+   "texto",
+   "correo automatico",
+   "asunto",
+   "enviar solo",
+   "marcadores"
+  ],
+  "result": "Los próximos correos de ese tipo salen con el texto nuevo.",
+  "next": [
+   "pendientes-aprobar"
+  ],
+  "id": "plantillas",
+  "steps": [
+   {
+    "text": "Ve a **+ → Plantillas de correo**. Hay una por cada correo automático: a quién va (**Para**), su **Asunto** y si se envía solo (1).",
+    "tip": "Apagado = el correo espera en **Pendientes de aprobar** hasta que alguien lo manda. Es lo recomendable al principio.",
+    "warn": null,
+    "stop": null,
+    "detail": null,
+    "labels": [
+     "Enviar automáticamente"
+    ],
+    "img": "img/plantillas/01.webp",
+    "w": 1568,
+    "h": 584,
+    "marks": [
+     {
+      "x": 83.5,
+      "y": 9.15,
+      "w": 6.5,
+      "h": 88.41
+     }
+    ],
+    "doc": false
+   },
+   {
+    "text": "Entra en una. Cambia el **Asunto** y el **Texto** (1). Lo que va entre llaves, como **{agencia}** o **{importe}**, lo rellena el sistema con los datos del grupo: la lista está en **Marcadores** (2). Para que salga sin revisar, enciende **Enviar automáticamente** (3).",
+    "tip": null,
+    "warn": "Escribe los marcadores tal cual, con sus llaves. Si cambias una letra, saldrá el texto literal en el correo.",
+    "stop": null,
+    "detail": "**Cuándo sale** explica qué dispara ese correo (por ejemplo, 7 días antes del servicio). Los plazos se cambian en Ajustes.",
+    "labels": [
+     "Asunto y texto",
+     "Marcadores",
+     "Enviar solo"
+    ],
+    "img": "img/plantillas/02.webp",
+    "w": 1160,
+    "h": 442,
+    "marks": [
+     {
+      "x": 2.03,
+      "y": 42.74,
+      "w": 94.59,
+      "h": 42.74
+     },
+     {
+      "x": 2.03,
+      "y": 87.1,
+      "w": 37.84,
+      "h": 7.26
+     },
+     {
+      "x": 50.0,
+      "y": 25.81,
+      "w": 14.19,
+      "h": 8.87
+     }
+    ],
+    "doc": false
+   }
+  ]
+ },
+ {
+  "title": "Ha llegado una petición de grupo por correo",
+  "cat": "peticiones",
+  "summary": "La agencia escribe al buzón de peticiones y Odoo crea la petición solo: la IA saca ciudad, fecha, servicio y comensales.",
+  "when": "Cada vez que una agencia pide restaurante para un grupo.",
+  "before": [
+   "La agencia escribe a la dirección de peticiones de Restagrup."
+  ],
+  "tags": [
+   "peticion",
+   "correo",
+   "grupo",
+   "agencia",
+   "nuevo",
+   "lead"
+  ],
+  "result": "Tienes la petición en **Peticiones**, con sus datos rellenos y lista para asignarla.",
+  "next": [
+   "asignar",
+   "buscar-restaurantes"
+  ],
+  "id": "peticion-correo",
+  "steps": [
+   {
+    "text": "Entra en **Peticiones**. La petición nueva sale arriba con lo que ha leído la IA del correo: **fecha**, **población** y **nº de comensales**. Mientras nadie la lleve, sale **Pendiente de asignación** en rojo.",
+    "tip": "El buzón se lee cada 5 minutos: un correo puede tardar ese tiempo en aparecer.",
+    "warn": null,
+    "stop": null,
+    "detail": null,
+    "labels": [],
+    "img": "img/peticion-correo/01.webp",
+    "w": 1568,
+    "h": 319,
+    "marks": [
+     {
+      "x": -0.21,
+      "y": 23.93,
+      "w": 100.42,
+      "h": 12.31
+     }
+    ],
+    "doc": false
+   },
+   {
+    "text": "Abre la petición. A la derecha tienes el **correo de la agencia** tal cual llegó (1). En la pestaña **Datos IA** está lo que ha sacado la IA: **ciudad**, **comensales** y **fecha** (2).",
+    "tip": null,
+    "warn": "La IA puede equivocarse. Compara siempre con el correo antes de seguir.",
+    "stop": null,
+    "detail": null,
+    "labels": [
+     "Correo original",
+     "Lo que leyó la IA"
+    ],
+    "img": "img/peticion-correo/02.webp",
+    "w": 1568,
+    "h": 645,
+    "marks": [
+     {
+      "x": 65.6,
+      "y": 42.35,
+      "w": 29.5,
+      "h": 53.53
+     },
+     {
+      "x": 33.3,
+      "y": 64.12,
+      "w": 31.5,
+      "h": 19.41
+     }
+    ],
+    "doc": false
+   },
+   {
+    "text": "En **Eventos** sale cada servicio que pide la agencia: fecha, hora, tipo, ciudad y comensales (1). Si la agencia no da precio, el **Precio/persona** es un **estimado** sacado de los baremos (2). Corrige lo que haga falta directamente en la línea.",
+    "tip": "Si el grupo come y cena, o va varios días, sale una línea por servicio. **Añadir una línea** si falta alguno.",
+    "warn": null,
+    "stop": null,
+    "detail": null,
+    "labels": [
+     "Evento",
+     "Precio estimado"
+    ],
+    "img": "img/peticion-correo/03.webp",
+    "w": 1568,
+    "h": 645,
+    "marks": [
+     {
+      "x": 1.5,
+      "y": 68.82,
+      "w": 63.0,
+      "h": 25.29
+     },
+     {
+      "x": 26.8,
+      "y": 70.0,
+      "w": 7.8,
+      "h": 4.71
+     }
+    ],
+    "doc": false
+   }
+  ]
+ },
+ {
+  "title": "Asignar una petición a un comercial",
+  "cat": "peticiones",
+  "summary": "Toda petición nueva entra sin responsable. Ponerle comercial quita el aviso rojo y hace que los avisos y correos pendientes de ese grupo le lleguen a esa persona.",
+  "when": "Nada más entrar una petición nueva.",
+  "before": [
+   "La petición está en **Peticiones** con **Pendiente de asignación**."
+  ],
+  "tags": [
+   "asignar",
+   "comercial",
+   "responsable",
+   "pendiente de asignacion"
+  ],
+  "result": "La petición tiene responsable y deja de salir en rojo.",
+  "next": [
+   "buscar-restaurantes",
+   "datos-agencia"
+  ],
+  "id": "asignar",
+  "steps": [
+   {
+    "text": "En la petición pulsa en **Comercial** (1) y elige quién la lleva (2).",
+    "tip": null,
+    "warn": null,
+    "stop": null,
+    "detail": null,
+    "labels": [
+     "Comercial",
+     "Elegir persona"
+    ],
+    "img": "img/asignar/01.webp",
+    "w": 1035,
+    "h": 417,
+    "marks": [
+     {
+      "x": 50.76,
+      "y": 53.27,
+      "w": 46.97,
+      "h": 6.91
+     },
+     {
+      "x": 58.33,
+      "y": 60.0,
+      "w": 22.42,
+      "h": 20.0
+     }
+    ],
+    "doc": false
+   },
+   {
+    "text": "Guarda (nube de arriba). Desaparece **Pendiente de asignación** y el cambio queda anotado a la derecha (1).",
+    "tip": "El **Equipo de ventas** se pone solo con el del comercial.",
+    "warn": null,
+    "stop": null,
+    "detail": null,
+    "labels": [
+     "Comercial puesto",
+     "Historial"
+    ],
+    "img": "img/asignar/02.webp",
+    "w": 1568,
+    "h": 379,
+    "marks": [
+     {
+      "x": 33.5,
+      "y": 53.6,
+      "w": 11.5,
+      "h": 7.2
+     },
+     {
+      "x": 65.6,
+      "y": 27.2,
+      "w": 17.0,
+      "h": 14.0
+     }
+    ],
+    "doc": false
+   }
+  ]
+ },
+ {
+  "title": "Buscar restaurantes para un grupo",
+  "cat": "restaurantes",
+  "summary": "Desde la petición se abre una búsqueda con la ciudad, la fecha y los comensales del grupo. Salen primero nuestros restaurantes (EN ODOO) y después los de Google.",
+  "when": "La petición tiene ciudad y comensales y hay que proponer sitio.",
+  "before": [
+   "La petición tiene **Ciudad** y **comensales** en su evento."
+  ],
+  "tags": [
+   "buscar",
+   "restaurantes",
+   "google",
+   "candidatos",
+   "aforo",
+   "busqueda"
+  ],
+  "result": "Tienes la lista de candidatos para marcar los que interesan y pedirles presupuesto.",
+  "next": [
+   "pedir-presupuesto"
+  ],
+  "id": "buscar-restaurantes",
+  "steps": [
+   {
+    "text": "En la petición pulsa **Buscar para todos los eventos** (o **Buscar** en la línea de un evento).",
+    "tip": null,
+    "warn": null,
+    "stop": null,
+    "detail": null,
+    "labels": [],
+    "img": "img/buscar-restaurantes/01.webp",
+    "w": 1035,
+    "h": 379,
+    "marks": [
+     {
+      "x": 2.27,
+      "y": 51.4,
+      "w": 19.55,
+      "h": 9.0
+     }
+    ],
+    "doc": false
+   },
+   {
+    "text": "Se abre la búsqueda con los datos del grupo: **Ciudad** y **Aforo mínimo** (1). Elige qué **tipo de local** buscar (2). Si cambias algo, pulsa **Buscar restaurantes** (3).",
+    "tip": "**Calle** y **Código postal** acercan la búsqueda a una zona. **Con parking de autobús** deja solo los que lo tienen.",
+    "warn": null,
+    "stop": null,
+    "detail": null,
+    "labels": [
+     "Datos del grupo",
+     "Tipo de local",
+     "Buscar"
+    ],
+    "img": "img/buscar-restaurantes/02.webp",
+    "w": 1035,
+    "h": 570,
+    "marks": [
+     {
+      "x": 2.27,
+      "y": 30.63,
+      "w": 45.45,
+      "h": 21.88
+     },
+     {
+      "x": 2.27,
+      "y": 68.75,
+      "w": 18.18,
+      "h": 21.25
+     },
+     {
+      "x": 0.91,
+      "y": 9.75,
+      "w": 13.03,
+      "h": 5.25
+     }
+    ],
+    "doc": false
+   },
+   {
+    "text": "Abajo, en **Resultados**, salen primero los restaurantes que ya tenemos (**EN ODOO**) (1) y luego los de **Google** (2). En cada uno: **Interesado** (3) para apuntarlo y **Pedir presupuesto** (4) para escribirle.",
+    "tip": "Si la ficha está incompleta sale **Pedir datos que faltan**: manda un correo al restaurante pidiendo lo que falta.",
+    "warn": null,
+    "stop": null,
+    "detail": "Los de Google no están en Odoo: con **Añadir como contacto** se crea su ficha.",
+    "labels": [
+     "Nuestro",
+     "De Google",
+     "Interesado",
+     "Pedir presupuesto"
+    ],
+    "img": "img/buscar-restaurantes/03.webp",
+    "w": 1035,
+    "h": 606,
+    "marks": [
+     {
+      "x": 2.29,
+      "y": 37.07,
+      "w": 31.74,
+      "h": 49.26
+     },
+     {
+      "x": 34.03,
+      "y": 37.07,
+      "w": 31.74,
+      "h": 49.26
+     },
+     {
+      "x": 3.64,
+      "y": 76.62,
+      "w": 6.56,
+      "h": 4.11
+     },
+     {
+      "x": 15.77,
+      "y": 76.62,
+      "w": 9.79,
+      "h": 4.11
+     }
+    ],
+    "doc": false
+   }
+  ]
+ },
+ {
+  "title": "Pedir presupuesto a los restaurantes",
+  "cat": "restaurantes",
+  "summary": "Marca los restaurantes que te interesan y pídeles presupuesto a todos a la vez. A cada uno le llega un correo con la fecha, el servicio y los comensales.",
+  "when": "Ya tienes la búsqueda hecha y sabes qué restaurantes quieres consultar.",
+  "before": [
+   "Búsqueda hecha (**Buscar restaurantes**).",
+   "Los restaurantes elegidos tienen **email** en su ficha."
+  ],
+  "tags": [
+   "pedir presupuesto",
+   "consulta",
+   "disponibilidad",
+   "interesado",
+   "correo restaurante"
+  ],
+  "result": "Los restaurantes reciben la consulta y quedan como **Solicitado**. Sus respuestas entran solas en Odoo.",
+  "next": [
+   "respuesta-restaurante"
+  ],
+  "id": "pedir-presupuesto",
+  "steps": [
+   {
+    "text": "En la búsqueda, pulsa **Interesado** en cada restaurante que quieras consultar (1). Queda marcado en amarillo y anotado a la derecha. Arriba aparece **Pedir presupuesto a interesados** (2).",
+    "tip": "Si solo quieres escribir a uno, usa **Pedir presupuesto** dentro de su tarjeta.",
+    "warn": null,
+    "stop": null,
+    "detail": null,
+    "labels": [
+     "Interesado",
+     "Pedir a todos"
+    ],
+    "img": "img/pedir-presupuesto/01.webp",
+    "w": 1568,
+    "h": 606,
+    "marks": [
+     {
+      "x": 2.4,
+      "y": 84.71,
+      "w": 5.5,
+      "h": 4.0
+     },
+     {
+      "x": 46.0,
+      "y": 9.65,
+      "w": 13.6,
+      "h": 4.94
+     }
+    ],
+    "doc": false
+   },
+   {
+    "text": "Pulsa **Pedir presupuesto a interesados**. Odoo pide confirmación: al pulsar **Aceptar** se manda el correo a todos los marcados.",
+    "tip": null,
+    "warn": "El correo sale de verdad al restaurante. Revisa antes que estén marcados solo los que quieres.",
+    "stop": null,
+    "detail": null,
+    "labels": [],
+    "img": "img/pedir-presupuesto/02.webp",
+    "w": 1098,
+    "h": 392,
+    "marks": [
+     {
+      "x": 26.57,
+      "y": 32.36,
+      "w": 47.71,
+      "h": 44.55
+     }
+    ],
+    "doc": false
+   },
+   {
+    "text": "Listo: la búsqueda pasa a **Presupuestos pedidos** (1) y a la derecha queda a quién se ha escrito y a qué correo (2). En la tarjeta del restaurante pone **Solicitado**.",
+    "tip": "Si no contesta, el sistema prepara un **recordatorio** que verás en **Pendientes de aprobar**.",
+    "warn": null,
+    "stop": null,
+    "detail": null,
+    "labels": [
+     "Estado",
+     "Enviado a"
+    ],
+    "img": "img/pedir-presupuesto/03.webp",
+    "w": 1568,
+    "h": 392,
+    "marks": [
+     {
+      "x": 56.2,
+      "y": 14.55,
+      "w": 8.8,
+      "h": 8.0
+     },
+     {
+      "x": 65.6,
+      "y": 34.18,
+      "w": 29.5,
+      "h": 16.73
+     }
+    ],
+    "doc": false
+   }
+  ]
+ },
+ {
+  "title": "Contestó un restaurante: registrar su presupuesto",
+  "cat": "restaurantes",
+  "summary": "La respuesta del restaurante entra sola en la búsqueda. La IA la lee y guarda sus menús, pero el importe lo confirma siempre una persona con Registrar presupuesto.",
+  "when": "Un restaurante responde a la consulta de presupuesto.",
+  "before": [
+   "Le pediste presupuesto desde la búsqueda (sale **Solicitado**).",
+   "El restaurante contesta **respondiendo** al correo que le llegó."
+  ],
+  "tags": [
+   "respuesta",
+   "presupuesto recibido",
+   "importe",
+   "registrar",
+   "restaurante contesta"
+  ],
+  "result": "El restaurante sale como **Presupuesto recibido** con su importe y ya se puede preparar el presupuesto a la agencia.",
+  "next": [
+   "menu-ia",
+   "presupuesto-agencia"
+  ],
+  "id": "respuesta-restaurante",
+  "steps": [
+   {
+    "text": "Cuando el restaurante contesta, su respuesta aparece a la derecha de la búsqueda y la IA guarda sus menús en su ficha (1). El restaurante sigue en **Solicitado**: pulsa **Registrar presupuesto** en su tarjeta (2).",
+    "tip": "**Ver conversación** abre el correo completo del restaurante.",
+    "warn": null,
+    "stop": null,
+    "detail": null,
+    "labels": [
+     "Respuesta y menús",
+     "Registrar presupuesto"
+    ],
+    "img": "img/respuesta-restaurante/01.webp",
+    "w": 1568,
+    "h": 499,
+    "marks": [
+     {
+      "x": 65.6,
+      "y": 11.71,
+      "w": 33.8,
+      "h": 50.0
+     },
+     {
+      "x": 2.5,
+      "y": 81.43,
+      "w": 7.6,
+      "h": 4.86
+     }
+    ],
+    "doc": false
+   },
+   {
+    "text": "Escribe el **Presupuesto (€)** total del grupo, comprueba el **Menú ofrecido** y añade lo importante en **Notas** (1). Pulsa **Registrar** (2).",
+    "tip": null,
+    "warn": "El importe es el **total** del grupo, no por persona: 32 € × 30 comensales = **960 €**.",
+    "stop": null,
+    "detail": "Si la respuesta llegó por teléfono o WhatsApp, pega el texto en el recuadro y pulsa **Extraer con IA** para que proponga importe y notas.",
+    "labels": [
+     "Importe y menú",
+     "Registrar"
+    ],
+    "img": "img/respuesta-restaurante/02.webp",
+    "w": 940,
+    "h": 442,
+    "marks": [
+     {
+      "x": 8.33,
+      "y": 54.52,
+      "w": 83.33,
+      "h": 23.39
+     },
+     {
+      "x": 8.67,
+      "y": 87.42,
+      "w": 7.67,
+      "h": 6.45
+     }
+    ],
+    "doc": false
+   },
+   {
+    "text": "El restaurante pasa a **Presupuesto recibido** con su importe (1) y la búsqueda a **Presupuestos recibidos** (2).",
+    "tip": null,
+    "warn": null,
+    "stop": null,
+    "detail": null,
+    "labels": [
+     "Recibido",
+     "Estado"
+    ],
+    "img": "img/respuesta-restaurante/03.webp",
+    "w": 1035,
+    "h": 464,
+    "marks": [
+     {
+      "x": 3.79,
+      "y": 86.46,
+      "w": 29.55,
+      "h": 4.92
+     },
+     {
+      "x": 84.55,
+      "y": 4.62,
+      "w": 14.09,
+      "h": 5.54
+     }
+    ],
+    "doc": false
+   }
+  ]
+ },
+ {
+  "title": "Revisar un menú que ha creado la IA",
+  "cat": "fichas",
+  "summary": "Cuando un restaurante manda sus menús en la respuesta, la IA los guarda en su ficha con platos, bebidas y precio. Quedan «sin revisar» hasta que una persona los comprueba.",
+  "when": "Después de que conteste un restaurante con sus menús.",
+  "before": [
+   "El restaurante ha respondido con sus menús y precios."
+  ],
+  "tags": [
+   "menu",
+   "ia",
+   "sin revisar",
+   "revisado",
+   "platos",
+   "precio venta",
+   "margen"
+  ],
+  "result": "El menú queda revisado y listo para usarlo en presupuestos.",
+  "next": [
+   "menus-restaurante",
+   "presupuesto-agencia"
+  ],
+  "id": "menu-ia",
+  "steps": [
+   {
+    "text": "Entra en **Menús**. Los que ha creado la IA llevan encendido **Sin revisar** (1). El **Precio venta** ya lleva el margen de Restagrup sobre el **Precio coste** del restaurante (2).",
+    "tip": null,
+    "warn": null,
+    "stop": null,
+    "detail": null,
+    "labels": [
+     "Sin revisar",
+     "Coste y venta"
+    ],
+    "img": "img/menu-ia/01.webp",
+    "w": 1568,
+    "h": 249,
+    "marks": [
+     {
+      "x": 42.3,
+      "y": 32.86,
+      "w": 4.2,
+      "h": 25.71
+     },
+     {
+      "x": 73.0,
+      "y": 32.86,
+      "w": 17.0,
+      "h": 25.71
+     }
+    ],
+    "doc": false
+   },
+   {
+    "text": "Abre el menú. Comprueba nombre, precio, bebidas y, en **Platos**, que estén todos (1). Corrige lo que haga falta y pulsa **Revisado** (2).",
+    "tip": null,
+    "warn": "Mira bien el **precio**: si el restaurante dio un precio sin IVA o por grupo, la IA puede haberlo leído mal.",
+    "stop": null,
+    "detail": null,
+    "labels": [
+     "Platos",
+     "Revisado"
+    ],
+    "img": "img/menu-ia/02.webp",
+    "w": 1160,
+    "h": 677,
+    "marks": [
+     {
+      "x": 1.22,
+      "y": 55.26,
+      "w": 96.22,
+      "h": 34.74
+     },
+     {
+      "x": 1.08,
+      "y": 8.42,
+      "w": 5.95,
+      "h": 4.21
+     }
+    ],
+    "doc": false
+   },
+   {
+    "text": "Se quitan el aviso amarillo y el botón: el menú ya está revisado.",
+    "tip": null,
+    "warn": null,
+    "stop": null,
+    "detail": null,
+    "labels": [],
+    "img": "img/menu-ia/03.webp",
+    "w": 1160,
+    "h": 641,
+    "marks": [
+     {
+      "x": 1.22,
+      "y": 9.44,
+      "w": 96.22,
+      "h": 31.11
+     }
+    ],
+    "doc": false
+   }
+  ]
+ },
+ {
+  "title": "Preparar el presupuesto para la agencia",
+  "cat": "presupuestos",
+  "summary": "Elige el restaurante que ha dado presupuesto y crea el presupuesto de venta: lleva el menú, los comensales y el margen de Restagrup ya calculado.",
+  "when": "Tienes al menos un restaurante con **Presupuesto recibido**.",
+  "before": [
+   "Algún restaurante de la búsqueda sale como **Presupuesto recibido** con su importe."
+  ],
+  "tags": [
+   "presupuesto",
+   "venta",
+   "agencia",
+   "elegir",
+   "margen",
+   "precio"
+  ],
+  "result": "Tienes el presupuesto (S000…) listo para revisarlo y enviarlo a la agencia.",
+  "next": [
+   "aceptacion-agencia"
+  ],
+  "id": "presupuesto-agencia",
+  "steps": [
+   {
+    "text": "En la búsqueda, en el restaurante con **Presupuesto recibido**, pulsa **Elegir** (1).",
+    "tip": null,
+    "warn": null,
+    "stop": null,
+    "detail": null,
+    "labels": [
+     "Elegir"
+    ],
+    "img": "img/presupuesto-agencia/01.webp",
+    "w": 1035,
+    "h": 499,
+    "marks": [
+     {
+      "x": 24.77,
+      "y": 78.84,
+      "w": 4.45,
+      "h": 4.99
+     }
+    ],
+    "doc": false
+   },
+   {
+    "text": "El restaurante queda con una **estrella** y la búsqueda en **Elegido**. Pulsa **Crear presupuesto de venta** (1).",
+    "tip": "Si te equivocas, **Quitar elegido** o **Cancelar / cambiar restaurante**.",
+    "warn": null,
+    "stop": null,
+    "detail": null,
+    "labels": [
+     "Crear presupuesto",
+     "Elegido"
+    ],
+    "img": "img/presupuesto-agencia/02.webp",
+    "w": 1035,
+    "h": 534,
+    "marks": [
+     {
+      "x": 69.85,
+      "y": 10.67,
+      "w": 16.36,
+      "h": 5.07
+     },
+     {
+      "x": 3.79,
+      "y": 46.0,
+      "w": 17.42,
+      "h": 4.27
+     }
+    ],
+    "doc": false
+   },
+   {
+    "text": "Se abre el presupuesto con la agencia como **Cliente** (1) y una línea por servicio: restaurante, fecha, hora, comensales, **precio por persona con margen** y el menú (2). Revísalo y pulsa **Enviar** para mandárselo a la agencia (3).",
+    "tip": null,
+    "warn": null,
+    "stop": null,
+    "detail": "**Coste restaurante** es lo que nos cobra el restaurante y **Margen** lo que gana Restagrup. La agencia no los ve salvo que actives **Mostrar margen al cliente**.",
+    "labels": [
+     "Agencia",
+     "Servicio y menú",
+     "Enviar"
+    ],
+    "img": "img/presupuesto-agencia/03.webp",
+    "w": 1035,
+    "h": 677,
+    "marks": [
+     {
+      "x": 2.27,
+      "y": 22.53,
+      "w": 31.82,
+      "h": 3.58
+     },
+     {
+      "x": 1.36,
+      "y": 71.37,
+      "w": 96.97,
+      "h": 28.42
+     },
+     {
+      "x": 1.21,
+      "y": 8.63,
+      "w": 5.15,
+      "h": 4.21
+     }
+    ],
+    "doc": false
+   },
+   {
+    "text": "En la ventana del correo comprueba el destinatario y pulsa **Enviar**. El presupuesto pasa a **Presupuesto enviado** (1) y a la derecha queda el correo con el PDF adjunto (2).",
+    "tip": "La agencia recibe un enlace para ver el presupuesto y **aceptarlo y firmarlo** en línea.",
+    "warn": null,
+    "stop": null,
+    "detail": null,
+    "labels": [
+     "Enviado",
+     "Correo y PDF"
+    ],
+    "img": "img/presupuesto-agencia/04.webp",
+    "w": 1568,
+    "h": 455,
+    "marks": [
+     {
+      "x": 48.6,
+      "y": 12.5,
+      "w": 9.6,
+      "h": 6.33
+     },
+     {
+      "x": 65.6,
+      "y": 28.83,
+      "w": 29.5,
+      "h": 60.0
+     }
+    ],
+    "doc": false
+   }
+  ]
+ },
+ {
+  "title": "La agencia acepta el presupuesto",
+  "cat": "presupuestos",
+  "summary": "La agencia acepta y firma el presupuesto desde el enlace del correo. Odoo lo confirma solo, crea la hoja de servicio de cada restaurante y pasa el grupo a Expediente.",
+  "when": "Has enviado el presupuesto y la agencia lo da por bueno.",
+  "before": [
+   "Presupuesto enviado a la agencia (**Presupuesto enviado**)."
+  ],
+  "tags": [
+   "aceptar",
+   "firma",
+   "firmado",
+   "confirmar",
+   "pedido de venta",
+   "portal"
+  ],
+  "result": "El presupuesto es **Pedido de venta**, hay hoja de servicio por restaurante y el grupo está en **Expediente**.",
+  "next": [
+   "expediente"
+  ],
+  "id": "aceptacion-agencia",
+  "steps": [
+   {
+    "text": "Cuando la agencia firma, a la derecha sale **Pedido firmado por…** con el PDF firmado (1). El presupuesto pasa a **Pedido de venta** (2) y arriba aparecen las **Hojas de servicio** creadas y cuántos restaurantes han confirmado (3).",
+    "tip": "Si la agencia acepta por correo o por teléfono, pulsa tú **Confirmar** en el presupuesto: hace lo mismo.",
+    "warn": null,
+    "stop": null,
+    "detail": null,
+    "labels": [
+     "Firmado",
+     "Pedido de venta",
+     "Hojas de servicio"
+    ],
+    "img": "img/aceptacion-agencia/01.webp",
+    "w": 1568,
+    "h": 641,
+    "marks": [
+     {
+      "x": 65.6,
+      "y": 21.67,
+      "w": 20.5,
+      "h": 35.0
+     },
+     {
+      "x": 58.3,
+      "y": 9.78,
+      "w": 6.6,
+      "h": 4.44
+     },
+     {
+      "x": 41.2,
+      "y": 2.11,
+      "w": 17.7,
+      "h": 4.89
+     }
+    ],
+    "doc": false
+   }
+  ]
+ },
+ {
+  "title": "Trabajar un expediente y sus hojas de servicio",
+  "cat": "expediente",
+  "summary": "Con el presupuesto aceptado, el grupo está en Expedientes. Cada restaurante tiene su hoja de servicio con lo que nos cobra; desde ella se confirma la reserva, se paga y se controla su factura.",
+  "when": "La agencia ha aceptado el presupuesto.",
+  "before": [
+   "Presupuesto confirmado (**Pedido de venta**)."
+  ],
+  "tags": [
+   "expediente",
+   "hoja de servicio",
+   "confirmacion restaurante",
+   "pendiente para cerrar",
+   "proforma"
+  ],
+  "result": "Sabes qué falta para cerrar el grupo y tienes la hoja de cada restaurante a mano.",
+  "next": [
+   "pedir-pago-agencia",
+   "pagar-restaurante"
+  ],
+  "id": "expediente",
+  "steps": [
+   {
+    "text": "Entra en **Expedientes**. Cada grupo aceptado sale con su restaurante, comensales y responsable. **Pendiente para cerrar** (1) dice lo que falta: pago de la agencia, transferencia al restaurante, facturas…",
+    "tip": null,
+    "warn": null,
+    "stop": null,
+    "detail": null,
+    "labels": [
+     "Lo que falta"
+    ],
+    "img": "img/expediente/01.webp",
+    "w": 1568,
+    "h": 214,
+    "marks": [
+     {
+      "x": 65.5,
+      "y": 36.67,
+      "w": 28.2,
+      "h": 18.33
+     }
+    ],
+    "doc": false
+   },
+   {
+    "text": "En el pedido de venta del grupo, **Hojas de servicio** (1) abre las hojas de cada restaurante. **Enviar hojas de servicio** (2) manda a cada restaurante la suya para que confirme.",
+    "tip": "**Confirmación agencia** genera el PDF de confirmación de reserva para la agencia.",
+    "warn": null,
+    "stop": null,
+    "detail": null,
+    "labels": [
+     "Hojas",
+     "Enviar a restaurantes"
+    ],
+    "img": "img/expediente/02.webp",
+    "w": 1035,
+    "h": 285,
+    "marks": [
+     {
+      "x": 62.42,
+      "y": 4.75,
+      "w": 13.94,
+      "h": 11.0
+     },
+     {
+      "x": 30.3,
+      "y": 23.5,
+      "w": 14.09,
+      "h": 9.5
+     }
+    ],
+    "doc": false
+   },
+   {
+    "text": "La hoja de servicio lleva solo lo que nos cobra el restaurante: servicio, menú, comensales y precio de coste (1), nunca el precio de la agencia. Aquí se marca **Transferencia hecha**, **Tenemos su cuenta** y **Factura recibida y revisada** (2). **Confirmación restaurante** saca la proforma (3).",
+    "tip": null,
+    "warn": "Revisa la **Llegada prevista**: puede salir una hora más tarde que la hora del servicio.",
+    "stop": null,
+    "detail": null,
+    "labels": [
+     "Servicio y coste",
+     "Control",
+     "Proforma"
+    ],
+    "img": "img/expediente/03.webp",
+    "w": 1035,
+    "h": 684,
+    "marks": [
+     {
+      "x": 1.36,
+      "y": 67.19,
+      "w": 96.97,
+      "h": 32.29
+     },
+     {
+      "x": 2.27,
+      "y": 36.98,
+      "w": 15.91,
+      "h": 13.02
+     },
+     {
+      "x": 33.03,
+      "y": 9.79,
+      "w": 15.61,
+      "h": 3.96
+     }
+    ],
+    "doc": false
+   },
+   {
+    "text": "Para pedir la confirmación a los restaurantes pulsa **Enviar hojas de servicio** (1). A cada restaurante le llega su hoja y en la búsqueda queda **Hoja de servicio enviada a…**.",
+    "tip": null,
+    "warn": "Sale en el momento, sin pedir confirmación: revisa antes las hojas.",
+    "stop": null,
+    "detail": null,
+    "labels": [],
+    "img": "img/expediente/04.webp",
+    "w": 1035,
+    "h": 285,
+    "marks": [
+     {
+      "x": 30.3,
+      "y": 21.0,
+      "w": 14.09,
+      "h": 9.5
+     }
+    ],
+    "doc": false
+   }
+  ]
+ },
+ {
+  "title": "Pedir el pago a la agencia",
+  "cat": "pagos",
+  "summary": "7 días antes del servicio, si la agencia no ha pagado, el sistema prepara solo el correo pidiéndole la transferencia. A las 72 horas, si sigue sin pagar, prepara la reclamación urgente.",
+  "when": "Faltan 7 días o menos para el servicio y el pedido no está pagado.",
+  "before": [
+   "Pedido de venta confirmado y sin **Pagado**."
+  ],
+  "tags": [
+   "pago",
+   "cobrar",
+   "agencia",
+   "transferencia",
+   "prepago",
+   "reclamar pago",
+   "urgente"
+  ],
+  "result": "La agencia recibe la petición de pago con el importe y cómo pagar.",
+  "next": [
+   "justificante-agencia"
+  ],
+  "id": "pedir-pago-agencia",
+  "steps": [
+   {
+    "text": "Cada día, a los pedidos sin pagar con el servicio en 7 días o menos se les prepara la **petición de pago**. Aparece en **Pendientes de aprobar** con el motivo: **Servicio el … y sin pago** (1).",
+    "tip": "A las **72 horas** del servicio, si sigue sin pagar, se prepara la **reclamación urgente**. Los plazos se cambian en Ajustes.",
+    "warn": null,
+    "stop": null,
+    "detail": null,
+    "labels": [],
+    "img": "img/pedir-pago-agencia/01.webp",
+    "w": 1568,
+    "h": 214,
+    "marks": [
+     {
+      "x": -0.21,
+      "y": 36.7,
+      "w": 100.42,
+      "h": 18.33
+     }
+    ],
+    "doc": false
+   },
+   {
+    "text": "Ábrelo: lleva el pedido, la fecha y el **importe total** (1). Revisa el texto y pulsa **Aprobar y enviar** (2).",
+    "tip": null,
+    "warn": "Comprueba que el correo lleva el **número de cuenta** de Restagrup. Si sale vacío, falta la cuenta bancaria en los datos de la compañía.",
+    "stop": null,
+    "detail": null,
+    "labels": [
+     "Texto",
+     "Aprobar"
+    ],
+    "img": "img/pedir-pago-agencia/02.webp",
+    "w": 1035,
+    "h": 463,
+    "marks": [
+     {
+      "x": 2.27,
+      "y": 63.85,
+      "w": 96.21,
+      "h": 28.46
+     },
+     {
+      "x": 1.21,
+      "y": 12.31,
+      "w": 10.45,
+      "h": 5.85
+     }
+    ],
+    "doc": false
+   }
+  ]
+ },
+ {
+  "title": "Aprobar los correos que prepara el sistema",
+  "cat": "correos",
+  "summary": "Los correos automáticos (recordatorios, pagos, facturas, datos que faltan) esperan en Pendientes de aprobar. Revisa el texto, cámbialo si quieres y apruébalo o descártalo.",
+  "when": "Cuando la burbuja de correos tiene número, o cada mañana.",
+  "before": [],
+  "tags": [
+   "pendientes",
+   "aprobar",
+   "cola",
+   "correo automatico",
+   "descartar",
+   "revisar correo"
+  ],
+  "result": "El correo sale con tu aprobación y queda anotado en el grupo.",
+  "next": [
+   "plantillas"
+  ],
+  "id": "pendientes-aprobar",
+  "steps": [
+   {
+    "text": "Entra en **Pendientes de aprobar**. Cada línea es un correo listo para salir: a quién va, de qué grupo o restaurante y **por qué** se ha preparado (1).",
+    "tip": "La burbuja del sobre, abajo a la izquierda, dice cuántos tienes pendientes.",
+    "warn": null,
+    "stop": null,
+    "detail": null,
+    "labels": [
+     "Motivo"
+    ],
+    "img": "img/pendientes-aprobar/01.webp",
+    "w": 1568,
+    "h": 214,
+    "marks": [
+     {
+      "x": 52.8,
+      "y": 36.67,
+      "w": 15.2,
+      "h": 33.33
+     }
+    ],
+    "doc": false
+   },
+   {
+    "text": "Ábrelo. El **asunto** y el **texto** se pueden cambiar antes de aprobar (1). Después pulsa **Aprobar y enviar** (2) o **Descartar** (3) si ya no hace falta.",
+    "tip": null,
+    "warn": null,
+    "stop": null,
+    "detail": "Si al aprobarlo ya no aplica (por ejemplo, la agencia pagó entretanto), el sistema lo descarta solo y no lo manda.",
+    "labels": [
+     "Editable",
+     "Aprobar",
+     "Descartar"
+    ],
+    "img": "img/pendientes-aprobar/02.webp",
+    "w": 1035,
+    "h": 463,
+    "marks": [
+     {
+      "x": 2.27,
+      "y": 50.0,
+      "w": 96.21,
+      "h": 42.31
+     },
+     {
+      "x": 1.21,
+      "y": 12.31,
+      "w": 10.45,
+      "h": 5.85
+     },
+     {
+      "x": 11.82,
+      "y": 12.31,
+      "w": 6.97,
+      "h": 5.85
+     }
+    ],
+    "doc": false
+   }
+  ]
+ },
+ {
+  "title": "La agencia ha pagado: confirmar el justificante",
+  "cat": "pagos",
+  "summary": "Cuando la agencia contesta con el justificante, la IA lo lee y avisa con el importe. Nunca se marca pagado solo: una persona lo comprueba y pulsa Confirmar pago.",
+  "when": "La agencia responde al correo de pago con el justificante de la transferencia.",
+  "before": [
+   "La agencia contesta a un correo del pedido o del grupo con el justificante."
+  ],
+  "tags": [
+   "justificante",
+   "pago recibido",
+   "transferencia",
+   "confirmar pago",
+   "pagado",
+   "agencia ha pagado"
+  ],
+  "result": "El pedido queda **Pagado** y ya se puede enviar el bono de agencia.",
+  "next": [
+   "bono-agencia",
+   "pagar-restaurante"
+  ],
+  "id": "justificante-agencia",
+  "steps": [
+   {
+    "text": "Cuando llega el justificante, el pedido de venta muestra un aviso con el **importe leído por la IA** (1) y la respuesta de la agencia a la derecha (2). Compruébalo con el banco y pulsa **Confirmar pago** (3). Si no es correcto, **Descartar justificante** (4).",
+    "tip": null,
+    "warn": "Si el importe no coincide con el del pedido, el historial lo avisa: **no coincide**. Revísalo antes de confirmar.",
+    "stop": null,
+    "detail": null,
+    "labels": [
+     "Aviso",
+     "Respuesta",
+     "Confirmar pago",
+     "Descartar"
+    ],
+    "img": "img/justificante-agencia/01.webp",
+    "w": 1568,
+    "h": 641,
+    "marks": [
+     {
+      "x": 0.8,
+      "y": 19.56,
+      "w": 64.2,
+      "h": 4.89
+     },
+     {
+      "x": 65.6,
+      "y": 21.11,
+      "w": 30.6,
+      "h": 36.67
+     },
+     {
+      "x": 7.6,
+      "y": 14.11,
+      "w": 6.5,
+      "h": 4.0
+     },
+     {
+      "x": 14.4,
+      "y": 14.11,
+      "w": 8.5,
+      "h": 4.0
+     }
+    ],
+    "doc": false
+   },
+   {
+    "text": "El pedido queda **Pagado** con su fecha de pago (1) y aparece **Enviar bono de agencia** (2).",
+    "tip": "Si te equivocas, **Desmarcar pago**.",
+    "warn": null,
+    "stop": null,
+    "detail": null,
+    "labels": [
+     "Pagado",
+     "Bono"
+    ],
+    "img": "img/justificante-agencia/02.webp",
+    "w": 1035,
+    "h": 499,
+    "marks": [
+     {
+      "x": 50.76,
+      "y": 59.29,
+      "w": 23.48,
+      "h": 10.71
+     },
+     {
+      "x": 1.21,
+      "y": 18.14,
+      "w": 14.55,
+      "h": 5.43
+     }
+    ],
+    "doc": false
+   }
+  ]
+ },
+ {
+  "title": "Enviar el bono de agencia",
+  "cat": "pagos",
+  "summary": "Con el pago recibido, se manda a la agencia el bono de servicio: el documento que presenta el grupo en el restaurante el día del servicio.",
+  "when": "El pedido está **Pagado**.",
+  "before": [
+   "Pedido de venta marcado como **Pagado** (justificante confirmado)."
+  ],
+  "tags": [
+   "bono",
+   "bono de agencia",
+   "voucher",
+   "documento grupo"
+  ],
+  "result": "La agencia tiene el bono en PDF y queda anotado en el pedido.",
+  "next": [
+   "pagar-restaurante"
+  ],
+  "id": "bono-agencia",
+  "steps": [
+   {
+    "text": "En el pedido ya pagado, pulsa **Enviar bono de agencia** (1).",
+    "tip": null,
+    "warn": "Sin el pago confirmado no se puede: sale *El bono de agencia se emite cuando el pago está recibido*.",
+    "stop": null,
+    "detail": null,
+    "labels": [],
+    "img": "img/bono-agencia/01.webp",
+    "w": 1035,
+    "h": 285,
+    "marks": [
+     {
+      "x": 1.21,
+      "y": 31.75,
+      "w": 14.55,
+      "h": 9.5
+     }
+    ],
+    "doc": false
+   },
+   {
+    "text": "Se abre el correo para la agencia con el **bono en PDF** adjunto (1). Revisa el texto y pulsa **Enviar** (2).",
+    "tip": null,
+    "warn": null,
+    "stop": null,
+    "detail": null,
+    "labels": [
+     "Bono PDF",
+     "Enviar"
+    ],
+    "img": "img/bono-agencia/02.webp",
+    "w": 940,
+    "h": 499,
+    "marks": [
+     {
+      "x": 9.67,
+      "y": 79.0,
+      "w": 28.33,
+      "h": 6.57
+     },
+     {
+      "x": 8.83,
+      "y": 89.29,
+      "w": 5.67,
+      "h": 5.43
+     }
+    ],
+    "doc": false
+   }
+  ]
+ },
+ {
+  "title": "Pedir la cuenta bancaria al restaurante",
+  "cat": "pagos",
+  "summary": "Si el restaurante no tiene cuenta en su ficha y se acerca el servicio, el sistema prepara el correo pidiéndola, con la proforma adjunta. Cuando contesta, el IBAN se guarda solo en su ficha.",
+  "when": "Faltan pocos días para el servicio y el restaurante no tiene cuenta bancaria.",
+  "before": [
+   "Hoja de servicio enviada al restaurante."
+  ],
+  "tags": [
+   "cuenta",
+   "iban",
+   "banco",
+   "numero de cuenta",
+   "prepago",
+   "proforma"
+  ],
+  "result": "La cuenta del restaurante queda guardada en su ficha y la hoja marca **Tenemos su cuenta**.",
+  "next": [
+   "pagar-restaurante"
+  ],
+  "id": "cuenta-restaurante",
+  "steps": [
+   {
+    "text": "En **Pendientes de aprobar** aparece **Cuenta bancaria del restaurante** con el motivo **Servicio el … y sin cuenta bancaria** (1). El texto pide el número de cuenta y va con la proforma de la reserva (2). Pulsa **Aprobar y enviar** (3).",
+    "tip": null,
+    "warn": null,
+    "stop": null,
+    "detail": null,
+    "labels": [
+     "Motivo",
+     "Texto",
+     "Aprobar"
+    ],
+    "img": "img/cuenta-restaurante/01.webp",
+    "w": 1035,
+    "h": 484,
+    "marks": [
+     {
+      "x": 2.27,
+      "y": 20.59,
+      "w": 45.45,
+      "h": 22.06
+     },
+     {
+      "x": 2.27,
+      "y": 53.68,
+      "w": 96.21,
+      "h": 36.76
+     },
+     {
+      "x": 1.21,
+      "y": 11.76,
+      "w": 10.45,
+      "h": 5.59
+     }
+    ],
+    "doc": false
+   },
+   {
+    "text": "El correo queda en la hoja de servicio del restaurante con la **proforma** adjunta (1) y se anota cuándo se pidió la cuenta (2).",
+    "tip": null,
+    "warn": null,
+    "stop": null,
+    "detail": null,
+    "labels": [
+     "Correo y proforma",
+     "Cuenta pedida"
+    ],
+    "img": "img/cuenta-restaurante/02.webp",
+    "w": 1568,
+    "h": 570,
+    "marks": [
+     {
+      "x": 65.6,
+      "y": 23.12,
+      "w": 29.2,
+      "h": 61.25
+     },
+     {
+      "x": 1.5,
+      "y": 52.25,
+      "w": 14.0,
+      "h": 7.25
+     }
+    ],
+    "doc": false
+   },
+   {
+    "text": "Cuando el restaurante contesta con su IBAN (1), Odoo comprueba que es válido y lo guarda en su ficha. La hoja marca **Tenemos su cuenta** (2). Si en la respuesta acepta el servicio, la IA lo deja como **Aceptado** con un resumen (3).",
+    "tip": "Si el IBAN no es válido, no se guarda y queda anotado para que lo revises.",
+    "warn": null,
+    "stop": null,
+    "detail": null,
+    "labels": [
+     "IBAN",
+     "Tenemos su cuenta",
+     "Respuesta"
+    ],
+    "img": "img/cuenta-restaurante/03.webp",
+    "w": 1568,
+    "h": 606,
+    "marks": [
+     {
+      "x": 65.6,
+      "y": 21.76,
+      "w": 29.2,
+      "h": 37.65
+     },
+     {
+      "x": 1.5,
+      "y": 57.41,
+      "w": 11.5,
+      "h": 4.94
+     },
+     {
+      "x": 1.5,
+      "y": 16.47,
+      "w": 36.0,
+      "h": 12.35
+     }
+    ],
+    "doc": false
+   }
+  ]
+ },
+ {
+  "title": "Pagar a un restaurante",
+  "cat": "pagos",
+  "summary": "Cuando haces la transferencia al restaurante desde el banco, márcalo en su hoja de servicio. Así sale en Pagos a restaurantes como hecho y se puede mandar el justificante.",
+  "when": "Has hecho la transferencia del prepago al restaurante.",
+  "before": [
+   "La hoja de servicio tiene **Tenemos su cuenta** marcado."
+  ],
+  "tags": [
+   "pagar",
+   "transferencia",
+   "restaurante",
+   "prepago",
+   "transferencia hecha"
+  ],
+  "result": "La hoja queda con **Transferencia hecha** y su fecha.",
+  "next": [
+   "justificante-restaurante"
+  ],
+  "id": "pagar-restaurante",
+  "steps": [
+   {
+    "text": "Abre la hoja de servicio del restaurante (desde el pedido de venta → **Hojas de servicio**, o desde **Pagos a restaurantes**). Cuando hayas hecho la transferencia en el banco, pulsa **Transferencia hecha** (1).",
+    "tip": null,
+    "warn": "Este botón no paga nada: solo anota que tú ya has hecho la transferencia.",
+    "stop": null,
+    "detail": null,
+    "labels": [],
+    "img": "img/pagar-restaurante/01.webp",
+    "w": 1035,
+    "h": 499,
+    "marks": [
+     {
+      "x": 48.48,
+      "y": 11.86,
+      "w": 12.42,
+      "h": 5.43
+     }
+    ],
+    "doc": false
+   },
+   {
+    "text": "La hoja queda con **Transferencia hecha** y su **fecha** (1), y aparece **Enviar justificante** (2).",
+    "tip": "Si te equivocas, **Desmarcar transferencia**.",
+    "warn": null,
+    "stop": null,
+    "detail": null,
+    "labels": [
+     "Hecha",
+     "Enviar justificante"
+    ],
+    "img": "img/pagar-restaurante/02.webp",
+    "w": 1035,
+    "h": 534,
+    "marks": [
+     {
+      "x": 2.27,
+      "y": 60.0,
+      "w": 21.21,
+      "h": 11.33
+     },
+     {
+      "x": 63.33,
+      "y": 11.07,
+      "w": 11.06,
+      "h": 5.07
+     }
+    ],
+    "doc": false
+   }
+  ]
+ },
+ {
+  "title": "Mandar el justificante de pago al restaurante",
+  "cat": "pagos",
+  "summary": "Tras pagar, se le manda al restaurante el justificante y la confirmación de reserva, con nuestros datos fiscales para que haga la factura.",
+  "when": "Ya has marcado **Transferencia hecha**.",
+  "before": [
+   "Hoja de servicio con **Transferencia hecha**.",
+   "El justificante del banco guardado en tu ordenador (PDF)."
+  ],
+  "tags": [
+   "justificante",
+   "restaurante",
+   "datos fiscales",
+   "factura",
+   "confirmacion reserva"
+  ],
+  "result": "El restaurante tiene el pago, la reserva confirmada y los datos para facturar.",
+  "next": [
+   "reclamar-factura",
+   "factura-restaurante"
+  ],
+  "id": "justificante-restaurante",
+  "steps": [
+   {
+    "text": "Pulsa **Enviar justificante**. El correo lleva la **confirmación de reserva** (1) y nuestros **datos fiscales** para la factura (2). Añade el **justificante del banco** con el clip (3) y pulsa **Enviar** (4).",
+    "tip": null,
+    "warn": "El justificante del banco no se adjunta solo: añádelo tú.",
+    "stop": null,
+    "detail": null,
+    "labels": [
+     "Confirmación",
+     "Datos fiscales",
+     "Adjuntar",
+     "Enviar"
+    ],
+    "img": "img/justificante-restaurante/01.webp",
+    "w": 940,
+    "h": 499,
+    "marks": [
+     {
+      "x": 9.67,
+      "y": 79.0,
+      "w": 28.33,
+      "h": 6.57
+     },
+     {
+      "x": 9.33,
+      "y": 46.43,
+      "w": 33.33,
+      "h": 7.86
+     },
+     {
+      "x": 23.33,
+      "y": 90.0,
+      "w": 3.33,
+      "h": 5.14
+     },
+     {
+      "x": 8.83,
+      "y": 89.29,
+      "w": 5.67,
+      "h": 5.43
+     }
+    ],
+    "doc": false
+   }
+  ]
+ },
+ {
+  "title": "Reclamar la factura a un restaurante",
+  "cat": "facturas",
+  "summary": "Si el restaurante no manda su factura, el sistema prepara reclamaciones a los 1, 7, 15 y 30 días del servicio, cada una más firme. La cuarta (tono legal) la revisa siempre una persona.",
+  "when": "Ha pasado el servicio y el restaurante no ha mandado factura.",
+  "before": [
+   "Servicio ya hecho.",
+   "La hoja de servicio no tiene **Factura recibida y revisada**."
+  ],
+  "tags": [
+   "reclamar",
+   "factura",
+   "reclamacion",
+   "restaurante",
+   "factura pendiente"
+  ],
+  "result": "El restaurante recibe la reclamación con los datos de la reserva y nuestros datos fiscales.",
+  "next": [
+   "factura-restaurante"
+  ],
+  "id": "reclamar-factura",
+  "steps": [
+   {
+    "text": "Al día siguiente del servicio, si no hay factura, aparece en **Pendientes de aprobar** la **Reclamación de factura al restaurante** con su número: **Reclamación 1 de 4** (1). Lleva los datos de la reserva, el importe y nuestros datos fiscales (2). Pulsa **Aprobar y enviar** (3).",
+    "tip": "Si no contesta, salen la 2.ª a los 7 días, la 3.ª a los 15 y la 4.ª a los 30. Pasados 60 días ya no se reclama sola.",
+    "warn": "La 4.ª reclamación (tono legal) nunca sale sola, aunque actives **Enviar automáticamente**.",
+    "stop": null,
+    "detail": null,
+    "labels": [
+     "Nº de reclamación",
+     "Texto",
+     "Aprobar"
+    ],
+    "img": "img/reclamar-factura/01.webp",
+    "w": 1035,
+    "h": 627,
+    "marks": [
+     {
+      "x": 2.27,
+      "y": 29.55,
+      "w": 45.45,
+      "h": 5.23
+     },
+     {
+      "x": 2.27,
+      "y": 46.59,
+      "w": 96.21,
+      "h": 47.73
+     },
+     {
+      "x": 1.21,
+      "y": 9.09,
+      "w": 10.45,
+      "h": 4.32
+     }
+    ],
+    "doc": false
+   }
+  ]
+ },
+ {
+  "title": "Llegó la factura del restaurante",
+  "cat": "facturas",
+  "summary": "Cuando el restaurante contesta con su factura en PDF, la IA la lee (número, fecha, importe, NIF) y comprueba que cuadra con la hoja. Una persona la da por buena.",
+  "when": "El restaurante manda su factura respondiendo a un correo de su hoja de servicio.",
+  "before": [
+   "El restaurante responde con la factura **adjunta** (PDF), no como enlace."
+  ],
+  "tags": [
+   "factura",
+   "restaurante",
+   "factura recibida",
+   "factura correcta",
+   "pdf"
+  ],
+  "result": "La hoja queda con **Factura recibida y revisada** y dejan de salir reclamaciones.",
+  "next": [
+   "cerrar-expediente"
+  ],
+  "id": "factura-restaurante",
+  "steps": [
+   {
+    "text": "En la hoja de servicio sale un aviso con lo que ha leído la IA: **número**, **importe** y el PDF, y si **cuadra con la hoja** (1). La respuesta está a la derecha (2). Ábrela, compruébala y pulsa **Factura correcta** (3). Si no vale, **Descartar factura** (4).",
+    "tip": null,
+    "warn": "Si no cuadra (otro importe, otro NIF, faltan datos), el aviso dice qué falla. Pídele al restaurante una factura corregida.",
+    "stop": null,
+    "detail": null,
+    "labels": [
+     "Aviso",
+     "Respuesta",
+     "Factura correcta",
+     "Descartar"
+    ],
+    "img": "img/factura-restaurante/01.webp",
+    "w": 1568,
+    "h": 499,
+    "marks": [
+     {
+      "x": 0.63,
+      "y": 23.41,
+      "w": 64.62,
+      "h": 10.8
+     },
+     {
+      "x": 65.6,
+      "y": 27.14,
+      "w": 29.2,
+      "h": 35.71
+     },
+     {
+      "x": 41.59,
+      "y": 10.66,
+      "w": 7.25,
+      "h": 6.71
+     },
+     {
+      "x": 48.63,
+      "y": 10.66,
+      "w": 7.59,
+      "h": 6.71
+     }
+    ],
+    "doc": false
+   },
+   {
+    "text": "La hoja queda con **Factura recibida y revisada**, el número y la fecha de la factura y cuántas reclamaciones hicieron falta (1).",
+    "tip": "Si te equivocas, **Desmarcar factura**.",
+    "warn": null,
+    "stop": null,
+    "detail": null,
+    "labels": [],
+    "img": "img/factura-restaurante/02.webp",
+    "w": 1035,
+    "h": 534,
+    "marks": [
+     {
+      "x": 2.27,
+      "y": 50.0,
+      "w": 30.3,
+      "h": 39.33
+     }
+    ],
+    "doc": false
+   }
+  ]
+ },
+ {
+  "title": "Cerrar un expediente",
+  "cat": "facturas",
+  "summary": "Cuando el servicio ya se ha hecho, todo está pagado y las facturas están en orden, se cierra el expediente. Antes, el cortafuegos comprueba que no falte nada.",
+  "when": "Después del servicio, con pagos y facturas resueltos.",
+  "before": [
+   "Servicio ya hecho.",
+   "Agencia pagada, restaurante pagado y su factura revisada.",
+   "Factura enviada a la agencia."
+  ],
+  "tags": [
+   "cerrar",
+   "cierre",
+   "expediente",
+   "terminado",
+   "cortafuegos"
+  ],
+  "result": "El grupo pasa a **Terminados**.",
+  "next": [],
+  "id": "cerrar-expediente",
+  "steps": [
+   {
+    "text": "Abre el grupo en **Expedientes** y pulsa **Cerrar expediente** (1). Odoo te pide confirmación.",
+    "tip": "La pestaña **Cierre** dice qué falta antes de cerrar.",
+    "warn": null,
+    "stop": null,
+    "detail": null,
+    "labels": [],
+    "img": "img/cerrar-expediente/01.webp",
+    "w": 1035,
+    "h": 356,
+    "marks": [
+     {
+      "x": 40.0,
+      "y": 16.0,
+      "w": 11.52,
+      "h": 7.6
+     }
+    ],
+    "doc": false
+   },
+   {
+    "text": "Si falta algo, el **cortafuegos** no te deja y dice qué es: por ejemplo, **Falta enviar la factura a la agencia** o **el último servicio todavía no ha terminado** (1). Resuélvelo y vuelve a cerrar.",
+    "tip": null,
+    "warn": null,
+    "stop": null,
+    "detail": null,
+    "labels": [],
+    "img": "img/cerrar-expediente/02.webp",
+    "w": 1254,
+    "h": 321,
+    "marks": [
+     {
+      "x": 12.88,
+      "y": 26.22,
+      "w": 74.25,
+      "h": 58.89
+     }
+    ],
+    "doc": false
+   },
+   {
+    "text": "Con todo en orden, al aceptar el grupo pasa a **Cerrado** (1) con la cinta **GANADO** y queda en **Terminados**.",
+    "tip": null,
+    "warn": null,
+    "stop": null,
+    "detail": null,
+    "labels": [
+     "Cerrado",
+     "Ganado"
+    ],
+    "img": "img/cerrar-expediente/03.webp",
+    "w": 1035,
+    "h": 356,
+    "marks": [
+     {
+      "x": 87.27,
+      "y": 15.6,
+      "w": 8.18,
+      "h": 8.4
+     },
+     {
+      "x": 86.36,
+      "y": 24.4,
+      "w": 12.42,
+      "h": 34.0
+     }
+    ],
+    "doc": false
+   }
+  ]
+ },
+ {
+  "title": "Ver los menús de un restaurante",
+  "cat": "fichas",
+  "summary": "Cada restaurante guarda en su ficha sus menús con coste, precio de venta y capacidad. Los que vienen de la IA y no se han revisado salen en naranja.",
+  "when": "Quieres saber qué menús y precios tiene un restaurante.",
+  "before": [],
+  "tags": [
+   "menus",
+   "ficha",
+   "restaurante",
+   "precio",
+   "carta"
+  ],
+  "result": "Ves los menús del restaurante y entras en cualquiera para revisarlo.",
+  "next": [
+   "menu-ia"
+  ],
+  "id": "menus-restaurante",
+  "steps": [
+   {
+    "text": "Abre la ficha del restaurante (desde **Restaurantes**) y entra en la pestaña **Menús** (1). Salen sus menús con **coste**, **precio de venta** y capacidad. En **naranja**, los creados por la IA que aún no se han revisado (2).",
+    "tip": "En la pestaña **Restaurante** están su aforo, parking de autobús, tipo de cocina y responsable de grupos.",
+    "warn": null,
+    "stop": null,
+    "detail": null,
+    "labels": [
+     "Menús",
+     "Sin revisar"
+    ],
+    "img": "img/menus-restaurante/01.webp",
+    "w": 1035,
+    "h": 570,
+    "marks": [
+     {
+      "x": 1.06,
+      "y": 62.13,
+      "w": 97.73,
+      "h": 16.88
+     },
+     {
+      "x": 1.06,
+      "y": 72.5,
+      "w": 97.73,
+      "h": 6.0
+     }
+    ],
+    "doc": false
+   }
+  ]
+ },
+ {
+  "title": "Configurar los cortafuegos",
+  "cat": "config",
+  "summary": "Los cortafuegos son comprobaciones antes de cada paso importante (pasar a presupuesto, confirmar, cerrar). Cada una puede solo avisar o impedir continuar.",
+  "when": "Quieres que un paso se bloquee (o solo avise) si falta algo.",
+  "before": [
+   "Permiso de administración de Restagrup."
+  ],
+  "tags": [
+   "cortafuegos",
+   "comprobaciones",
+   "bloquear",
+   "avisar",
+   "impedir"
+  ],
+  "result": "Los pasos importantes comprueban lo que tú decidas antes de seguir.",
+  "next": [
+   "cerrar-expediente"
+  ],
+  "id": "cortafuegos",
+  "steps": [
+   {
+    "text": "Ve a **+ → Cortafuegos**. Cada línea es una comprobación: **antes de** qué paso (1), **qué se comprueba** (2) y qué pasa **si falta** (3): **Avisar y consultar** deja seguir tras avisar; **Impedir continuar** bloquea. Con el interruptor (4) se apaga.",
+    "tip": null,
+    "warn": null,
+    "stop": null,
+    "detail": null,
+    "labels": [
+     "Paso",
+     "Comprobación",
+     "Si falta",
+     "Activo"
+    ],
+    "img": "img/cortafuegos/01.webp",
+    "w": 1568,
+    "h": 656,
+    "marks": [
+     {
+      "x": 1.5,
+      "y": 8.15,
+      "w": 20.0,
+      "h": 89.13
+     },
+     {
+      "x": 23.5,
+      "y": 8.15,
+      "w": 33.0,
+      "h": 89.13
+     },
+     {
+      "x": 80.0,
+      "y": 8.15,
+      "w": 10.0,
+      "h": 89.13
+     },
+     {
+      "x": 92.5,
+      "y": 8.15,
+      "w": 3.5,
+      "h": 89.13
+     }
+    ],
+    "doc": false
+   }
+  ]
+ },
+ {
+  "title": "Baremos de precio estimado",
+  "cat": "config",
+  "summary": "Cuando una petición entra sin precio, el sistema pone un precio por persona estimado según el tipo de evento, el público y el día. Esos precios son los baremos.",
+  "when": "Quieres cambiar el precio orientativo que se pone a las peticiones.",
+  "before": [
+   "Permiso de administración de Restagrup."
+  ],
+  "tags": [
+   "baremos",
+   "precio estimado",
+   "precio por persona",
+   "orientativo"
+  ],
+  "result": "Las peticiones nuevas salen con el precio estimado que has puesto.",
+  "next": [
+   "peticion-correo"
+  ],
+  "id": "baremos",
+  "steps": [
+   {
+    "text": "Ve a **+ → Baremos de precio estimado**. Cada baremo da un **precio por persona** (1) según **tipo de evento**, **público** y **día** (2). Si una petición no trae precio, se le pone el que encaja.",
+    "tip": "Puedes poner una **Ciudad** para que un baremo solo valga allí. **Nuevo** para añadir otro.",
+    "warn": null,
+    "stop": null,
+    "detail": null,
+    "labels": [
+     "Precio",
+     "Cuándo se aplica"
+    ],
+    "img": "img/baremos/01.webp",
+    "w": 1568,
+    "h": 299,
+    "marks": [
+     {
+      "x": 84.0,
+      "y": 26.19,
+      "w": 6.5,
+      "h": 64.29
+     },
+     {
+      "x": 34.5,
+      "y": 26.19,
+      "w": 34.0,
+      "h": 64.29
+     }
+    ],
+    "doc": false
+   }
+  ]
+ },
+ {
+  "title": "Ver qué ha hecho la IA",
+  "cat": "config",
+  "summary": "Cada vez que la IA lee un correo, un presupuesto, un justificante o una factura queda registrado: qué leyó, de dónde y si alguien lo revisó o corrigió.",
+  "when": "Quieres comprobar qué ha decidido la IA o por qué algo salió así.",
+  "before": [
+   "Permiso de administración de Restagrup."
+  ],
+  "tags": [
+   "ia",
+   "actividad",
+   "registro",
+   "revisar",
+   "corregido"
+  ],
+  "result": "Sabes qué leyó la IA en cada caso y si una persona lo corrigió.",
+  "next": [],
+  "id": "actividad-ia",
+  "steps": [
+   {
+    "text": "Ve a **+ → Actividad IA → Registro**. Cada línea es una lectura de la IA: **qué tipo** (1), **de qué registro** (2) y su **estado** (3). **Corregido** = una persona cambió lo que propuso la IA; **Pendiente de revisar** = espera a alguien.",
+    "tip": "En **Panel** tienes el resumen: cuántas lecturas, cuántas corregidas y por qué proveedor.",
+    "warn": null,
+    "stop": null,
+    "detail": null,
+    "labels": [
+     "Tipo",
+     "Origen",
+     "Estado"
+    ],
+    "img": "img/actividad-ia/01.webp",
+    "w": 1568,
+    "h": 356,
+    "marks": [
+     {
+      "x": 10.8,
+      "y": 22.0,
+      "w": 15.0,
+      "h": 72.0
+     },
+     {
+      "x": 26.4,
+      "y": 22.0,
+      "w": 30.0,
+      "h": 72.0
+     },
+     {
+      "x": 80.6,
+      "y": 22.0,
+      "w": 9.5,
+      "h": 72.0
+     }
+    ],
+    "doc": false
+   }
+  ]
+ }
+]

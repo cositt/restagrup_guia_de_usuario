@@ -1,0 +1,10 @@
+{
+ "title": "Cerrar un expediente",
+ "cat": "facturas",
+ "summary": "Cuando el servicio ya se ha hecho, todo está pagado y las facturas están en orden, se cierra el expediente. Antes, el cortafuegos comprueba que no falte nada.",
+ "when": "Después del servicio, con pagos y facturas resueltos.",
+ "before": ["Servicio ya hecho.", "Agencia pagada, restaurante pagado y su factura revisada.", "Factura enviada a la agencia."],
+ "tags": ["cerrar", "cierre", "expediente", "terminado", "cortafuegos"],
+ "result": "El grupo pasa a **Terminados**.",
+ "next": []
+}

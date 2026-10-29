@@ -1,0 +1,60 @@
+[
+ {
+  "text": "Ve a **+ → Plantillas de correo**. Hay una por cada correo automático: a quién va (**Para**), su **Asunto** y si se envía solo (1).",
+  "tip": "Apagado = el correo espera en **Pendientes de aprobar** hasta que alguien lo manda. Es lo recomendable al principio.",
+  "warn": null,
+  "stop": null,
+  "detail": null,
+  "labels": [
+   "Enviar automáticamente"
+  ],
+  "img": "img/plantillas/01.webp",
+  "w": 1568,
+  "h": 584,
+  "marks": [
+   {
+    "x": 83.5,
+    "y": 9.15,
+    "w": 6.5,
+    "h": 88.41
+   }
+  ],
+  "doc": false
+ },
+ {
+  "text": "Entra en una. Cambia el **Asunto** y el **Texto** (1). Lo que va entre llaves, como **{agencia}** o **{importe}**, lo rellena el sistema con los datos del grupo: la lista está en **Marcadores** (2). Para que salga sin revisar, enciende **Enviar automáticamente** (3).",
+  "tip": null,
+  "warn": "Escribe los marcadores tal cual, con sus llaves. Si cambias una letra, saldrá el texto literal en el correo.",
+  "stop": null,
+  "detail": "**Cuándo sale** explica qué dispara ese correo (por ejemplo, 7 días antes del servicio). Los plazos se cambian en Ajustes.",
+  "labels": [
+   "Asunto y texto",
+   "Marcadores",
+   "Enviar solo"
+  ],
+  "img": "img/plantillas/02.webp",
+  "w": 1160,
+  "h": 442,
+  "marks": [
+   {
+    "x": 2.03,
+    "y": 42.74,
+    "w": 94.59,
+    "h": 42.74
+   },
+   {
+    "x": 2.03,
+    "y": 87.1,
+    "w": 37.84,
+    "h": 7.26
+   },
+   {
+    "x": 50.0,
+    "y": 25.81,
+    "w": 14.19,
+    "h": 8.87
+   }
+  ],
+  "doc": false
+ }
+]

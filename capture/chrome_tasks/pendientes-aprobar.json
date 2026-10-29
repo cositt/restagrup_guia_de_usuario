@@ -1,0 +1,10 @@
+{
+ "title": "Aprobar los correos que prepara el sistema",
+ "cat": "correos",
+ "summary": "Los correos automáticos (recordatorios, pagos, facturas, datos que faltan) esperan en Pendientes de aprobar. Revisa el texto, cámbialo si quieres y apruébalo o descártalo.",
+ "when": "Cuando la burbuja de correos tiene número, o cada mañana.",
+ "before": [],
+ "tags": ["pendientes", "aprobar", "cola", "correo automatico", "descartar", "revisar correo"],
+ "result": "El correo sale con tu aprobación y queda anotado en el grupo.",
+ "next": ["plantillas"]
+}

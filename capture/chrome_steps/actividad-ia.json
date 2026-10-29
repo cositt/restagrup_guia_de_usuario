@@ -1,0 +1,38 @@
+[
+ {
+  "text": "Ve a **+ → Actividad IA → Registro**. Cada línea es una lectura de la IA: **qué tipo** (1), **de qué registro** (2) y su **estado** (3). **Corregido** = una persona cambió lo que propuso la IA; **Pendiente de revisar** = espera a alguien.",
+  "tip": "En **Panel** tienes el resumen: cuántas lecturas, cuántas corregidas y por qué proveedor.",
+  "warn": null,
+  "stop": null,
+  "detail": null,
+  "labels": [
+   "Tipo",
+   "Origen",
+   "Estado"
+  ],
+  "img": "img/actividad-ia/01.webp",
+  "w": 1568,
+  "h": 356,
+  "marks": [
+   {
+    "x": 10.8,
+    "y": 22.0,
+    "w": 15.0,
+    "h": 72.0
+   },
+   {
+    "x": 26.4,
+    "y": 22.0,
+    "w": 30.0,
+    "h": 72.0
+   },
+   {
+    "x": 80.6,
+    "y": 22.0,
+    "w": 9.5,
+    "h": 72.0
+   }
+  ],
+  "doc": false
+ }
+]

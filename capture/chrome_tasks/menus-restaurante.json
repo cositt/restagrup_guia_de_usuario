@@ -1,0 +1,10 @@
+{
+ "title": "Ver los menús de un restaurante",
+ "cat": "fichas",
+ "summary": "Cada restaurante guarda en su ficha sus menús con coste, precio de venta y capacidad. Los que vienen de la IA y no se han revisado salen en naranja.",
+ "when": "Quieres saber qué menús y precios tiene un restaurante.",
+ "before": [],
+ "tags": ["menus", "ficha", "restaurante", "precio", "carta"],
+ "result": "Ves los menús del restaurante y entras en cualquiera para revisarlo.",
+ "next": ["menu-ia"]
+}

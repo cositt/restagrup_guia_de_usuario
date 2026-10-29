@@ -1,0 +1,10 @@
+{
+ "title": "Pagar a un restaurante",
+ "cat": "pagos",
+ "summary": "Cuando haces la transferencia al restaurante desde el banco, márcalo en su hoja de servicio. Así sale en Pagos a restaurantes como hecho y se puede mandar el justificante.",
+ "when": "Has hecho la transferencia del prepago al restaurante.",
+ "before": ["La hoja de servicio tiene **Tenemos su cuenta** marcado."],
+ "tags": ["pagar", "transferencia", "restaurante", "prepago", "transferencia hecha"],
+ "result": "La hoja queda con **Transferencia hecha** y su fecha.",
+ "next": ["justificante-restaurante"]
+}

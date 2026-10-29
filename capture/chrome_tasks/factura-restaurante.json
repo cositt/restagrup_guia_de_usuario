@@ -1,0 +1,10 @@
+{
+ "title": "Llegó la factura del restaurante",
+ "cat": "facturas",
+ "summary": "Cuando el restaurante contesta con su factura en PDF, la IA la lee (número, fecha, importe, NIF) y comprueba que cuadra con la hoja. Una persona la da por buena.",
+ "when": "El restaurante manda su factura respondiendo a un correo de su hoja de servicio.",
+ "before": ["El restaurante responde con la factura **adjunta** (PDF), no como enlace."],
+ "tags": ["factura", "restaurante", "factura recibida", "factura correcta", "pdf"],
+ "result": "La hoja queda con **Factura recibida y revisada** y dejan de salir reclamaciones.",
+ "next": ["cerrar-expediente"]
+}

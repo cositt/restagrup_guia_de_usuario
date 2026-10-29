@@ -1,0 +1,74 @@
+[
+ {
+  "text": "Cuando llega el justificante, el pedido de venta muestra un aviso con el **importe leído por la IA** (1) y la respuesta de la agencia a la derecha (2). Compruébalo con el banco y pulsa **Confirmar pago** (3). Si no es correcto, **Descartar justificante** (4).",
+  "tip": null,
+  "warn": "Si el importe no coincide con el del pedido, el historial lo avisa: **no coincide**. Revísalo antes de confirmar.",
+  "stop": null,
+  "detail": null,
+  "labels": [
+   "Aviso",
+   "Respuesta",
+   "Confirmar pago",
+   "Descartar"
+  ],
+  "img": "img/justificante-agencia/01.webp",
+  "w": 1568,
+  "h": 641,
+  "marks": [
+   {
+    "x": 0.8,
+    "y": 19.56,
+    "w": 64.2,
+    "h": 4.89
+   },
+   {
+    "x": 65.6,
+    "y": 21.11,
+    "w": 30.6,
+    "h": 36.67
+   },
+   {
+    "x": 7.6,
+    "y": 14.11,
+    "w": 6.5,
+    "h": 4.0
+   },
+   {
+    "x": 14.4,
+    "y": 14.11,
+    "w": 8.5,
+    "h": 4.0
+   }
+  ],
+  "doc": false
+ },
+ {
+  "text": "El pedido queda **Pagado** con su fecha de pago (1) y aparece **Enviar bono de agencia** (2).",
+  "tip": "Si te equivocas, **Desmarcar pago**.",
+  "warn": null,
+  "stop": null,
+  "detail": null,
+  "labels": [
+   "Pagado",
+   "Bono"
+  ],
+  "img": "img/justificante-agencia/02.webp",
+  "w": 1035,
+  "h": 499,
+  "marks": [
+   {
+    "x": 50.76,
+    "y": 59.29,
+    "w": 23.48,
+    "h": 10.71
+   },
+   {
+    "x": 1.21,
+    "y": 18.14,
+    "w": 14.55,
+    "h": 5.43
+   }
+  ],
+  "doc": false
+ }
+]

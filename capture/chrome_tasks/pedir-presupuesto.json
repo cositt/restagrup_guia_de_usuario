@@ -1,0 +1,10 @@
+{
+ "title": "Pedir presupuesto a los restaurantes",
+ "cat": "restaurantes",
+ "summary": "Marca los restaurantes que te interesan y pídeles presupuesto a todos a la vez. A cada uno le llega un correo con la fecha, el servicio y los comensales.",
+ "when": "Ya tienes la búsqueda hecha y sabes qué restaurantes quieres consultar.",
+ "before": ["Búsqueda hecha (**Buscar restaurantes**).", "Los restaurantes elegidos tienen **email** en su ficha."],
+ "tags": ["pedir presupuesto", "consulta", "disponibilidad", "interesado", "correo restaurante"],
+ "result": "Los restaurantes reciben la consulta y quedan como **Solicitado**. Sus respuestas entran solas en Odoo.",
+ "next": ["respuesta-restaurante"]
+}

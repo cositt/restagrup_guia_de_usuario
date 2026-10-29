@@ -1,0 +1,10 @@
+{
+ "title": "Pedir la cuenta bancaria al restaurante",
+ "cat": "pagos",
+ "summary": "Si el restaurante no tiene cuenta en su ficha y se acerca el servicio, el sistema prepara el correo pidiéndola, con la proforma adjunta. Cuando contesta, el IBAN se guarda solo en su ficha.",
+ "when": "Faltan pocos días para el servicio y el restaurante no tiene cuenta bancaria.",
+ "before": ["Hoja de servicio enviada al restaurante."],
+ "tags": ["cuenta", "iban", "banco", "numero de cuenta", "prepago", "proforma"],
+ "result": "La cuenta del restaurante queda guardada en su ficha y la hoja marca **Tenemos su cuenta**.",
+ "next": ["pagar-restaurante"]
+}

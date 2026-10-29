@@ -1,0 +1,10 @@
+{
+ "title": "Reclamar la factura a un restaurante",
+ "cat": "facturas",
+ "summary": "Si el restaurante no manda su factura, el sistema prepara reclamaciones a los 1, 7, 15 y 30 días del servicio, cada una más firme. La cuarta (tono legal) la revisa siempre una persona.",
+ "when": "Ha pasado el servicio y el restaurante no ha mandado factura.",
+ "before": ["Servicio ya hecho.", "La hoja de servicio no tiene **Factura recibida y revisada**."],
+ "tags": ["reclamar", "factura", "reclamacion", "restaurante", "factura pendiente"],
+ "result": "El restaurante recibe la reclamación con los datos de la reserva y nuestros datos fiscales.",
+ "next": ["factura-restaurante"]
+}

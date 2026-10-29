@@ -1,0 +1,51 @@
+[
+ {
+  "text": "En el pedido ya pagado, pulsa **Enviar bono de agencia** (1).",
+  "tip": null,
+  "warn": "Sin el pago confirmado no se puede: sale *El bono de agencia se emite cuando el pago está recibido*.",
+  "stop": null,
+  "detail": null,
+  "labels": [],
+  "img": "img/bono-agencia/01.webp",
+  "w": 1035,
+  "h": 285,
+  "marks": [
+   {
+    "x": 1.21,
+    "y": 31.75,
+    "w": 14.55,
+    "h": 9.5
+   }
+  ],
+  "doc": false
+ },
+ {
+  "text": "Se abre el correo para la agencia con el **bono en PDF** adjunto (1). Revisa el texto y pulsa **Enviar** (2).",
+  "tip": null,
+  "warn": null,
+  "stop": null,
+  "detail": null,
+  "labels": [
+   "Bono PDF",
+   "Enviar"
+  ],
+  "img": "img/bono-agencia/02.webp",
+  "w": 940,
+  "h": 499,
+  "marks": [
+   {
+    "x": 9.67,
+    "y": 79.0,
+    "w": 28.33,
+    "h": 6.57
+   },
+   {
+    "x": 8.83,
+    "y": 89.29,
+    "w": 5.67,
+    "h": 5.43
+   }
+  ],
+  "doc": false
+ }
+]

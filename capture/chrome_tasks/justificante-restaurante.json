@@ -1,0 +1,10 @@
+{
+ "title": "Mandar el justificante de pago al restaurante",
+ "cat": "pagos",
+ "summary": "Tras pagar, se le manda al restaurante el justificante y la confirmación de reserva, con nuestros datos fiscales para que haga la factura.",
+ "when": "Ya has marcado **Transferencia hecha**.",
+ "before": ["Hoja de servicio con **Transferencia hecha**.", "El justificante del banco guardado en tu ordenador (PDF)."],
+ "tags": ["justificante", "restaurante", "datos fiscales", "factura", "confirmacion reserva"],
+ "result": "El restaurante tiene el pago, la reserva confirmada y los datos para facturar.",
+ "next": ["reclamar-factura", "factura-restaurante"]
+}

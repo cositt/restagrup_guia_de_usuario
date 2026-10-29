@@ -1,0 +1,38 @@
+[
+ {
+  "text": "Cuando la agencia firma, a la derecha sale **Pedido firmado por…** con el PDF firmado (1). El presupuesto pasa a **Pedido de venta** (2) y arriba aparecen las **Hojas de servicio** creadas y cuántos restaurantes han confirmado (3).",
+  "tip": "Si la agencia acepta por correo o por teléfono, pulsa tú **Confirmar** en el presupuesto: hace lo mismo.",
+  "warn": null,
+  "stop": null,
+  "detail": null,
+  "labels": [
+   "Firmado",
+   "Pedido de venta",
+   "Hojas de servicio"
+  ],
+  "img": "img/aceptacion-agencia/01.webp",
+  "w": 1568,
+  "h": 641,
+  "marks": [
+   {
+    "x": 65.6,
+    "y": 21.67,
+    "w": 20.5,
+    "h": 35.0
+   },
+   {
+    "x": 58.3,
+    "y": 9.78,
+    "w": 6.6,
+    "h": 4.44
+   },
+   {
+    "x": 41.2,
+    "y": 2.11,
+    "w": 17.7,
+    "h": 4.89
+   }
+  ],
+  "doc": false
+ }
+]

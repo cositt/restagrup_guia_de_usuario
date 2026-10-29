@@ -1,0 +1,10 @@
+{
+ "title": "Ver qué ha hecho la IA",
+ "cat": "config",
+ "summary": "Cada vez que la IA lee un correo, un presupuesto, un justificante o una factura queda registrado: qué leyó, de dónde y si alguien lo revisó o corrigió.",
+ "when": "Quieres comprobar qué ha decidido la IA o por qué algo salió así.",
+ "before": ["Permiso de administración de Restagrup."],
+ "tags": ["ia", "actividad", "registro", "revisar", "corregido"],
+ "result": "Sabes qué leyó la IA en cada caso y si una persona lo corrigió.",
+ "next": []
+}

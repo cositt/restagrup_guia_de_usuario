@@ -1,0 +1,10 @@
+{
+ "title": "Trabajar un expediente y sus hojas de servicio",
+ "cat": "expediente",
+ "summary": "Con el presupuesto aceptado, el grupo está en Expedientes. Cada restaurante tiene su hoja de servicio con lo que nos cobra; desde ella se confirma la reserva, se paga y se controla su factura.",
+ "when": "La agencia ha aceptado el presupuesto.",
+ "before": ["Presupuesto confirmado (**Pedido de venta**)."],
+ "tags": ["expediente", "hoja de servicio", "confirmacion restaurante", "pendiente para cerrar", "proforma"],
+ "result": "Sabes qué falta para cerrar el grupo y tienes la hoja de cada restaurante a mano.",
+ "next": ["pedir-pago-agencia", "pagar-restaurante"]
+}

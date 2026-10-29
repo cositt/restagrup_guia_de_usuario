@@ -1,0 +1,71 @@
+[
+ {
+  "text": "Abre el grupo en **Expedientes** y pulsa **Cerrar expediente** (1). Odoo te pide confirmación.",
+  "tip": "La pestaña **Cierre** dice qué falta antes de cerrar.",
+  "warn": null,
+  "stop": null,
+  "detail": null,
+  "labels": [],
+  "img": "img/cerrar-expediente/01.webp",
+  "w": 1035,
+  "h": 356,
+  "marks": [
+   {
+    "x": 40.0,
+    "y": 16.0,
+    "w": 11.52,
+    "h": 7.6
+   }
+  ],
+  "doc": false
+ },
+ {
+  "text": "Si falta algo, el **cortafuegos** no te deja y dice qué es: por ejemplo, **Falta enviar la factura a la agencia** o **el último servicio todavía no ha terminado** (1). Resuélvelo y vuelve a cerrar.",
+  "tip": null,
+  "warn": null,
+  "stop": null,
+  "detail": null,
+  "labels": [],
+  "img": "img/cerrar-expediente/02.webp",
+  "w": 1254,
+  "h": 321,
+  "marks": [
+   {
+    "x": 12.88,
+    "y": 26.22,
+    "w": 74.25,
+    "h": 58.89
+   }
+  ],
+  "doc": false
+ },
+ {
+  "text": "Con todo en orden, al aceptar el grupo pasa a **Cerrado** (1) con la cinta **GANADO** y queda en **Terminados**.",
+  "tip": null,
+  "warn": null,
+  "stop": null,
+  "detail": null,
+  "labels": [
+   "Cerrado",
+   "Ganado"
+  ],
+  "img": "img/cerrar-expediente/03.webp",
+  "w": 1035,
+  "h": 356,
+  "marks": [
+   {
+    "x": 87.27,
+    "y": 15.6,
+    "w": 8.18,
+    "h": 8.4
+   },
+   {
+    "x": 86.36,
+    "y": 24.4,
+    "w": 12.42,
+    "h": 34.0
+   }
+  ],
+  "doc": false
+ }
+]

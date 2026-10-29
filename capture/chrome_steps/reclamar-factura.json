@@ -1,0 +1,38 @@
+[
+ {
+  "text": "Al día siguiente del servicio, si no hay factura, aparece en **Pendientes de aprobar** la **Reclamación de factura al restaurante** con su número: **Reclamación 1 de 4** (1). Lleva los datos de la reserva, el importe y nuestros datos fiscales (2). Pulsa **Aprobar y enviar** (3).",
+  "tip": "Si no contesta, salen la 2.ª a los 7 días, la 3.ª a los 15 y la 4.ª a los 30. Pasados 60 días ya no se reclama sola.",
+  "warn": "La 4.ª reclamación (tono legal) nunca sale sola, aunque actives **Enviar automáticamente**.",
+  "stop": null,
+  "detail": null,
+  "labels": [
+   "Nº de reclamación",
+   "Texto",
+   "Aprobar"
+  ],
+  "img": "img/reclamar-factura/01.webp",
+  "w": 1035,
+  "h": 627,
+  "marks": [
+   {
+    "x": 2.27,
+    "y": 29.55,
+    "w": 45.45,
+    "h": 5.23
+   },
+   {
+    "x": 2.27,
+    "y": 46.59,
+    "w": 96.21,
+    "h": 47.73
+   },
+   {
+    "x": 1.21,
+    "y": 9.09,
+    "w": 10.45,
+    "h": 4.32
+   }
+  ],
+  "doc": false
+ }
+]

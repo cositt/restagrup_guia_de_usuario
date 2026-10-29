@@ -1,0 +1,109 @@
+[
+ {
+  "text": "Entra en **Expedientes**. Cada grupo aceptado sale con su restaurante, comensales y responsable. **Pendiente para cerrar** (1) dice lo que falta: pago de la agencia, transferencia al restaurante, facturas…",
+  "tip": null,
+  "warn": null,
+  "stop": null,
+  "detail": null,
+  "labels": [
+   "Lo que falta"
+  ],
+  "img": "img/expediente/01.webp",
+  "w": 1568,
+  "h": 214,
+  "marks": [
+   {
+    "x": 65.5,
+    "y": 36.67,
+    "w": 28.2,
+    "h": 18.33
+   }
+  ],
+  "doc": false
+ },
+ {
+  "text": "En el pedido de venta del grupo, **Hojas de servicio** (1) abre las hojas de cada restaurante. **Enviar hojas de servicio** (2) manda a cada restaurante la suya para que confirme.",
+  "tip": "**Confirmación agencia** genera el PDF de confirmación de reserva para la agencia.",
+  "warn": null,
+  "stop": null,
+  "detail": null,
+  "labels": [
+   "Hojas",
+   "Enviar a restaurantes"
+  ],
+  "img": "img/expediente/02.webp",
+  "w": 1035,
+  "h": 285,
+  "marks": [
+   {
+    "x": 62.42,
+    "y": 4.75,
+    "w": 13.94,
+    "h": 11.0
+   },
+   {
+    "x": 30.3,
+    "y": 23.5,
+    "w": 14.09,
+    "h": 9.5
+   }
+  ],
+  "doc": false
+ },
+ {
+  "text": "La hoja de servicio lleva solo lo que nos cobra el restaurante: servicio, menú, comensales y precio de coste (1), nunca el precio de la agencia. Aquí se marca **Transferencia hecha**, **Tenemos su cuenta** y **Factura recibida y revisada** (2). **Confirmación restaurante** saca la proforma (3).",
+  "tip": null,
+  "warn": "Revisa la **Llegada prevista**: puede salir una hora más tarde que la hora del servicio.",
+  "stop": null,
+  "detail": null,
+  "labels": [
+   "Servicio y coste",
+   "Control",
+   "Proforma"
+  ],
+  "img": "img/expediente/03.webp",
+  "w": 1035,
+  "h": 684,
+  "marks": [
+   {
+    "x": 1.36,
+    "y": 67.19,
+    "w": 96.97,
+    "h": 32.29
+   },
+   {
+    "x": 2.27,
+    "y": 36.98,
+    "w": 15.91,
+    "h": 13.02
+   },
+   {
+    "x": 33.03,
+    "y": 9.79,
+    "w": 15.61,
+    "h": 3.96
+   }
+  ],
+  "doc": false
+ },
+ {
+  "text": "Para pedir la confirmación a los restaurantes pulsa **Enviar hojas de servicio** (1). A cada restaurante le llega su hoja y en la búsqueda queda **Hoja de servicio enviada a…**.",
+  "tip": null,
+  "warn": "Sale en el momento, sin pedir confirmación: revisa antes las hojas.",
+  "stop": null,
+  "detail": null,
+  "labels": [],
+  "img": "img/expediente/04.webp",
+  "w": 1035,
+  "h": 285,
+  "marks": [
+   {
+    "x": 30.3,
+    "y": 21.0,
+    "w": 14.09,
+    "h": 9.5
+   }
+  ],
+  "doc": false
+ }
+]

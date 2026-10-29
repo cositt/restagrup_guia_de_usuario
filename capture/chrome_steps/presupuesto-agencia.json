@@ -1,0 +1,118 @@
+[
+ {
+  "text": "En la búsqueda, en el restaurante con **Presupuesto recibido**, pulsa **Elegir** (1).",
+  "tip": null,
+  "warn": null,
+  "stop": null,
+  "detail": null,
+  "labels": [
+   "Elegir"
+  ],
+  "img": "img/presupuesto-agencia/01.webp",
+  "w": 1035,
+  "h": 499,
+  "marks": [
+   {
+    "x": 24.77,
+    "y": 78.84,
+    "w": 4.45,
+    "h": 4.99
+   }
+  ],
+  "doc": false
+ },
+ {
+  "text": "El restaurante queda con una **estrella** y la búsqueda en **Elegido**. Pulsa **Crear presupuesto de venta** (1).",
+  "tip": "Si te equivocas, **Quitar elegido** o **Cancelar / cambiar restaurante**.",
+  "warn": null,
+  "stop": null,
+  "detail": null,
+  "labels": [
+   "Crear presupuesto",
+   "Elegido"
+  ],
+  "img": "img/presupuesto-agencia/02.webp",
+  "w": 1035,
+  "h": 534,
+  "marks": [
+   {
+    "x": 69.85,
+    "y": 10.67,
+    "w": 16.36,
+    "h": 5.07
+   },
+   {
+    "x": 3.79,
+    "y": 46.0,
+    "w": 17.42,
+    "h": 4.27
+   }
+  ],
+  "doc": false
+ },
+ {
+  "text": "Se abre el presupuesto con la agencia como **Cliente** (1) y una línea por servicio: restaurante, fecha, hora, comensales, **precio por persona con margen** y el menú (2). Revísalo y pulsa **Enviar** para mandárselo a la agencia (3).",
+  "tip": null,
+  "warn": null,
+  "stop": null,
+  "detail": "**Coste restaurante** es lo que nos cobra el restaurante y **Margen** lo que gana Restagrup. La agencia no los ve salvo que actives **Mostrar margen al cliente**.",
+  "labels": [
+   "Agencia",
+   "Servicio y menú",
+   "Enviar"
+  ],
+  "img": "img/presupuesto-agencia/03.webp",
+  "w": 1035,
+  "h": 677,
+  "marks": [
+   {
+    "x": 2.27,
+    "y": 22.53,
+    "w": 31.82,
+    "h": 3.58
+   },
+   {
+    "x": 1.36,
+    "y": 71.37,
+    "w": 96.97,
+    "h": 28.42
+   },
+   {
+    "x": 1.21,
+    "y": 8.63,
+    "w": 5.15,
+    "h": 4.21
+   }
+  ],
+  "doc": false
+ },
+ {
+  "text": "En la ventana del correo comprueba el destinatario y pulsa **Enviar**. El presupuesto pasa a **Presupuesto enviado** (1) y a la derecha queda el correo con el PDF adjunto (2).",
+  "tip": "La agencia recibe un enlace para ver el presupuesto y **aceptarlo y firmarlo** en línea.",
+  "warn": null,
+  "stop": null,
+  "detail": null,
+  "labels": [
+   "Enviado",
+   "Correo y PDF"
+  ],
+  "img": "img/presupuesto-agencia/04.webp",
+  "w": 1568,
+  "h": 455,
+  "marks": [
+   {
+    "x": 48.6,
+    "y": 12.5,
+    "w": 9.6,
+    "h": 6.33
+   },
+   {
+    "x": 65.6,
+    "y": 28.83,
+    "w": 29.5,
+    "h": 60.0
+   }
+  ],
+  "doc": false
+ }
+]

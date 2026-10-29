@@ -1,0 +1,80 @@
+[
+ {
+  "text": "Entra en **Peticiones**. La petición nueva sale arriba con lo que ha leído la IA del correo: **fecha**, **población** y **nº de comensales**. Mientras nadie la lleve, sale **Pendiente de asignación** en rojo.",
+  "tip": "El buzón se lee cada 5 minutos: un correo puede tardar ese tiempo en aparecer.",
+  "warn": null,
+  "stop": null,
+  "detail": null,
+  "labels": [],
+  "img": "img/peticion-correo/01.webp",
+  "w": 1568,
+  "h": 319,
+  "marks": [
+   {
+    "x": -0.21,
+    "y": 23.93,
+    "w": 100.42,
+    "h": 12.31
+   }
+  ],
+  "doc": false
+ },
+ {
+  "text": "Abre la petición. A la derecha tienes el **correo de la agencia** tal cual llegó (1). En la pestaña **Datos IA** está lo que ha sacado la IA: **ciudad**, **comensales** y **fecha** (2).",
+  "tip": null,
+  "warn": "La IA puede equivocarse. Compara siempre con el correo antes de seguir.",
+  "stop": null,
+  "detail": null,
+  "labels": [
+   "Correo original",
+   "Lo que leyó la IA"
+  ],
+  "img": "img/peticion-correo/02.webp",
+  "w": 1568,
+  "h": 645,
+  "marks": [
+   {
+    "x": 65.6,
+    "y": 42.35,
+    "w": 29.5,
+    "h": 53.53
+   },
+   {
+    "x": 33.3,
+    "y": 64.12,
+    "w": 31.5,
+    "h": 19.41
+   }
+  ],
+  "doc": false
+ },
+ {
+  "text": "En **Eventos** sale cada servicio que pide la agencia: fecha, hora, tipo, ciudad y comensales (1). Si la agencia no da precio, el **Precio/persona** es un **estimado** sacado de los baremos (2). Corrige lo que haga falta directamente en la línea.",
+  "tip": "Si el grupo come y cena, o va varios días, sale una línea por servicio. **Añadir una línea** si falta alguno.",
+  "warn": null,
+  "stop": null,
+  "detail": null,
+  "labels": [
+   "Evento",
+   "Precio estimado"
+  ],
+  "img": "img/peticion-correo/03.webp",
+  "w": 1568,
+  "h": 645,
+  "marks": [
+   {
+    "x": 1.5,
+    "y": 68.82,
+    "w": 63.0,
+    "h": 25.29
+   },
+   {
+    "x": 26.8,
+    "y": 70.0,
+    "w": 7.8,
+    "h": 4.71
+   }
+  ],
+  "doc": false
+ }
+]

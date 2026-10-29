@@ -1,0 +1,31 @@
+[
+ {
+  "text": "Abre la ficha del restaurante (desde **Restaurantes**) y entra en la pestaña **Menús** (1). Salen sus menús con **coste**, **precio de venta** y capacidad. En **naranja**, los creados por la IA que aún no se han revisado (2).",
+  "tip": "En la pestaña **Restaurante** están su aforo, parking de autobús, tipo de cocina y responsable de grupos.",
+  "warn": null,
+  "stop": null,
+  "detail": null,
+  "labels": [
+   "Menús",
+   "Sin revisar"
+  ],
+  "img": "img/menus-restaurante/01.webp",
+  "w": 1035,
+  "h": 570,
+  "marks": [
+   {
+    "x": 1.06,
+    "y": 62.13,
+    "w": 97.73,
+    "h": 16.88
+   },
+   {
+    "x": 1.06,
+    "y": 72.5,
+    "w": 97.73,
+    "h": 6.0
+   }
+  ],
+  "doc": false
+ }
+]

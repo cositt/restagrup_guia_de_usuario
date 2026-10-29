@@ -1,0 +1,101 @@
+[
+ {
+  "text": "En la petición pulsa **Buscar para todos los eventos** (o **Buscar** en la línea de un evento).",
+  "tip": null,
+  "warn": null,
+  "stop": null,
+  "detail": null,
+  "labels": [],
+  "img": "img/buscar-restaurantes/01.webp",
+  "w": 1035,
+  "h": 379,
+  "marks": [
+   {
+    "x": 2.27,
+    "y": 51.4,
+    "w": 19.55,
+    "h": 9.0
+   }
+  ],
+  "doc": false
+ },
+ {
+  "text": "Se abre la búsqueda con los datos del grupo: **Ciudad** y **Aforo mínimo** (1). Elige qué **tipo de local** buscar (2). Si cambias algo, pulsa **Buscar restaurantes** (3).",
+  "tip": "**Calle** y **Código postal** acercan la búsqueda a una zona. **Con parking de autobús** deja solo los que lo tienen.",
+  "warn": null,
+  "stop": null,
+  "detail": null,
+  "labels": [
+   "Datos del grupo",
+   "Tipo de local",
+   "Buscar"
+  ],
+  "img": "img/buscar-restaurantes/02.webp",
+  "w": 1035,
+  "h": 570,
+  "marks": [
+   {
+    "x": 2.27,
+    "y": 30.63,
+    "w": 45.45,
+    "h": 21.88
+   },
+   {
+    "x": 2.27,
+    "y": 68.75,
+    "w": 18.18,
+    "h": 21.25
+   },
+   {
+    "x": 0.91,
+    "y": 9.75,
+    "w": 13.03,
+    "h": 5.25
+   }
+  ],
+  "doc": false
+ },
+ {
+  "text": "Abajo, en **Resultados**, salen primero los restaurantes que ya tenemos (**EN ODOO**) (1) y luego los de **Google** (2). En cada uno: **Interesado** (3) para apuntarlo y **Pedir presupuesto** (4) para escribirle.",
+  "tip": "Si la ficha está incompleta sale **Pedir datos que faltan**: manda un correo al restaurante pidiendo lo que falta.",
+  "warn": null,
+  "stop": null,
+  "detail": "Los de Google no están en Odoo: con **Añadir como contacto** se crea su ficha.",
+  "labels": [
+   "Nuestro",
+   "De Google",
+   "Interesado",
+   "Pedir presupuesto"
+  ],
+  "img": "img/buscar-restaurantes/03.webp",
+  "w": 1035,
+  "h": 606,
+  "marks": [
+   {
+    "x": 2.29,
+    "y": 37.07,
+    "w": 31.74,
+    "h": 49.26
+   },
+   {
+    "x": 34.03,
+    "y": 37.07,
+    "w": 31.74,
+    "h": 49.26
+   },
+   {
+    "x": 3.64,
+    "y": 76.62,
+    "w": 6.56,
+    "h": 4.11
+   },
+   {
+    "x": 15.77,
+    "y": 76.62,
+    "w": 9.79,
+    "h": 4.11
+   }
+  ],
+  "doc": false
+ }
+]

@@ -1,0 +1,45 @@
+[
+ {
+  "text": "Pulsa **Enviar justificante**. El correo lleva la **confirmación de reserva** (1) y nuestros **datos fiscales** para la factura (2). Añade el **justificante del banco** con el clip (3) y pulsa **Enviar** (4).",
+  "tip": null,
+  "warn": "El justificante del banco no se adjunta solo: añádelo tú.",
+  "stop": null,
+  "detail": null,
+  "labels": [
+   "Confirmación",
+   "Datos fiscales",
+   "Adjuntar",
+   "Enviar"
+  ],
+  "img": "img/justificante-restaurante/01.webp",
+  "w": 940,
+  "h": 499,
+  "marks": [
+   {
+    "x": 9.67,
+    "y": 79.0,
+    "w": 28.33,
+    "h": 6.57
+   },
+   {
+    "x": 9.33,
+    "y": 46.43,
+    "w": 33.33,
+    "h": 7.86
+   },
+   {
+    "x": 23.33,
+    "y": 90.0,
+    "w": 3.33,
+    "h": 5.14
+   },
+   {
+    "x": 8.83,
+    "y": 89.29,
+    "w": 5.67,
+    "h": 5.43
+   }
+  ],
+  "doc": false
+ }
+]

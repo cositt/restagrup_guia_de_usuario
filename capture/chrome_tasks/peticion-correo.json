@@ -1,0 +1,10 @@
+{
+ "title": "Ha llegado una petición de grupo por correo",
+ "cat": "peticiones",
+ "summary": "La agencia escribe al buzón de peticiones y Odoo crea la petición solo: la IA saca ciudad, fecha, servicio y comensales.",
+ "when": "Cada vez que una agencia pide restaurante para un grupo.",
+ "before": ["La agencia escribe a la dirección de peticiones de Restagrup."],
+ "tags": ["peticion", "correo", "grupo", "agencia", "nuevo", "lead"],
+ "result": "Tienes la petición en **Peticiones**, con sus datos rellenos y lista para asignarla.",
+ "next": ["asignar", "buscar-restaurantes"]
+}

@@ -1,0 +1,60 @@
+[
+ {
+  "text": "En la petición pulsa en **Comercial** (1) y elige quién la lleva (2).",
+  "tip": null,
+  "warn": null,
+  "stop": null,
+  "detail": null,
+  "labels": [
+   "Comercial",
+   "Elegir persona"
+  ],
+  "img": "img/asignar/01.webp",
+  "w": 1035,
+  "h": 417,
+  "marks": [
+   {
+    "x": 50.76,
+    "y": 53.27,
+    "w": 46.97,
+    "h": 6.91
+   },
+   {
+    "x": 58.33,
+    "y": 60.0,
+    "w": 22.42,
+    "h": 20.0
+   }
+  ],
+  "doc": false
+ },
+ {
+  "text": "Guarda (nube de arriba). Desaparece **Pendiente de asignación** y el cambio queda anotado a la derecha (1).",
+  "tip": "El **Equipo de ventas** se pone solo con el del comercial.",
+  "warn": null,
+  "stop": null,
+  "detail": null,
+  "labels": [
+   "Comercial puesto",
+   "Historial"
+  ],
+  "img": "img/asignar/02.webp",
+  "w": 1568,
+  "h": 379,
+  "marks": [
+   {
+    "x": 33.5,
+    "y": 53.6,
+    "w": 11.5,
+    "h": 7.2
+   },
+   {
+    "x": 65.6,
+    "y": 27.2,
+    "w": 17.0,
+    "h": 14.0
+   }
+  ],
+  "doc": false
+ }
+]

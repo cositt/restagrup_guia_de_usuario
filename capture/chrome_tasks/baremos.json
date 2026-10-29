@@ -1,0 +1,10 @@
+{
+ "title": "Baremos de precio estimado",
+ "cat": "config",
+ "summary": "Cuando una petición entra sin precio, el sistema pone un precio por persona estimado según el tipo de evento, el público y el día. Esos precios son los baremos.",
+ "when": "Quieres cambiar el precio orientativo que se pone a las peticiones.",
+ "before": ["Permiso de administración de Restagrup."],
+ "tags": ["baremos", "precio estimado", "precio por persona", "orientativo"],
+ "result": "Las peticiones nuevas salen con el precio estimado que has puesto.",
+ "next": ["peticion-correo"]
+}

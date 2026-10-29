@@ -1,0 +1,78 @@
+[
+ {
+  "text": "En la pantalla de inicio pulsa **Restagrup**. Todo el trabajo del día a día está dentro de esta aplicación.",
+  "tip": "Las demás aplicaciones (CRM, Ventas, Compra, Facturación) son las de Odoo: Restagrup ya trae dentro lo que necesitas de ellas.",
+  "warn": null,
+  "stop": null,
+  "detail": null,
+  "labels": [],
+  "img": "img/menu/01.webp",
+  "w": 878,
+  "h": 299,
+  "marks": [
+   {
+    "x": 24.27,
+    "y": 48.38,
+    "w": 13.43,
+    "h": 33.55
+   }
+  ],
+  "doc": false
+ },
+ {
+  "text": "Arriba está todo el menú de Restagrup. Los grupos siguen el camino de un grupo: **Peticiones → Presupuestos → Expedientes → Terminados** (1). Después los **Pagos** a la agencia y a los restaurantes (2). Lo de configuración está en **+** (3).",
+  "tip": "**Restaurantes**, **Menús** y **Buscar restaurantes** son para encontrar sitio y preparar menús; **Pendientes de aprobar** y **Correos por revisar** son los correos que esperan a una persona.",
+  "warn": null,
+  "stop": null,
+  "detail": null,
+  "labels": [
+   "Trabajo diario",
+   "Pagos",
+   "Más opciones"
+  ],
+  "img": "img/menu/02.webp",
+  "w": 1568,
+  "h": 86,
+  "marks": [
+   {
+    "x": 6.84,
+    "y": 5.75,
+    "w": 20.93,
+    "h": 32.42
+   },
+   {
+    "x": 31.31,
+    "y": 5.75,
+    "w": 15.65,
+    "h": 32.42
+   },
+   {
+    "x": 79.72,
+    "y": 5.75,
+    "w": 2.12,
+    "h": 32.42
+   }
+  ],
+  "doc": false
+ },
+ {
+  "text": "Pulsa **+** para ver el resto: **Presupuestos sin respuesta**, los **avisos**, la **Actividad IA** y la configuración (**Plantillas de correo**, **Baremos de precio estimado**, **Cortafuegos**…).",
+  "tip": "La configuración solo la ve quien tiene permiso de administración de Restagrup.",
+  "warn": null,
+  "stop": null,
+  "detail": null,
+  "labels": [],
+  "img": "img/menu/03.webp",
+  "w": 706,
+  "h": 356,
+  "marks": [
+   {
+    "x": 55.33,
+    "y": 9.2,
+    "w": 26.22,
+    "h": 80.0
+   }
+  ],
+  "doc": false
+ }
+]

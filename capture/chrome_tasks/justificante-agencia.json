@@ -1,0 +1,10 @@
+{
+ "title": "La agencia ha pagado: confirmar el justificante",
+ "cat": "pagos",
+ "summary": "Cuando la agencia contesta con el justificante, la IA lo lee y avisa con el importe. Nunca se marca pagado solo: una persona lo comprueba y pulsa Confirmar pago.",
+ "when": "La agencia responde al correo de pago con el justificante de la transferencia.",
+ "before": ["La agencia contesta a un correo del pedido o del grupo con el justificante."],
+ "tags": ["justificante", "pago recibido", "transferencia", "confirmar pago", "pagado", "agencia ha pagado"],
+ "result": "El pedido queda **Pagado** y ya se puede enviar el bono de agencia.",
+ "next": ["bono-agencia", "pagar-restaurante"]
+}

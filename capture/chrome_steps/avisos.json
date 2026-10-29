@@ -1,0 +1,51 @@
+[
+ {
+  "text": "Abajo a la izquierda está la **burbuja de avisos**. El número es cuántas cosas tienes pendientes. Púlsala.",
+  "tip": "Si no hay nada pendiente, la burbuja no sale.",
+  "warn": null,
+  "stop": null,
+  "detail": null,
+  "labels": [],
+  "img": "img/avisos/01.webp",
+  "w": 627,
+  "h": 321,
+  "marks": [
+   {
+    "x": 0.75,
+    "y": 82.89,
+    "w": 7.25,
+    "h": 14.22
+   }
+  ],
+  "doc": false
+ },
+ {
+  "text": "Se abre la lista de lo pendiente, aquí **1 presupuesto de restaurante por confirmar**. Entra en la línea para resolverlo.",
+  "tip": null,
+  "warn": null,
+  "stop": null,
+  "detail": null,
+  "labels": [
+   "Qué es",
+   "Lo pendiente"
+  ],
+  "img": "img/avisos/02.webp",
+  "w": 1568,
+  "h": 285,
+  "marks": [
+   {
+    "x": 4.2,
+    "y": 16.0,
+    "w": 16.2,
+    "h": 10.5
+   },
+   {
+    "x": 0.5,
+    "y": 41.5,
+    "w": 99.0,
+    "h": 11.5
+   }
+  ],
+  "doc": false
+ }
+]

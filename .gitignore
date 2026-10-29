@@ -1,0 +1,8 @@
+__pycache__/
+*.pyc
+capture/error-*.png
+capture/created.json
+.DS_Store
+*.env
+capture/restaurar.md
+capture/_factura/

@@ -1,0 +1,103 @@
+[
+ {
+  "text": "En **Pendientes de aprobar** aparece **Cuenta bancaria del restaurante** con el motivo **Servicio el … y sin cuenta bancaria** (1). El texto pide el número de cuenta y va con la proforma de la reserva (2). Pulsa **Aprobar y enviar** (3).",
+  "tip": null,
+  "warn": null,
+  "stop": null,
+  "detail": null,
+  "labels": [
+   "Motivo",
+   "Texto",
+   "Aprobar"
+  ],
+  "img": "img/cuenta-restaurante/01.webp",
+  "w": 1035,
+  "h": 484,
+  "marks": [
+   {
+    "x": 2.27,
+    "y": 20.59,
+    "w": 45.45,
+    "h": 22.06
+   },
+   {
+    "x": 2.27,
+    "y": 53.68,
+    "w": 96.21,
+    "h": 36.76
+   },
+   {
+    "x": 1.21,
+    "y": 11.76,
+    "w": 10.45,
+    "h": 5.59
+   }
+  ],
+  "doc": false
+ },
+ {
+  "text": "El correo queda en la hoja de servicio del restaurante con la **proforma** adjunta (1) y se anota cuándo se pidió la cuenta (2).",
+  "tip": null,
+  "warn": null,
+  "stop": null,
+  "detail": null,
+  "labels": [
+   "Correo y proforma",
+   "Cuenta pedida"
+  ],
+  "img": "img/cuenta-restaurante/02.webp",
+  "w": 1568,
+  "h": 570,
+  "marks": [
+   {
+    "x": 65.6,
+    "y": 23.12,
+    "w": 29.2,
+    "h": 61.25
+   },
+   {
+    "x": 1.5,
+    "y": 52.25,
+    "w": 14.0,
+    "h": 7.25
+   }
+  ],
+  "doc": false
+ },
+ {
+  "text": "Cuando el restaurante contesta con su IBAN (1), Odoo comprueba que es válido y lo guarda en su ficha. La hoja marca **Tenemos su cuenta** (2). Si en la respuesta acepta el servicio, la IA lo deja como **Aceptado** con un resumen (3).",
+  "tip": "Si el IBAN no es válido, no se guarda y queda anotado para que lo revises.",
+  "warn": null,
+  "stop": null,
+  "detail": null,
+  "labels": [
+   "IBAN",
+   "Tenemos su cuenta",
+   "Respuesta"
+  ],
+  "img": "img/cuenta-restaurante/03.webp",
+  "w": 1568,
+  "h": 606,
+  "marks": [
+   {
+    "x": 65.6,
+    "y": 21.76,
+    "w": 29.2,
+    "h": 37.65
+   },
+   {
+    "x": 1.5,
+    "y": 57.41,
+    "w": 11.5,
+    "h": 4.94
+   },
+   {
+    "x": 1.5,
+    "y": 16.47,
+    "w": 36.0,
+    "h": 12.35
+   }
+  ],
+  "doc": false
+ }
+]

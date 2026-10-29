@@ -1,0 +1,7 @@
+{"title": "Moverse por Restagrup", "cat": "empezar",
+ "summary": "Dónde está cada cosa: el menú de arriba sigue el camino de un grupo, de la petición al expediente terminado.",
+ "when": "La primera vez que entras, o cuando no encuentras una pantalla.",
+ "before": ["Tienes usuario en Odoo y entras por **restagrup.cositt.net**."],
+ "tags": ["menu", "inicio", "donde esta", "pantallas", "navegar", "empezar"],
+ "result": "Sabes en qué menú está cada fase del grupo y dónde están los correos y la configuración.",
+ "next": ["avisos", "peticion-correo"]}

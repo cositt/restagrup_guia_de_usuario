@@ -1,0 +1,10 @@
+{
+ "title": "Pedir el pago a la agencia",
+ "cat": "pagos",
+ "summary": "7 días antes del servicio, si la agencia no ha pagado, el sistema prepara solo el correo pidiéndole la transferencia. A las 72 horas, si sigue sin pagar, prepara la reclamación urgente.",
+ "when": "Faltan 7 días o menos para el servicio y el pedido no está pagado.",
+ "before": ["Pedido de venta confirmado y sin **Pagado**."],
+ "tags": ["pago", "cobrar", "agencia", "transferencia", "prepago", "reclamar pago", "urgente"],
+ "result": "La agencia recibe la petición de pago con el importe y cómo pagar.",
+ "next": ["justificante-agencia"]
+}

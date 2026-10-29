@@ -1,0 +1,10 @@
+{
+ "title": "Configurar los cortafuegos",
+ "cat": "config",
+ "summary": "Los cortafuegos son comprobaciones antes de cada paso importante (pasar a presupuesto, confirmar, cerrar). Cada una puede solo avisar o impedir continuar.",
+ "when": "Quieres que un paso se bloquee (o solo avise) si falta algo.",
+ "before": ["Permiso de administración de Restagrup."],
+ "tags": ["cortafuegos", "comprobaciones", "bloquear", "avisar", "impedir"],
+ "result": "Los pasos importantes comprueban lo que tú decidas antes de seguir.",
+ "next": ["cerrar-expediente"]
+}

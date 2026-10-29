@@ -1,0 +1,60 @@
+[
+ {
+  "text": "Entra en **Pendientes de aprobar**. Cada línea es un correo listo para salir: a quién va, de qué grupo o restaurante y **por qué** se ha preparado (1).",
+  "tip": "La burbuja del sobre, abajo a la izquierda, dice cuántos tienes pendientes.",
+  "warn": null,
+  "stop": null,
+  "detail": null,
+  "labels": [
+   "Motivo"
+  ],
+  "img": "img/pendientes-aprobar/01.webp",
+  "w": 1568,
+  "h": 214,
+  "marks": [
+   {
+    "x": 52.8,
+    "y": 36.67,
+    "w": 15.2,
+    "h": 33.33
+   }
+  ],
+  "doc": false
+ },
+ {
+  "text": "Ábrelo. El **asunto** y el **texto** se pueden cambiar antes de aprobar (1). Después pulsa **Aprobar y enviar** (2) o **Descartar** (3) si ya no hace falta.",
+  "tip": null,
+  "warn": null,
+  "stop": null,
+  "detail": "Si al aprobarlo ya no aplica (por ejemplo, la agencia pagó entretanto), el sistema lo descarta solo y no lo manda.",
+  "labels": [
+   "Editable",
+   "Aprobar",
+   "Descartar"
+  ],
+  "img": "img/pendientes-aprobar/02.webp",
+  "w": 1035,
+  "h": 463,
+  "marks": [
+   {
+    "x": 2.27,
+    "y": 50.0,
+    "w": 96.21,
+    "h": 42.31
+   },
+   {
+    "x": 1.21,
+    "y": 12.31,
+    "w": 10.45,
+    "h": 5.85
+   },
+   {
+    "x": 11.82,
+    "y": 12.31,
+    "w": 6.97,
+    "h": 5.85
+   }
+  ],
+  "doc": false
+ }
+]

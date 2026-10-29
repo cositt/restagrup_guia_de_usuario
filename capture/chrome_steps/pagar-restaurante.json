@@ -1,0 +1,51 @@
+[
+ {
+  "text": "Abre la hoja de servicio del restaurante (desde el pedido de venta → **Hojas de servicio**, o desde **Pagos a restaurantes**). Cuando hayas hecho la transferencia en el banco, pulsa **Transferencia hecha** (1).",
+  "tip": null,
+  "warn": "Este botón no paga nada: solo anota que tú ya has hecho la transferencia.",
+  "stop": null,
+  "detail": null,
+  "labels": [],
+  "img": "img/pagar-restaurante/01.webp",
+  "w": 1035,
+  "h": 499,
+  "marks": [
+   {
+    "x": 48.48,
+    "y": 11.86,
+    "w": 12.42,
+    "h": 5.43
+   }
+  ],
+  "doc": false
+ },
+ {
+  "text": "La hoja queda con **Transferencia hecha** y su **fecha** (1), y aparece **Enviar justificante** (2).",
+  "tip": "Si te equivocas, **Desmarcar transferencia**.",
+  "warn": null,
+  "stop": null,
+  "detail": null,
+  "labels": [
+   "Hecha",
+   "Enviar justificante"
+  ],
+  "img": "img/pagar-restaurante/02.webp",
+  "w": 1035,
+  "h": 534,
+  "marks": [
+   {
+    "x": 2.27,
+    "y": 60.0,
+    "w": 21.21,
+    "h": 11.33
+   },
+   {
+    "x": 63.33,
+    "y": 11.07,
+    "w": 11.06,
+    "h": 5.07
+   }
+  ],
+  "doc": false
+ }
+]

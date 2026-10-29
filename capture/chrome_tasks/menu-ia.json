@@ -1,0 +1,10 @@
+{
+ "title": "Revisar un menú que ha creado la IA",
+ "cat": "fichas",
+ "summary": "Cuando un restaurante manda sus menús en la respuesta, la IA los guarda en su ficha con platos, bebidas y precio. Quedan «sin revisar» hasta que una persona los comprueba.",
+ "when": "Después de que conteste un restaurante con sus menús.",
+ "before": ["El restaurante ha respondido con sus menús y precios."],
+ "tags": ["menu", "ia", "sin revisar", "revisado", "platos", "precio venta", "margen"],
+ "result": "El menú queda revisado y listo para usarlo en presupuestos.",
+ "next": ["menus-restaurante", "presupuesto-agencia"]
+}

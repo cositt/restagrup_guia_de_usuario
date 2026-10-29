@@ -1,0 +1,31 @@
+[
+ {
+  "text": "Ve a **+ → Baremos de precio estimado**. Cada baremo da un **precio por persona** (1) según **tipo de evento**, **público** y **día** (2). Si una petición no trae precio, se le pone el que encaja.",
+  "tip": "Puedes poner una **Ciudad** para que un baremo solo valga allí. **Nuevo** para añadir otro.",
+  "warn": null,
+  "stop": null,
+  "detail": null,
+  "labels": [
+   "Precio",
+   "Cuándo se aplica"
+  ],
+  "img": "img/baremos/01.webp",
+  "w": 1568,
+  "h": 299,
+  "marks": [
+   {
+    "x": 84.0,
+    "y": 26.19,
+    "w": 6.5,
+    "h": 64.29
+   },
+   {
+    "x": 34.5,
+    "y": 26.19,
+    "w": 34.0,
+    "h": 64.29
+   }
+  ],
+  "doc": false
+ }
+]

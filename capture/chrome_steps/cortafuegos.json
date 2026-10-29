@@ -1,0 +1,45 @@
+[
+ {
+  "text": "Ve a **+ → Cortafuegos**. Cada línea es una comprobación: **antes de** qué paso (1), **qué se comprueba** (2) y qué pasa **si falta** (3): **Avisar y consultar** deja seguir tras avisar; **Impedir continuar** bloquea. Con el interruptor (4) se apaga.",
+  "tip": null,
+  "warn": null,
+  "stop": null,
+  "detail": null,
+  "labels": [
+   "Paso",
+   "Comprobación",
+   "Si falta",
+   "Activo"
+  ],
+  "img": "img/cortafuegos/01.webp",
+  "w": 1568,
+  "h": 656,
+  "marks": [
+   {
+    "x": 1.5,
+    "y": 8.15,
+    "w": 20.0,
+    "h": 89.13
+   },
+   {
+    "x": 23.5,
+    "y": 8.15,
+    "w": 33.0,
+    "h": 89.13
+   },
+   {
+    "x": 80.0,
+    "y": 8.15,
+    "w": 10.0,
+    "h": 89.13
+   },
+   {
+    "x": 92.5,
+    "y": 8.15,
+    "w": 3.5,
+    "h": 89.13
+   }
+  ],
+  "doc": false
+ }
+]

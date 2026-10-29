@@ -1,0 +1,10 @@
+{
+ "title": "Buscar restaurantes para un grupo",
+ "cat": "restaurantes",
+ "summary": "Desde la petición se abre una búsqueda con la ciudad, la fecha y los comensales del grupo. Salen primero nuestros restaurantes (EN ODOO) y después los de Google.",
+ "when": "La petición tiene ciudad y comensales y hay que proponer sitio.",
+ "before": ["La petición tiene **Ciudad** y **comensales** en su evento."],
+ "tags": ["buscar", "restaurantes", "google", "candidatos", "aforo", "busqueda"],
+ "result": "Tienes la lista de candidatos para marcar los que interesan y pedirles presupuesto.",
+ "next": ["pedir-presupuesto"]
+}

@@ -1,0 +1,51 @@
+[
+ {
+  "text": "Cada día, a los pedidos sin pagar con el servicio en 7 días o menos se les prepara la **petición de pago**. Aparece en **Pendientes de aprobar** con el motivo: **Servicio el … y sin pago** (1).",
+  "tip": "A las **72 horas** del servicio, si sigue sin pagar, se prepara la **reclamación urgente**. Los plazos se cambian en Ajustes.",
+  "warn": null,
+  "stop": null,
+  "detail": null,
+  "labels": [],
+  "img": "img/pedir-pago-agencia/01.webp",
+  "w": 1568,
+  "h": 214,
+  "marks": [
+   {
+    "x": -0.21,
+    "y": 36.7,
+    "w": 100.42,
+    "h": 18.33
+   }
+  ],
+  "doc": false
+ },
+ {
+  "text": "Ábrelo: lleva el pedido, la fecha y el **importe total** (1). Revisa el texto y pulsa **Aprobar y enviar** (2).",
+  "tip": null,
+  "warn": "Comprueba que el correo lleva el **número de cuenta** de Restagrup. Si sale vacío, falta la cuenta bancaria en los datos de la compañía.",
+  "stop": null,
+  "detail": null,
+  "labels": [
+   "Texto",
+   "Aprobar"
+  ],
+  "img": "img/pedir-pago-agencia/02.webp",
+  "w": 1035,
+  "h": 463,
+  "marks": [
+   {
+    "x": 2.27,
+    "y": 63.85,
+    "w": 96.21,
+    "h": 28.46
+   },
+   {
+    "x": 1.21,
+    "y": 12.31,
+    "w": 10.45,
+    "h": 5.85
+   }
+  ],
+  "doc": false
+ }
+]

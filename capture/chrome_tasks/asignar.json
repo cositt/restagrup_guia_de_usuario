@@ -1,0 +1,10 @@
+{
+ "title": "Asignar una petición a un comercial",
+ "cat": "peticiones",
+ "summary": "Toda petición nueva entra sin responsable. Ponerle comercial quita el aviso rojo y hace que los avisos y correos pendientes de ese grupo le lleguen a esa persona.",
+ "when": "Nada más entrar una petición nueva.",
+ "before": ["La petición está en **Peticiones** con **Pendiente de asignación**."],
+ "tags": ["asignar", "comercial", "responsable", "pendiente de asignacion"],
+ "result": "La petición tiene responsable y deja de salir en rojo.",
+ "next": ["buscar-restaurantes", "datos-agencia"]
+}

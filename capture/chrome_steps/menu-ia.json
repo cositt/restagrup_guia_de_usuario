@@ -1,0 +1,80 @@
+[
+ {
+  "text": "Entra en **Menús**. Los que ha creado la IA llevan encendido **Sin revisar** (1). El **Precio venta** ya lleva el margen de Restagrup sobre el **Precio coste** del restaurante (2).",
+  "tip": null,
+  "warn": null,
+  "stop": null,
+  "detail": null,
+  "labels": [
+   "Sin revisar",
+   "Coste y venta"
+  ],
+  "img": "img/menu-ia/01.webp",
+  "w": 1568,
+  "h": 249,
+  "marks": [
+   {
+    "x": 42.3,
+    "y": 32.86,
+    "w": 4.2,
+    "h": 25.71
+   },
+   {
+    "x": 73.0,
+    "y": 32.86,
+    "w": 17.0,
+    "h": 25.71
+   }
+  ],
+  "doc": false
+ },
+ {
+  "text": "Abre el menú. Comprueba nombre, precio, bebidas y, en **Platos**, que estén todos (1). Corrige lo que haga falta y pulsa **Revisado** (2).",
+  "tip": null,
+  "warn": "Mira bien el **precio**: si el restaurante dio un precio sin IVA o por grupo, la IA puede haberlo leído mal.",
+  "stop": null,
+  "detail": null,
+  "labels": [
+   "Platos",
+   "Revisado"
+  ],
+  "img": "img/menu-ia/02.webp",
+  "w": 1160,
+  "h": 677,
+  "marks": [
+   {
+    "x": 1.22,
+    "y": 55.26,
+    "w": 96.22,
+    "h": 34.74
+   },
+   {
+    "x": 1.08,
+    "y": 8.42,
+    "w": 5.95,
+    "h": 4.21
+   }
+  ],
+  "doc": false
+ },
+ {
+  "text": "Se quitan el aviso amarillo y el botón: el menú ya está revisado.",
+  "tip": null,
+  "warn": null,
+  "stop": null,
+  "detail": null,
+  "labels": [],
+  "img": "img/menu-ia/03.webp",
+  "w": 1160,
+  "h": 641,
+  "marks": [
+   {
+    "x": 1.22,
+    "y": 9.44,
+    "w": 96.22,
+    "h": 31.11
+   }
+  ],
+  "doc": false
+ }
+]
