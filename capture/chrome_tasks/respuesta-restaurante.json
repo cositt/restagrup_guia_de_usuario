@@ -1,10 +1,22 @@
 {
  "title": "Contestó un restaurante: registrar su presupuesto",
  "cat": "restaurantes",
- "summary": "La respuesta del restaurante entra sola en la búsqueda. La IA la lee y guarda sus menús, pero el importe lo confirma siempre una persona con Registrar presupuesto.",
+ "summary": "La respuesta del restaurante entra sola en la búsqueda. La IA lee el precio y el menú, pero el importe lo confirma siempre una persona con **Confirmar presupuesto**. Si contesta por teléfono o WhatsApp, usa **Pegar respuesta**.",
  "when": "Un restaurante responde a la consulta de presupuesto.",
- "before": ["Le pediste presupuesto desde la búsqueda (sale **Solicitado**).", "El restaurante contesta **respondiendo** al correo que le llegó."],
- "tags": ["respuesta", "presupuesto recibido", "importe", "registrar", "restaurante contesta"],
- "result": "El restaurante sale como **Presupuesto recibido** con su importe y ya se puede preparar el presupuesto a la agencia.",
- "next": ["menu-ia", "presupuesto-agencia"]
+ "before": [
+  "Le pediste presupuesto desde la búsqueda (su tarjeta sale en **Pedido**).",
+  "El restaurante contesta **respondiendo** al correo que le llegó, o te lo dice por otra vía."
+ ],
+ "tags": [
+  "respuesta",
+  "presupuesto recibido",
+  "importe",
+  "registrar",
+  "restaurante contesta"
+ ],
+ "result": "El restaurante sale como **Recibido** con su precio y su coste, y ya se puede preparar la propuesta a la agencia.",
+ "next": [
+  "menu-ia",
+  "presupuesto-agencia"
+ ]
 }

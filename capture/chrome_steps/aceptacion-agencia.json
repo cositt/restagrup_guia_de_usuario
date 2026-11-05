@@ -1,36 +1,38 @@
 [
  {
-  "text": "Cuando la agencia firma, a la derecha sale **Pedido firmado por…** con el PDF firmado (1). El presupuesto pasa a **Pedido de venta** (2) y arriba aparecen las **Hojas de servicio** creadas y cuántos restaurantes han confirmado (3).",
+  "text": "Cuando la agencia firma desde el enlace, a la derecha sale **Order signed by…** con el PDF firmado (1) y a la agencia le llega la confirmación del pedido. El presupuesto pasa a **Pedido de venta** (2), arriba aparecen las **Hojas de servicio** creadas y cuántos restaurantes han confirmado (3), y el aviso te dice el siguiente paso: **Enviar hojas de servicio** (4).",
   "tip": "Si la agencia acepta por correo o por teléfono, pulsa tú **Confirmar** en el presupuesto: hace lo mismo.",
   "warn": null,
   "stop": null,
   "detail": null,
-  "labels": [
-   "Firmado",
-   "Pedido de venta",
-   "Hojas de servicio"
-  ],
+  "labels": [],
   "img": "img/aceptacion-agencia/01.webp",
   "w": 1568,
-  "h": 641,
+  "h": 713,
   "marks": [
    {
-    "x": 65.6,
-    "y": 21.67,
-    "w": 20.5,
-    "h": 35.0
+    "x": 65.8,
+    "y": 23.6,
+    "w": 27.6,
+    "h": 23.4
    },
    {
-    "x": 58.3,
-    "y": 9.78,
+    "x": 58.2,
+    "y": 13.0,
     "w": 6.6,
-    "h": 4.44
+    "h": 3.8
    },
    {
-    "x": 41.2,
-    "y": 2.11,
-    "w": 17.7,
-    "h": 4.89
+    "x": 41.0,
+    "y": 6.0,
+    "w": 18.0,
+    "h": 4.0
+   },
+   {
+    "x": 1.7,
+    "y": 23.8,
+    "w": 62.4,
+    "h": 4.2
    }
   ],
   "doc": false

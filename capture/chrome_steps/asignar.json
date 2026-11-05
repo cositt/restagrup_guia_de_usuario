@@ -5,54 +5,68 @@
   "warn": null,
   "stop": null,
   "detail": null,
-  "labels": [
-   "Comercial",
-   "Elegir persona"
-  ],
+  "labels": [],
   "img": "img/asignar/01.webp",
   "w": 1035,
-  "h": 417,
+  "h": 428,
   "marks": [
    {
-    "x": 50.76,
-    "y": 53.27,
-    "w": 46.97,
-    "h": 6.91
+    "x": 51.06,
+    "y": 61.33,
+    "w": 46.21,
+    "h": 5.67
    },
    {
     "x": 58.33,
-    "y": 60.0,
-    "w": 22.42,
-    "h": 20.0
+    "y": 68.33,
+    "w": 22.12,
+    "h": 24.33
    }
   ],
   "doc": false
  },
  {
-  "text": "Guarda (nube de arriba). Desaparece **Pendiente de asignación** y el cambio queda anotado a la derecha (1).",
-  "tip": "El **Equipo de ventas** se pone solo con el del comercial.",
+  "text": "Arriba aparece el botón azul **Guardar** (1): púlsalo para guardar el cambio. La **x** de al lado lo descarta. Los colores te dicen qué hace cada botón: **verde** avanza el grupo, **azul** guarda y **rojo** cancela.",
+  "tip": null,
   "warn": null,
   "stop": null,
   "detail": null,
-  "labels": [
-   "Comercial puesto",
-   "Historial"
-  ],
+  "labels": [],
   "img": "img/asignar/02.webp",
-  "w": 1568,
-  "h": 379,
+  "w": 1035,
+  "h": 428,
   "marks": [
    {
-    "x": 33.5,
-    "y": 53.6,
-    "w": 11.5,
-    "h": 7.2
+    "x": 21.67,
+    "y": 11.0,
+    "w": 9.39,
+    "h": 7.0
+   }
+  ],
+  "doc": false
+ },
+ {
+  "text": "Listo: la petición ya tiene **Comercial** (1) y desaparece **Pendiente de asignación**. El cambio queda anotado a la derecha (2).",
+  "tip": null,
+  "warn": null,
+  "stop": null,
+  "detail": null,
+  "labels": [],
+  "img": "img/asignar/03.webp",
+  "w": 1568,
+  "h": 713,
+  "marks": [
+   {
+    "x": 37.9,
+    "y": 33.6,
+    "w": 8.4,
+    "h": 4.2
    },
    {
-    "x": 65.6,
-    "y": 27.2,
+    "x": 65.8,
+    "y": 23.0,
     "w": 17.0,
-    "h": 14.0
+    "h": 8.0
    }
   ],
   "doc": false

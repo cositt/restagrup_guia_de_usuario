@@ -34,10 +34,10 @@
     "h": 299,
     "marks": [
      {
-      "x": 24.27,
-      "y": 48.38,
-      "w": 13.43,
-      "h": 33.55
+      "x": 13.98,
+      "y": 39.62,
+      "w": 12.68,
+      "h": 31.42
      }
     ],
     "doc": false
@@ -58,22 +58,22 @@
     "h": 86,
     "marks": [
      {
-      "x": 6.84,
-      "y": 5.75,
-      "w": 20.93,
-      "h": 32.42
+      "x": 6.95,
+      "y": 7.62,
+      "w": 20.72,
+      "h": 28.57
      },
      {
-      "x": 31.31,
-      "y": 5.75,
-      "w": 15.65,
-      "h": 32.42
+      "x": 31.42,
+      "y": 7.62,
+      "w": 15.44,
+      "h": 28.57
      },
      {
-      "x": 79.72,
-      "y": 5.75,
-      "w": 2.12,
-      "h": 32.42
+      "x": 79.93,
+      "y": 9.52,
+      "w": 1.7,
+      "h": 24.76
      }
     ],
     "doc": false
@@ -90,10 +90,10 @@
     "h": 356,
     "marks": [
      {
-      "x": 55.33,
-      "y": 9.2,
-      "w": 26.22,
-      "h": 80.0
+      "x": 55.87,
+      "y": 9.17,
+      "w": 26.18,
+      "h": 79.74
      }
     ],
     "doc": false
@@ -131,10 +131,10 @@
     "h": 321,
     "marks": [
      {
-      "x": 0.75,
-      "y": 82.89,
-      "w": 7.25,
-      "h": 14.22
+      "x": 1.56,
+      "y": 87.79,
+      "w": 4.69,
+      "h": 9.16
      }
     ],
     "doc": false
@@ -154,16 +154,16 @@
     "h": 285,
     "marks": [
      {
-      "x": 4.2,
-      "y": 16.0,
-      "w": 16.2,
-      "h": 10.5
+      "x": 4.38,
+      "y": 20.13,
+      "w": 14.59,
+      "h": 5.01
      },
      {
-      "x": 0.5,
-      "y": 41.5,
-      "w": 99.0,
-      "h": 11.5
+      "x": 0.0,
+      "y": 40.76,
+      "w": 100.0,
+      "h": 11.46
      }
     ],
     "doc": false
@@ -206,10 +206,10 @@
     "h": 584,
     "marks": [
      {
-      "x": 83.5,
-      "y": 9.15,
-      "w": 6.5,
-      "h": 88.41
+      "x": 83.82,
+      "y": 8.11,
+      "w": 14.51,
+      "h": 95.15
      }
     ],
     "doc": false
@@ -230,22 +230,22 @@
     "h": 442,
     "marks": [
      {
-      "x": 2.03,
-      "y": 42.74,
-      "w": 94.59,
-      "h": 42.74
+      "x": 2.04,
+      "y": 41.36,
+      "w": 94.51,
+      "h": 43.81
      },
      {
-      "x": 2.03,
-      "y": 87.1,
-      "w": 37.84,
-      "h": 7.26
+      "x": 2.04,
+      "y": 86.09,
+      "w": 94.51,
+      "h": 5.36
      },
      {
-      "x": 50.0,
-      "y": 25.81,
-      "w": 14.19,
-      "h": 8.87
+      "x": 50.14,
+      "y": 24.91,
+      "w": 46.41,
+      "h": 9.24
      }
     ],
     "doc": false
@@ -255,7 +255,7 @@
  {
   "title": "Ha llegado una petición de grupo por correo",
   "cat": "peticiones",
-  "summary": "La agencia escribe al buzón de peticiones y Odoo crea la petición solo: la IA saca ciudad, fecha, servicio y comensales.",
+  "summary": "La agencia escribe al buzón de peticiones y Odoo crea la petición sola: la IA saca la referencia del grupo, la ciudad, la fecha, la hora, el servicio, los comensales y el precio por persona, y da de alta la agencia con los datos de su firma.",
   "when": "Cada vez que una agencia pide restaurante para un grupo.",
   "before": [
    "La agencia escribe a la dirección de peticiones de Restagrup."
@@ -268,7 +268,7 @@
    "nuevo",
    "lead"
   ],
-  "result": "Tienes la petición en **Peticiones**, con sus datos rellenos y lista para asignarla.",
+  "result": "Tienes la petición en **Peticiones**, con sus servicios rellenos, la agencia creada y lista para asignarla.",
   "next": [
    "asignar",
    "buscar-restaurantes"
@@ -276,79 +276,85 @@
   "id": "peticion-correo",
   "steps": [
    {
-    "text": "Entra en **Peticiones**. La petición nueva sale arriba con lo que ha leído la IA del correo: **fecha**, **población** y **nº de comensales**. Mientras nadie la lleve, sale **Pendiente de asignación** en rojo.",
-    "tip": "El buzón se lee cada 5 minutos: un correo puede tardar ese tiempo en aparecer.",
+    "text": "Entra en **Peticiones**. La petición nueva sale arriba con la **agencia** y el nombre de la **referencia del grupo** (1). Al lado, lo que ha leído la IA del correo: **primer servicio** con fecha y hora, **población** y **nº de comensales** (2). Mientras nadie la lleve, sale **Pendiente de asignación** en rojo (3).",
+    "tip": null,
     "warn": null,
     "stop": null,
     "detail": null,
     "labels": [],
     "img": "img/peticion-correo/01.webp",
     "w": 1568,
-    "h": 319,
+    "h": 214,
     "marks": [
      {
-      "x": -0.21,
-      "y": 23.93,
-      "w": 100.42,
-      "h": 12.31
-     }
-    ],
-    "doc": false
-   },
-   {
-    "text": "Abre la petición. A la derecha tienes el **correo de la agencia** tal cual llegó (1). En la pestaña **Datos IA** está lo que ha sacado la IA: **ciudad**, **comensales** y **fecha** (2).",
-    "tip": null,
-    "warn": "La IA puede equivocarse. Compara siempre con el correo antes de seguir.",
-    "stop": null,
-    "detail": null,
-    "labels": [
-     "Correo original",
-     "Lo que leyó la IA"
-    ],
-    "img": "img/peticion-correo/02.webp",
-    "w": 1568,
-    "h": 645,
-    "marks": [
-     {
-      "x": 65.6,
-      "y": 42.35,
-      "w": 29.5,
-      "h": 53.53
+      "x": 9.2,
+      "y": 54.33,
+      "w": 23.6,
+      "h": 15.33
      },
      {
-      "x": 33.3,
-      "y": 64.12,
-      "w": 31.5,
-      "h": 19.41
+      "x": 36.9,
+      "y": 54.33,
+      "w": 39.8,
+      "h": 15.33
+     },
+     {
+      "x": 76.9,
+      "y": 54.33,
+      "w": 8.6,
+      "h": 15.33
      }
     ],
     "doc": false
    },
    {
-    "text": "En **Eventos** sale cada servicio que pide la agencia: fecha, hora, tipo, ciudad y comensales (1). Si la agencia no da precio, el **Precio/persona** es un **estimado** sacado de los baremos (2). Corrige lo que haga falta directamente en la línea.",
-    "tip": "Si el grupo come y cena, o va varios días, sale una línea por servicio. **Añadir una línea** si falta alguno.",
+    "text": "Abre la petición. A la derecha tienes el **correo de la agencia** tal cual llegó (1). La petición se llama como la **referencia del grupo** que da la agencia y, con los datos de su firma (teléfono, dirección y web), la IA ha creado la **agencia** y la pone como **Contacto** (2).",
+    "tip": null,
     "warn": null,
     "stop": null,
     "detail": null,
-    "labels": [
-     "Evento",
-     "Precio estimado"
-    ],
-    "img": "img/peticion-correo/03.webp",
+    "labels": [],
+    "img": "img/peticion-correo/02.webp",
     "w": 1568,
-    "h": 645,
+    "h": 713,
     "marks": [
      {
-      "x": 1.5,
-      "y": 68.82,
-      "w": 63.0,
-      "h": 25.29
+      "x": 67.9,
+      "y": 52.0,
+      "w": 26.6,
+      "h": 35.8
      },
      {
-      "x": 26.8,
-      "y": 70.0,
-      "w": 7.8,
-      "h": 4.71
+      "x": 1.6,
+      "y": 37.0,
+      "w": 27.0,
+      "h": 7.4
+     }
+    ],
+    "doc": false
+   },
+   {
+    "text": "La primera pestaña, **Servicios**, tiene cada servicio que pide la agencia: fecha, hora, tipo, ciudad, comensales y **precio por persona** (1). Si la agencia no dice precio, se rellena con el **baremo** y se enciende **Estimado** (2). Corrige lo que haga falta y pulsa **Guardar**.",
+    "tip": "Aquí la agencia dijo «unos 35 € por persona», así que **Estimado** sale apagado.",
+    "warn": null,
+    "stop": null,
+    "detail": null,
+    "labels": [],
+    "img": "img/peticion-correo/03.webp",
+    "w": 1019,
+    "h": 321,
+    "marks": [
+     {
+      "x": 2.62,
+      "y": 41.33,
+      "w": 96.0,
+      "h": 20.0
+     },
+     {
+      "x": 49.54,
+      "y": 42.22,
+      "w": 4.0,
+      "h": 8.89
      }
     ],
     "doc": false
@@ -382,54 +388,68 @@
     "warn": null,
     "stop": null,
     "detail": null,
-    "labels": [
-     "Comercial",
-     "Elegir persona"
-    ],
+    "labels": [],
     "img": "img/asignar/01.webp",
     "w": 1035,
-    "h": 417,
+    "h": 428,
     "marks": [
      {
-      "x": 50.76,
-      "y": 53.27,
-      "w": 46.97,
-      "h": 6.91
+      "x": 51.06,
+      "y": 61.33,
+      "w": 46.21,
+      "h": 5.67
      },
      {
       "x": 58.33,
-      "y": 60.0,
-      "w": 22.42,
-      "h": 20.0
+      "y": 68.33,
+      "w": 22.12,
+      "h": 24.33
      }
     ],
     "doc": false
    },
    {
-    "text": "Guarda (nube de arriba). Desaparece **Pendiente de asignación** y el cambio queda anotado a la derecha (1).",
-    "tip": "El **Equipo de ventas** se pone solo con el del comercial.",
+    "text": "Arriba aparece el botón azul **Guardar** (1): púlsalo para guardar el cambio. La **x** de al lado lo descarta. Los colores te dicen qué hace cada botón: **verde** avanza el grupo, **azul** guarda y **rojo** cancela.",
+    "tip": null,
     "warn": null,
     "stop": null,
     "detail": null,
-    "labels": [
-     "Comercial puesto",
-     "Historial"
-    ],
+    "labels": [],
     "img": "img/asignar/02.webp",
-    "w": 1568,
-    "h": 379,
+    "w": 1035,
+    "h": 428,
     "marks": [
      {
-      "x": 33.5,
-      "y": 53.6,
-      "w": 11.5,
-      "h": 7.2
+      "x": 21.67,
+      "y": 11.0,
+      "w": 9.39,
+      "h": 7.0
+     }
+    ],
+    "doc": false
+   },
+   {
+    "text": "Listo: la petición ya tiene **Comercial** (1) y desaparece **Pendiente de asignación**. El cambio queda anotado a la derecha (2).",
+    "tip": null,
+    "warn": null,
+    "stop": null,
+    "detail": null,
+    "labels": [],
+    "img": "img/asignar/03.webp",
+    "w": 1568,
+    "h": 713,
+    "marks": [
+     {
+      "x": 37.9,
+      "y": 33.6,
+      "w": 8.4,
+      "h": 4.2
      },
      {
-      "x": 65.6,
-      "y": 27.2,
+      "x": 65.8,
+      "y": 23.0,
       "w": 17.0,
-      "h": 14.0
+      "h": 8.0
      }
     ],
     "doc": false
@@ -442,7 +462,7 @@
   "summary": "Desde la petición se abre una búsqueda con la ciudad, la fecha y los comensales del grupo. Salen primero nuestros restaurantes (EN ODOO) y después los de Google.",
   "when": "La petición tiene ciudad y comensales y hay que proponer sitio.",
   "before": [
-   "La petición tiene **Ciudad** y **comensales** en su evento."
+   "La petición tiene **Ciudad** y **comensales** en su servicio."
   ],
   "tags": [
    "buscar",
@@ -459,7 +479,7 @@
   "id": "buscar-restaurantes",
   "steps": [
    {
-    "text": "En la petición pulsa **Buscar para todos los eventos** (o **Buscar** en la línea de un evento).",
+    "text": "En la petición pulsa **Buscar para todos los servicios** (1), o **Buscar** en la línea de un servicio (2).",
     "tip": null,
     "warn": null,
     "stop": null,
@@ -467,92 +487,119 @@
     "labels": [],
     "img": "img/buscar-restaurantes/01.webp",
     "w": 1035,
-    "h": 379,
-    "marks": [
-     {
-      "x": 2.27,
-      "y": 51.4,
-      "w": 19.55,
-      "h": 9.0
-     }
-    ],
-    "doc": false
-   },
-   {
-    "text": "Se abre la búsqueda con los datos del grupo: **Ciudad** y **Aforo mínimo** (1). Elige qué **tipo de local** buscar (2). Si cambias algo, pulsa **Buscar restaurantes** (3).",
-    "tip": "**Calle** y **Código postal** acercan la búsqueda a una zona. **Con parking de autobús** deja solo los que lo tienen.",
-    "warn": null,
-    "stop": null,
-    "detail": null,
-    "labels": [
-     "Datos del grupo",
-     "Tipo de local",
-     "Buscar"
-    ],
-    "img": "img/buscar-restaurantes/02.webp",
-    "w": 1035,
     "h": 570,
     "marks": [
      {
       "x": 2.27,
-      "y": 30.63,
-      "w": 45.45,
-      "h": 21.88
+      "y": 36.5,
+      "w": 20.15,
+      "h": 5.75
      },
      {
-      "x": 2.27,
-      "y": 68.75,
-      "w": 18.18,
-      "h": 21.25
-     },
-     {
-      "x": 0.91,
-      "y": 9.75,
-      "w": 13.03,
-      "h": 5.25
+      "x": 70.61,
+      "y": 83.0,
+      "w": 6.97,
+      "h": 4.75
      }
     ],
     "doc": false
    },
    {
-    "text": "Abajo, en **Resultados**, salen primero los restaurantes que ya tenemos (**EN ODOO**) (1) y luego los de **Google** (2). En cada uno: **Interesado** (3) para apuntarlo y **Pedir presupuesto** (4) para escribirle.",
-    "tip": "Si la ficha está incompleta sale **Pedir datos que faltan**: manda un correo al restaurante pidiendo lo que falta.",
+    "text": "Se abre la búsqueda del servicio con el **Grupo**, la **Agencia** y el **Servicio** (1), la ciudad, el aforo y el **Precio estimado** por persona (2). Si quieres afinar, despliega los **Filtros** (3) o escribe parte del nombre en **Buscar restaurante por nombre** (4), y pulsa **Buscar restaurantes** (5). **← Volver a la petición** (6) te lleva de vuelta.",
+    "tip": null,
     "warn": null,
     "stop": null,
-    "detail": "Los de Google no están en Odoo: con **Añadir como contacto** se crea su ficha.",
-    "labels": [
-     "Nuestro",
-     "De Google",
-     "Interesado",
-     "Pedir presupuesto"
-    ],
-    "img": "img/buscar-restaurantes/03.webp",
+    "detail": null,
+    "labels": [],
+    "img": "img/buscar-restaurantes/02.webp",
     "w": 1035,
-    "h": 606,
+    "h": 713,
     "marks": [
      {
-      "x": 2.29,
-      "y": 37.07,
-      "w": 31.74,
-      "h": 49.26
+      "x": 2.12,
+      "y": 25.6,
+      "w": 30.3,
+      "h": 11.4
      },
      {
-      "x": 34.03,
-      "y": 37.07,
-      "w": 31.74,
-      "h": 49.26
+      "x": 2.12,
+      "y": 46.2,
+      "w": 17.58,
+      "h": 5.2
+     },
+     {
+      "x": 2.12,
+      "y": 52.6,
+      "w": 40.91,
+      "h": 3.4
+     },
+     {
+      "x": 50.76,
+      "y": 25.6,
+      "w": 46.21,
+      "h": 5.2
+     },
+     {
+      "x": 14.24,
+      "y": 12.6,
+      "w": 12.73,
+      "h": 4.2
+     },
+     {
+      "x": 0.91,
+      "y": 12.6,
+      "w": 13.33,
+      "h": 4.2
+     }
+    ],
+    "doc": false
+   },
+   {
+    "text": "Abajo, en **Resultados**, salen ordenados por **cercanía al precio estimado** (1). Primero los restaurantes que ya tenemos (**EN ODOO**) (2) y luego los de **Google** (3). Con **👁 Ver menús** (4) ves sus menús con coste y precio de venta. En cada tarjeta: **Interesado** (5) para apuntarlo y **Pedir presupuesto** (6) para escribirle.",
+    "tip": "Si un restaurante se pasa más de un 15 % del precio estimado, su tarjeta lo avisa en amarillo: **Se sale del precio estimado**.",
+    "warn": null,
+    "stop": null,
+    "detail": null,
+    "labels": [],
+    "img": "img/buscar-restaurantes/03.webp",
+    "w": 1035,
+    "h": 713,
+    "marks": [
+     {
+      "x": 2.12,
+      "y": 21.6,
+      "w": 27.27,
+      "h": 4.0
+     },
+     {
+      "x": 2.42,
+      "y": 33.2,
+      "w": 94.85,
+      "h": 41.4
+     },
+     {
+      "x": 2.42,
+      "y": 75.4,
+      "w": 94.85,
+      "h": 24.4
+     },
+     {
+      "x": 12.42,
+      "y": 53.6,
+      "w": 7.58,
+      "h": 3.4
      },
      {
       "x": 3.64,
-      "y": 76.62,
-      "w": 6.56,
-      "h": 4.11
+      "y": 60.8,
+      "w": 6.36,
+      "h": 3.2
      },
      {
-      "x": 15.77,
-      "y": 76.62,
-      "w": 9.79,
-      "h": 4.11
+      "x": 15.91,
+      "y": 60.8,
+      "w": 9.7,
+      "h": 3.2
      }
     ],
     "doc": false
@@ -562,7 +609,7 @@
  {
   "title": "Pedir presupuesto a los restaurantes",
   "cat": "restaurantes",
-  "summary": "Marca los restaurantes que te interesan y pídeles presupuesto a todos a la vez. A cada uno le llega un correo con la fecha, el servicio y los comensales.",
+  "summary": "Marca como **Interesado** los restaurantes que te convienen y pídeles presupuesto a todos a la vez. A cada uno le llega un correo con la fecha, el servicio y los comensales.",
   "when": "Ya tienes la búsqueda hecha y sabes qué restaurantes quieres consultar.",
   "before": [
    "Búsqueda hecha (**Buscar restaurantes**).",
@@ -575,86 +622,92 @@
    "interesado",
    "correo restaurante"
   ],
-  "result": "Los restaurantes reciben la consulta y quedan como **Solicitado**. Sus respuestas entran solas en Odoo.",
+  "result": "Los restaurantes reciben la consulta y su tarjeta pasa a **Pedido**. Sus respuestas entran solas en la búsqueda.",
   "next": [
    "respuesta-restaurante"
   ],
   "id": "pedir-presupuesto",
   "steps": [
    {
-    "text": "En la búsqueda, pulsa **Interesado** en cada restaurante que quieras consultar (1). Queda marcado en amarillo y anotado a la derecha. Arriba aparece **Pedir presupuesto a interesados** (2).",
-    "tip": "Si solo quieres escribir a uno, usa **Pedir presupuesto** dentro de su tarjeta.",
+    "text": "En la búsqueda, pulsa **Interesado** en cada restaurante que quieras consultar. Cada tarjeta muestra en qué punto está: **Interesado → Pedido → Recibido → Elegido** (1). Queda anotado a la derecha (2) y arriba aparece **Pedir presupuesto a interesados** (3).",
+    "tip": null,
     "warn": null,
     "stop": null,
     "detail": null,
-    "labels": [
-     "Interesado",
-     "Pedir a todos"
-    ],
+    "labels": [],
     "img": "img/pedir-presupuesto/01.webp",
     "w": 1568,
-    "h": 606,
+    "h": 713,
     "marks": [
      {
       "x": 2.4,
-      "y": 84.71,
-      "w": 5.5,
-      "h": 4.0
+      "y": 61.6,
+      "w": 12.6,
+      "h": 3.2
      },
      {
-      "x": 46.0,
-      "y": 9.65,
-      "w": 13.6,
-      "h": 4.94
+      "x": 44.3,
+      "y": 61.6,
+      "w": 12.6,
+      "h": 3.2
+     },
+     {
+      "x": 65.8,
+      "y": 23.2,
+      "w": 21.4,
+      "h": 10.6
+     },
+     {
+      "x": 23.3,
+      "y": 12.6,
+      "w": 13.8,
+      "h": 4.4
      }
     ],
     "doc": false
    },
    {
-    "text": "Pulsa **Pedir presupuesto a interesados**. Odoo pide confirmación: al pulsar **Aceptar** se manda el correo a todos los marcados.",
+    "text": "Pulsa **Pedir presupuesto a interesados**. Odoo pide confirmación: al pulsar **Aceptar** (1) se manda el correo a todos los marcados.",
     "tip": null,
-    "warn": "El correo sale de verdad al restaurante. Revisa antes que estén marcados solo los que quieres.",
+    "warn": "El correo sale al momento y de verdad: úsalo solo con restaurantes reales cuando sea en serio.",
     "stop": null,
     "detail": null,
     "labels": [],
     "img": "img/pedir-presupuesto/02.webp",
     "w": 1098,
-    "h": 392,
+    "h": 499,
     "marks": [
      {
-      "x": 26.57,
-      "y": 32.36,
-      "w": 47.71,
-      "h": 44.55
+      "x": 26.86,
+      "y": 52.0,
+      "w": 6.0,
+      "h": 6.29
      }
     ],
     "doc": false
    },
    {
-    "text": "Listo: la búsqueda pasa a **Presupuestos pedidos** (1) y a la derecha queda a quién se ha escrito y a qué correo (2). En la tarjeta del restaurante pone **Solicitado**.",
-    "tip": "Si no contesta, el sistema prepara un **recordatorio** que verás en **Pendientes de aprobar**.",
+    "text": "Listo: la búsqueda pasa a **Presupuestos pedidos** (1) y a la derecha queda a quién se ha escrito y a qué correo (2). En la tarjeta de cada restaurante se enciende **Pedido**. El asunto del correo es «Presupuesto para grupos — localizador — ciudad fecha», y la respuesta del restaurante vuelve sola a esta búsqueda.",
+    "tip": null,
     "warn": null,
     "stop": null,
     "detail": null,
-    "labels": [
-     "Estado",
-     "Enviado a"
-    ],
+    "labels": [],
     "img": "img/pedir-presupuesto/03.webp",
     "w": 1568,
-    "h": 392,
+    "h": 713,
     "marks": [
      {
-      "x": 56.2,
-      "y": 14.55,
-      "w": 8.8,
-      "h": 8.0
+      "x": 29.4,
+      "y": 12.6,
+      "w": 9.9,
+      "h": 4.4
      },
      {
-      "x": 65.6,
-      "y": 34.18,
-      "w": 29.5,
-      "h": 16.73
+      "x": 65.8,
+      "y": 23.0,
+      "w": 33.0,
+      "h": 20.0
      }
     ],
     "doc": false
@@ -664,11 +717,11 @@
  {
   "title": "Contestó un restaurante: registrar su presupuesto",
   "cat": "restaurantes",
-  "summary": "La respuesta del restaurante entra sola en la búsqueda. La IA la lee y guarda sus menús, pero el importe lo confirma siempre una persona con Registrar presupuesto.",
+  "summary": "La respuesta del restaurante entra sola en la búsqueda. La IA lee el precio y el menú, pero el importe lo confirma siempre una persona con **Confirmar presupuesto**. Si contesta por teléfono o WhatsApp, usa **Pegar respuesta**.",
   "when": "Un restaurante responde a la consulta de presupuesto.",
   "before": [
-   "Le pediste presupuesto desde la búsqueda (sale **Solicitado**).",
-   "El restaurante contesta **respondiendo** al correo que le llegó."
+   "Le pediste presupuesto desde la búsqueda (su tarjeta sale en **Pedido**).",
+   "El restaurante contesta **respondiendo** al correo que le llegó, o te lo dice por otra vía."
   ],
   "tags": [
    "respuesta",
@@ -677,7 +730,7 @@
    "registrar",
    "restaurante contesta"
   ],
-  "result": "El restaurante sale como **Presupuesto recibido** con su importe y ya se puede preparar el presupuesto a la agencia.",
+  "result": "El restaurante sale como **Recibido** con su precio y su coste, y ya se puede preparar la propuesta a la agencia.",
   "next": [
    "menu-ia",
    "presupuesto-agencia"
@@ -685,88 +738,103 @@
   "id": "respuesta-restaurante",
   "steps": [
    {
-    "text": "Cuando el restaurante contesta, su respuesta aparece a la derecha de la búsqueda y la IA guarda sus menús en su ficha (1). El restaurante sigue en **Solicitado**: pulsa **Registrar presupuesto** en su tarjeta (2).",
-    "tip": "**Ver conversación** abre el correo completo del restaurante.",
+    "text": "Cuando el restaurante contesta por correo, su respuesta aparece a la derecha de la búsqueda y la IA guarda su menú en la ficha (1). En su tarjeta sale el **precio por persona a la agencia** (con nuestra comisión) que ha leído la IA, sin confirmar, y debajo el **coste** que nos cobra el restaurante (2). Pulsa **Confirmar presupuesto** (3).",
+    "tip": null,
     "warn": null,
     "stop": null,
     "detail": null,
-    "labels": [
-     "Respuesta y menús",
-     "Registrar presupuesto"
-    ],
+    "labels": [],
     "img": "img/respuesta-restaurante/01.webp",
     "w": 1568,
-    "h": 499,
+    "h": 713,
     "marks": [
      {
-      "x": 65.6,
-      "y": 11.71,
-      "w": 33.8,
-      "h": 50.0
+      "x": 65.8,
+      "y": 23.0,
+      "w": 33.6,
+      "h": 27.8
      },
      {
-      "x": 2.5,
-      "y": 81.43,
-      "w": 7.6,
-      "h": 4.86
+      "x": 2.3,
+      "y": 60.2,
+      "w": 16.6,
+      "h": 5.2
+     },
+     {
+      "x": 12.3,
+      "y": 65.2,
+      "w": 7.8,
+      "h": 3.6
      }
     ],
     "doc": false
    },
    {
-    "text": "Escribe el **Presupuesto (€)** total del grupo, comprueba el **Menú ofrecido** y añade lo importante en **Notas** (1). Pulsa **Registrar** (2).",
-    "tip": null,
-    "warn": "El importe es el **total** del grupo, no por persona: 32 € × 30 comensales = **960 €**.",
-    "stop": null,
-    "detail": "Si la respuesta llegó por teléfono o WhatsApp, pega el texto en el recuadro y pulsa **Extraer con IA** para que proponga importe y notas.",
-    "labels": [
-     "Importe y menú",
-     "Registrar"
-    ],
-    "img": "img/respuesta-restaurante/02.webp",
-    "w": 940,
-    "h": 442,
-    "marks": [
-     {
-      "x": 8.33,
-      "y": 54.52,
-      "w": 83.33,
-      "h": 23.39
-     },
-     {
-      "x": 8.67,
-      "y": 87.42,
-      "w": 7.67,
-      "h": 6.45
-     }
-    ],
-    "doc": false
-   },
-   {
-    "text": "El restaurante pasa a **Presupuesto recibido** con su importe (1) y la búsqueda a **Presupuestos recibidos** (2).",
+    "text": "El restaurante pasa a **Recibido** con su precio por persona a la agencia y su coste (1), la búsqueda a **Presupuestos recibidos** (2) y a la derecha queda el importe por persona y el total del grupo (3).",
     "tip": null,
     "warn": null,
     "stop": null,
     "detail": null,
-    "labels": [
-     "Recibido",
-     "Estado"
-    ],
-    "img": "img/respuesta-restaurante/03.webp",
-    "w": 1035,
-    "h": 464,
+    "labels": [],
+    "img": "img/respuesta-restaurante/02.webp",
+    "w": 1568,
+    "h": 713,
     "marks": [
      {
-      "x": 3.79,
-      "y": 86.46,
-      "w": 29.55,
-      "h": 4.92
+      "x": 2.3,
+      "y": 57.4,
+      "w": 16.6,
+      "h": 8.0
      },
      {
-      "x": 84.55,
-      "y": 4.62,
-      "w": 14.09,
-      "h": 5.54
+      "x": 38.7,
+      "y": 12.6,
+      "w": 10.8,
+      "h": 4.4
+     },
+     {
+      "x": 65.8,
+      "y": 23.0,
+      "w": 28.8,
+      "h": 5.0
+     }
+    ],
+    "doc": false
+   },
+   {
+    "text": "Si el restaurante te contesta por teléfono, WhatsApp o desde otro correo, pulsa **Pegar respuesta** en su tarjeta. Pega el texto tal cual (1) y pulsa **Leer con IA: precio y menú** (2). La IA rellena el **precio por persona del restaurante**, el **precio a la agencia** con la comisión, el **total del grupo** y el **menú** (3). Corrige lo que haga falta y pulsa **Registrar** (4).",
+    "tip": null,
+    "warn": null,
+    "stop": null,
+    "detail": null,
+    "labels": [],
+    "img": "img/respuesta-restaurante/03.webp",
+    "w": 816,
+    "h": 585,
+    "marks": [
+     {
+      "x": 2.31,
+      "y": 26.1,
+      "w": 95.38,
+      "h": 8.05
+     },
+     {
+      "x": 2.31,
+      "y": 35.12,
+      "w": 15.77,
+      "h": 8.29
+     },
+     {
+      "x": 2.31,
+      "y": 53.17,
+      "w": 37.69,
+      "h": 22.68
+     },
+     {
+      "x": 2.31,
+      "y": 91.71,
+      "w": 8.85,
+      "h": 5.12
      }
     ],
     "doc": false
@@ -798,92 +866,85 @@
   "id": "menu-ia",
   "steps": [
    {
-    "text": "Entra en **Menús**. Los que ha creado la IA llevan encendido **Sin revisar** (1). El **Precio venta** ya lleva el margen de Restagrup sobre el **Precio coste** del restaurante (2).",
+    "text": "Entra en **Menús**. Los que ha creado la IA a partir de las respuestas de los restaurantes llevan encendido **Sin revisar** (1). El **Precio venta** ya lleva el margen de Restagrup sobre el **Precio coste** del restaurante (2).",
     "tip": null,
     "warn": null,
     "stop": null,
     "detail": null,
-    "labels": [
-     "Sin revisar",
-     "Coste y venta"
-    ],
+    "labels": [],
     "img": "img/menu-ia/01.webp",
     "w": 1568,
-    "h": 249,
+    "h": 285,
     "marks": [
      {
-      "x": 42.3,
-      "y": 32.86,
-      "w": 4.2,
-      "h": 25.71
+      "x": 34.6,
+      "y": 63.5,
+      "w": 4.4,
+      "h": 23.5
      },
      {
       "x": 73.0,
-      "y": 32.86,
-      "w": 17.0,
-      "h": 25.71
+      "y": 63.5,
+      "w": 12.0,
+      "h": 23.5
      }
     ],
     "doc": false
    },
    {
-    "text": "Abre el menú. Comprueba nombre, precio, bebidas y, en **Platos**, que estén todos (1). Corrige lo que haga falta y pulsa **Revisado** (2).",
+    "text": "Abre el menú. Comprueba nombre, precios y bebidas (1) y, en la pestaña **Platos**, que estén todos: la IA ya los trae separados por entrante, principal, postre y bebida (2). Corrige lo que haga falta y pulsa **Revisado** (3).",
     "tip": null,
-    "warn": "Mira bien el **precio**: si el restaurante dio un precio sin IVA o por grupo, la IA puede haberlo leído mal.",
+    "warn": null,
     "stop": null,
     "detail": null,
-    "labels": [
-     "Platos",
-     "Revisado"
-    ],
+    "labels": [],
     "img": "img/menu-ia/02.webp",
-    "w": 1160,
-    "h": 677,
+    "w": 1145,
+    "h": 713,
     "marks": [
      {
-      "x": 1.22,
-      "y": 55.26,
-      "w": 96.22,
-      "h": 34.74
+      "x": 1.92,
+      "y": 25.0,
+      "w": 47.12,
+      "h": 26.0
      },
      {
-      "x": 1.08,
-      "y": 8.42,
-      "w": 5.95,
-      "h": 4.21
+      "x": 1.1,
+      "y": 53.8,
+      "w": 98.08,
+      "h": 42.0
+     },
+     {
+      "x": 0.82,
+      "y": 12.6,
+      "w": 6.58,
+      "h": 4.4
      }
     ],
     "doc": false
    },
    {
-    "text": "Se quitan el aviso amarillo y el botón: el menú ya está revisado.",
+    "text": "Se quitan el aviso amarillo y el botón: el menú ya está revisado y se puede proponer a la agencia.",
     "tip": null,
     "warn": null,
     "stop": null,
     "detail": null,
     "labels": [],
     "img": "img/menu-ia/03.webp",
-    "w": 1160,
-    "h": 641,
-    "marks": [
-     {
-      "x": 1.22,
-      "y": 9.44,
-      "w": 96.22,
-      "h": 31.11
-     }
-    ],
+    "w": 1145,
+    "h": 713,
+    "marks": [],
     "doc": false
    }
   ]
  },
  {
-  "title": "Preparar el presupuesto para la agencia",
+  "title": "Enviar la propuesta y el presupuesto a la agencia",
   "cat": "presupuestos",
-  "summary": "Elige el restaurante que ha dado presupuesto y crea el presupuesto de venta: lleva el menú, los comensales y el margen de Restagrup ya calculado.",
-  "when": "Tienes al menos un restaurante con **Presupuesto recibido**.",
+  "summary": "Desde la petición se envía a la agencia una sola propuesta con todos los servicios; cuando se elige un restaurante por servicio, **Crear presupuesto** hace un único presupuesto de venta con todos ellos y el margen ya calculado.",
+  "when": "Tienes al menos un restaurante **Recibido** en cada servicio.",
   "before": [
-   "Algún restaurante de la búsqueda sale como **Presupuesto recibido** con su importe."
+   "Algún restaurante de la búsqueda sale como **Recibido** con su precio."
   ],
   "tags": [
    "presupuesto",
@@ -893,124 +954,316 @@
    "margen",
    "precio"
   ],
-  "result": "Tienes el presupuesto (S000…) listo para revisarlo y enviarlo a la agencia.",
+  "result": "La agencia tiene el presupuesto (PET…) con el PDF y el enlace para firmarlo, y el presupuesto está en **Presupuesto enviado**.",
   "next": [
    "aceptacion-agencia"
   ],
   "id": "presupuesto-agencia",
   "steps": [
    {
-    "text": "En la búsqueda, en el restaurante con **Presupuesto recibido**, pulsa **Elegir** (1).",
+    "text": "Vuelve a la petición. Cuando hay presupuestos recibidos aparece la pestaña **Propuesta** (1) con los restaurantes de cada servicio, su menú, el **precio a la agencia** y el **precio del restaurante** por persona (2). En **Menús** (3) tienes los menús de todos los restaurantes candidatos. Pulsa **Enviar propuesta a la agencia** (4).",
+    "tip": "Si ya sabes qué restaurante va, pulsa **Elegir** en su línea y salta al paso de **Crear presupuesto**.",
+    "warn": null,
+    "stop": null,
+    "detail": null,
+    "labels": [],
+    "img": "img/presupuesto-agencia/01.webp",
+    "w": 1035,
+    "h": 656,
+    "marks": [
+     {
+      "x": 9.7,
+      "y": 53.48,
+      "w": 8.18,
+      "h": 5.0
+     },
+     {
+      "x": 2.42,
+      "y": 66.09,
+      "w": 94.85,
+      "h": 15.22
+     },
+     {
+      "x": 17.58,
+      "y": 53.48,
+      "w": 6.36,
+      "h": 5.0
+     },
+     {
+      "x": 64.55,
+      "y": 13.7,
+      "w": 17.58,
+      "h": 4.78
+     }
+    ],
+    "doc": false
+   },
+   {
+    "text": "Comprueba el correo de la agencia y el asunto, que lleva el localizador de la petición (1). Con **Incluir enlace para elegir** la agencia recibe, además del PDF, un enlace donde elige un restaurante por servicio. Si desmarcas **Mostrar los restaurantes**, la agencia ve «Opción 1», «Opción 2»… con su menú y su precio, sin el nombre (2). Pulsa **Enviar** (3).",
+    "tip": "Antes de enviar sale un resumen para revisar: a quién va y qué opciones lleva cada servicio. La propuesta no lleva totales: el total va en el presupuesto.",
+    "warn": null,
+    "stop": null,
+    "detail": null,
+    "labels": [],
+    "img": "img/presupuesto-agencia/02.webp",
+    "w": 816,
+    "h": 464,
+    "marks": [
+     {
+      "x": 2.31,
+      "y": 15.69,
+      "w": 95.38,
+      "h": 12.0
+     },
+     {
+      "x": 2.31,
+      "y": 29.23,
+      "w": 20.0,
+      "h": 16.92
+     },
+     {
+      "x": 2.31,
+      "y": 87.38,
+      "w": 6.92,
+      "h": 6.77
+     }
+    ],
+    "doc": false
+   },
+   {
+    "text": "Sale el resumen de lo que se va a enviar: a quién, cada servicio con sus opciones y precio por persona (1). Si está bien, pulsa **Revisado: enviar** (2). Si no, **Volver a revisar**.",
     "tip": null,
     "warn": null,
     "stop": null,
     "detail": null,
-    "labels": [
-     "Elegir"
+    "labels": [],
+    "img": "img/presupuesto-agencia/03.webp",
+    "w": 816,
+    "h": 343,
+    "marks": [
+     {
+      "x": 2.31,
+      "y": 34.58,
+      "w": 95.38,
+      "h": 40.83
+     },
+     {
+      "x": 15.19,
+      "y": 85.0,
+      "w": 13.46,
+      "h": 9.17
+     }
     ],
-    "img": "img/presupuesto-agencia/01.webp",
-    "w": 1035,
+    "doc": false
+   },
+   {
+    "text": "A la derecha queda el correo enviado con el **enlace para elegir** y el **PDF** de la propuesta (1). La petición pasa a **Presupuesto** (2).",
+    "tip": null,
+    "warn": null,
+    "stop": null,
+    "detail": null,
+    "labels": [],
+    "img": "img/presupuesto-agencia/04.webp",
+    "w": 1568,
+    "h": 713,
+    "marks": [
+     {
+      "x": 67.8,
+      "y": 38.4,
+      "w": 26.8,
+      "h": 50.4
+     },
+     {
+      "x": 59.5,
+      "y": 12.6,
+      "w": 5.6,
+      "h": 4.4
+     }
+    ],
+    "doc": false
+   },
+   {
+    "text": "Esto es lo que ve la agencia al abrir el enlace: cada servicio (1) con sus opciones, el menú completo y el precio por persona (2). Pulsa **Elijo este** (3) en el restaurante que prefiere.",
+    "tip": "Si la agencia te contesta por correo o por teléfono, elige tú: botón **Elegir** en la pestaña **Propuesta** de la petición.",
+    "warn": null,
+    "stop": null,
+    "detail": null,
+    "labels": [],
+    "img": "img/presupuesto-agencia/05.webp",
+    "w": 784,
+    "h": 713,
+    "marks": [
+     {
+      "x": 10.0,
+      "y": 13.0,
+      "w": 80.0,
+      "h": 4.2
+     },
+     {
+      "x": 10.0,
+      "y": 17.8,
+      "w": 80.0,
+      "h": 50.0
+     },
+     {
+      "x": 77.2,
+      "y": 61.4,
+      "w": 11.2,
+      "h": 4.8
+     }
+    ],
+    "doc": false
+   },
+   {
+    "text": "La agencia ve que ha quedado elegido (1) y en la petición se marca ese restaurante.",
+    "tip": null,
+    "warn": null,
+    "stop": null,
+    "detail": null,
+    "labels": [],
+    "img": "img/presupuesto-agencia/06.webp",
+    "w": 784,
     "h": 499,
     "marks": [
      {
-      "x": 24.77,
-      "y": 78.84,
-      "w": 4.45,
-      "h": 4.99
+      "x": 10.0,
+      "y": 25.14,
+      "w": 80.0,
+      "h": 9.14
      }
     ],
     "doc": false
    },
    {
-    "text": "El restaurante queda con una **estrella** y la búsqueda en **Elegido**. Pulsa **Crear presupuesto de venta** (1).",
-    "tip": "Si te equivocas, **Quitar elegido** o **Cancelar / cambiar restaurante**.",
-    "warn": null,
-    "stop": null,
-    "detail": null,
-    "labels": [
-     "Crear presupuesto",
-     "Elegido"
-    ],
-    "img": "img/presupuesto-agencia/02.webp",
-    "w": 1035,
-    "h": 534,
-    "marks": [
-     {
-      "x": 69.85,
-      "y": 10.67,
-      "w": 16.36,
-      "h": 5.07
-     },
-     {
-      "x": 3.79,
-      "y": 46.0,
-      "w": 17.42,
-      "h": 4.27
-     }
-    ],
-    "doc": false
-   },
-   {
-    "text": "Se abre el presupuesto con la agencia como **Cliente** (1) y una línea por servicio: restaurante, fecha, hora, comensales, **precio por persona con margen** y el menú (2). Revísalo y pulsa **Enviar** para mandárselo a la agencia (3).",
+    "text": "En la petición queda anotado qué ha elegido la agencia (1) y ese restaurante sale marcado en **Propuesta** (2). Con un restaurante elegido en cada servicio aparece **Crear presupuesto** (3): púlsalo.",
     "tip": null,
     "warn": null,
     "stop": null,
-    "detail": "**Coste restaurante** es lo que nos cobra el restaurante y **Margen** lo que gana Restagrup. La agencia no los ve salvo que actives **Mostrar margen al cliente**.",
-    "labels": [
-     "Agencia",
-     "Servicio y menú",
-     "Enviar"
-    ],
-    "img": "img/presupuesto-agencia/03.webp",
-    "w": 1035,
-    "h": 677,
+    "detail": null,
+    "labels": [],
+    "img": "img/presupuesto-agencia/07.webp",
+    "w": 1568,
+    "h": 713,
     "marks": [
      {
-      "x": 2.27,
-      "y": 22.53,
-      "w": 31.82,
-      "h": 3.58
+      "x": 65.8,
+      "y": 23.0,
+      "w": 32.0,
+      "h": 7.4
      },
      {
-      "x": 1.36,
-      "y": 71.37,
-      "w": 96.97,
-      "h": 28.42
+      "x": 1.6,
+      "y": 64.8,
+      "w": 62.6,
+      "h": 5.0
      },
      {
-      "x": 1.21,
-      "y": 8.63,
-      "w": 5.15,
-      "h": 4.21
+      "x": 45.6,
+      "y": 12.6,
+      "w": 8.0,
+      "h": 4.4
      }
     ],
     "doc": false
    },
    {
-    "text": "En la ventana del correo comprueba el destinatario y pulsa **Enviar**. El presupuesto pasa a **Presupuesto enviado** (1) y a la derecha queda el correo con el PDF adjunto (2).",
-    "tip": "La agencia recibe un enlace para ver el presupuesto y **aceptarlo y firmarlo** en línea.",
+    "text": "Se abre el presupuesto (PET…) ya rellenado con el restaurante, el menú y el precio por persona con el margen (1). Vence el día del servicio (2). Arriba te dice el siguiente paso (3): revisa el PDF con **Imprimir** y pulsa **Enviar presupuesto a la agencia** (4).",
+    "tip": null,
     "warn": null,
     "stop": null,
     "detail": null,
-    "labels": [
-     "Enviado",
-     "Correo y PDF"
-    ],
-    "img": "img/presupuesto-agencia/04.webp",
+    "labels": [],
+    "img": "img/presupuesto-agencia/08.webp",
     "w": 1568,
-    "h": 455,
+    "h": 713,
     "marks": [
      {
-      "x": 48.6,
-      "y": 12.5,
-      "w": 9.6,
-      "h": 6.33
+      "x": 2.6,
+      "y": 75.6,
+      "w": 62.4,
+      "h": 3.4
      },
      {
-      "x": 65.6,
-      "y": 28.83,
-      "w": 29.5,
-      "h": 60.0
+      "x": 33.6,
+      "y": 30.8,
+      "w": 11.4,
+      "h": 3.4
+     },
+     {
+      "x": 1.7,
+      "y": 19.6,
+      "w": 62.4,
+      "h": 4.2
+     },
+     {
+      "x": 0.8,
+      "y": 13.0,
+      "w": 12.2,
+      "h": 3.8
+     }
+    ],
+    "doc": false
+   },
+   {
+    "text": "Se abre el correo para el contacto de la agencia (1) con el importe total y el PDF del presupuesto adjunto (2). Pulsa **Enviar** (3).",
+    "tip": null,
+    "warn": null,
+    "stop": null,
+    "detail": null,
+    "labels": [],
+    "img": "img/presupuesto-agencia/09.webp",
+    "w": 846,
+    "h": 499,
+    "marks": [
+     {
+      "x": 10.74,
+      "y": 15.71,
+      "w": 11.11,
+      "h": 4.57
+     },
+     {
+      "x": 4.81,
+      "y": 77.14,
+      "w": 32.22,
+      "h": 7.71
+     },
+     {
+      "x": 4.07,
+      "y": 87.71,
+      "w": 6.67,
+      "h": 5.71
+     }
+    ],
+    "doc": false
+   },
+   {
+    "text": "Enviado: pasa a **Presupuesto enviado** (1) y el correo con el PDF queda en el historial (2). Ahora solo falta que la agencia lo firme desde el enlace del correo (3).",
+    "tip": "Mientras no lo firme, lo tienes en el menú **Presupuestos**. Si te pide un cambio, edita las líneas y vuelve a enviarlo.",
+    "warn": null,
+    "stop": null,
+    "detail": null,
+    "labels": [],
+    "img": "img/presupuesto-agencia/10.webp",
+    "w": 1568,
+    "h": 713,
+    "marks": [
+     {
+      "x": 48.4,
+      "y": 13.0,
+      "w": 9.4,
+      "h": 3.8
+     },
+     {
+      "x": 67.8,
+      "y": 25.6,
+      "w": 27.0,
+      "h": 36.6
+     },
+     {
+      "x": 1.7,
+      "y": 19.6,
+      "w": 62.4,
+      "h": 4.2
      }
     ],
     "doc": false
@@ -1040,37 +1293,39 @@
   "id": "aceptacion-agencia",
   "steps": [
    {
-    "text": "Cuando la agencia firma, a la derecha sale **Pedido firmado por…** con el PDF firmado (1). El presupuesto pasa a **Pedido de venta** (2) y arriba aparecen las **Hojas de servicio** creadas y cuántos restaurantes han confirmado (3).",
+    "text": "Cuando la agencia firma desde el enlace, a la derecha sale **Order signed by…** con el PDF firmado (1) y a la agencia le llega la confirmación del pedido. El presupuesto pasa a **Pedido de venta** (2), arriba aparecen las **Hojas de servicio** creadas y cuántos restaurantes han confirmado (3), y el aviso te dice el siguiente paso: **Enviar hojas de servicio** (4).",
     "tip": "Si la agencia acepta por correo o por teléfono, pulsa tú **Confirmar** en el presupuesto: hace lo mismo.",
     "warn": null,
     "stop": null,
     "detail": null,
-    "labels": [
-     "Firmado",
-     "Pedido de venta",
-     "Hojas de servicio"
-    ],
+    "labels": [],
     "img": "img/aceptacion-agencia/01.webp",
     "w": 1568,
-    "h": 641,
+    "h": 713,
     "marks": [
      {
-      "x": 65.6,
-      "y": 21.67,
-      "w": 20.5,
-      "h": 35.0
+      "x": 65.8,
+      "y": 23.6,
+      "w": 27.6,
+      "h": 23.4
      },
      {
-      "x": 58.3,
-      "y": 9.78,
+      "x": 58.2,
+      "y": 13.0,
       "w": 6.6,
-      "h": 4.44
+      "h": 3.8
      },
      {
-      "x": 41.2,
-      "y": 2.11,
-      "w": 17.7,
-      "h": 4.89
+      "x": 41.0,
+      "y": 6.0,
+      "w": 18.0,
+      "h": 4.0
+     },
+     {
+      "x": 1.7,
+      "y": 23.8,
+      "w": 62.4,
+      "h": 4.2
      }
     ],
     "doc": false
@@ -1100,52 +1355,79 @@
   "id": "expediente",
   "steps": [
    {
-    "text": "Entra en **Expedientes**. Cada grupo aceptado sale con su restaurante, comensales y responsable. **Pendiente para cerrar** (1) dice lo que falta: pago de la agencia, transferencia al restaurante, facturas…",
+    "text": "Entra en **Expedientes**. Cada grupo aceptado sale con su agencia, primer servicio, restaurante, comensales y responsable. **Pendiente para cerrar** (1) dice lo que falta: pago de la agencia, transferencia al restaurante, facturas…",
     "tip": null,
     "warn": null,
     "stop": null,
     "detail": null,
-    "labels": [
-     "Lo que falta"
-    ],
+    "labels": [],
     "img": "img/expediente/01.webp",
     "w": 1568,
-    "h": 214,
+    "h": 107,
     "marks": [
      {
-      "x": 65.5,
-      "y": 36.67,
-      "w": 28.2,
-      "h": 18.33
+      "x": 67.8,
+      "y": 50.67,
+      "w": 25.4,
+      "h": 40.0
      }
     ],
     "doc": false
    },
    {
-    "text": "En el pedido de venta del grupo, **Hojas de servicio** (1) abre las hojas de cada restaurante. **Enviar hojas de servicio** (2) manda a cada restaurante la suya para que confirme.",
-    "tip": "**Confirmación agencia** genera el PDF de confirmación de reserva para la agencia.",
+    "text": "Ábrelo. El documento pasa a **EXP…** y la etapa a **Expediente** (1). En el historial queda todo lo que ha pasado: quién eligió, cuándo se creó el presupuesto y quién lo firmó (2). **Pedidos** (3) abre el pedido de venta del grupo.",
+    "tip": null,
     "warn": null,
     "stop": null,
     "detail": null,
-    "labels": [
-     "Hojas",
-     "Enviar a restaurantes"
-    ],
+    "labels": [],
     "img": "img/expediente/02.webp",
-    "w": 1035,
-    "h": 285,
+    "w": 1568,
+    "h": 713,
     "marks": [
      {
-      "x": 62.42,
-      "y": 4.75,
-      "w": 13.94,
-      "h": 11.0
+      "x": 1.6,
+      "y": 19.8,
+      "w": 11.0,
+      "h": 2.6
      },
      {
-      "x": 30.3,
-      "y": 23.5,
-      "w": 14.09,
-      "h": 9.5
+      "x": 65.8,
+      "y": 23.4,
+      "w": 32.0,
+      "h": 52.0
+     },
+     {
+      "x": 50.4,
+      "y": 6.2,
+      "w": 5.4,
+      "h": 4.0
+     }
+    ],
+    "doc": false
+   },
+   {
+    "text": "En el pedido de venta del grupo, **Hojas de servicio** (1) abre la hoja de cada restaurante y **Restaurantes confirmados** dice cuántos han dicho que sí. **Enviar hojas de servicio** (2) manda a cada restaurante la suya para que confirme.",
+    "tip": "**Confirmación agencia** genera el PDF de confirmación de reserva para la agencia.",
+    "warn": "Sale en el momento, sin pedir confirmación: revisa antes las hojas.",
+    "stop": null,
+    "detail": null,
+    "labels": [],
+    "img": "img/expediente/03.webp",
+    "w": 1568,
+    "h": 713,
+    "marks": [
+     {
+      "x": 41.2,
+      "y": 6.0,
+      "w": 17.6,
+      "h": 4.0
+     },
+     {
+      "x": 20.0,
+      "y": 13.0,
+      "w": 9.0,
+      "h": 3.8
      }
     ],
     "doc": false
@@ -1153,55 +1435,31 @@
    {
     "text": "La hoja de servicio lleva solo lo que nos cobra el restaurante: servicio, menú, comensales y precio de coste (1), nunca el precio de la agencia. Aquí se marca **Transferencia hecha**, **Tenemos su cuenta** y **Factura recibida y revisada** (2). **Confirmación restaurante** saca la proforma (3).",
     "tip": null,
-    "warn": "Revisa la **Llegada prevista**: puede salir una hora más tarde que la hora del servicio.",
-    "stop": null,
-    "detail": null,
-    "labels": [
-     "Servicio y coste",
-     "Control",
-     "Proforma"
-    ],
-    "img": "img/expediente/03.webp",
-    "w": 1035,
-    "h": 684,
-    "marks": [
-     {
-      "x": 1.36,
-      "y": 67.19,
-      "w": 96.97,
-      "h": 32.29
-     },
-     {
-      "x": 2.27,
-      "y": 36.98,
-      "w": 15.91,
-      "h": 13.02
-     },
-     {
-      "x": 33.03,
-      "y": 9.79,
-      "w": 15.61,
-      "h": 3.96
-     }
-    ],
-    "doc": false
-   },
-   {
-    "text": "Para pedir la confirmación a los restaurantes pulsa **Enviar hojas de servicio** (1). A cada restaurante le llega su hoja y en la búsqueda queda **Hoja de servicio enviada a…**.",
-    "tip": null,
-    "warn": "Sale en el momento, sin pedir confirmación: revisa antes las hojas.",
+    "warn": null,
     "stop": null,
     "detail": null,
     "labels": [],
     "img": "img/expediente/04.webp",
-    "w": 1035,
-    "h": 285,
+    "w": 1568,
+    "h": 713,
     "marks": [
      {
-      "x": 30.3,
-      "y": 21.0,
-      "w": 14.09,
-      "h": 9.5
+      "x": 1.6,
+      "y": 69.6,
+      "w": 62.6,
+      "h": 30.0
+     },
+     {
+      "x": 1.6,
+      "y": 39.4,
+      "w": 10.8,
+      "h": 12.2
+     },
+     {
+      "x": 22.0,
+      "y": 13.6,
+      "w": 9.4,
+      "h": 3.8
      }
     ],
     "doc": false
@@ -1243,10 +1501,10 @@
     "h": 214,
     "marks": [
      {
-      "x": -0.21,
-      "y": 36.7,
-      "w": 100.42,
-      "h": 18.33
+      "x": 0.0,
+      "y": 37.52,
+      "w": 100.0,
+      "h": 15.27
      }
     ],
     "doc": false
@@ -1266,16 +1524,16 @@
     "h": 463,
     "marks": [
      {
-      "x": 2.27,
-      "y": 63.85,
-      "w": 96.21,
-      "h": 28.46
+      "x": 2.6,
+      "y": 58.95,
+      "w": 94.61,
+      "h": 33.86
      },
      {
-      "x": 1.21,
-      "y": 12.31,
-      "w": 10.45,
-      "h": 5.85
+      "x": 1.26,
+      "y": 11.77,
+      "w": 10.32,
+      "h": 5.82
      }
     ],
     "doc": false
@@ -1303,59 +1561,65 @@
   "id": "pendientes-aprobar",
   "steps": [
    {
-    "text": "Entra en **Pendientes de aprobar**. Cada línea es un correo listo para salir: a quién va, de qué grupo o restaurante y **por qué** se ha preparado (1).",
+    "text": "Entra en **Pendientes de aprobar**. Cada línea es un correo listo para salir: a quién va, de qué grupo, agencia o restaurante (1) y **por qué** se ha preparado (2). Por ejemplo, al firmar la agencia, si le faltan el CIF o la razón social, se prepara solo el correo pidiéndoselos.",
     "tip": "La burbuja del sobre, abajo a la izquierda, dice cuántos tienes pendientes.",
     "warn": null,
     "stop": null,
     "detail": null,
-    "labels": [
-     "Motivo"
-    ],
+    "labels": [],
     "img": "img/pendientes-aprobar/01.webp",
     "w": 1568,
-    "h": 214,
+    "h": 713,
     "marks": [
      {
-      "x": 52.8,
-      "y": 36.67,
-      "w": 15.2,
-      "h": 33.33
+      "x": 11.2,
+      "y": 12.6,
+      "w": 50.2,
+      "h": 13.4
+     },
+     {
+      "x": 50.2,
+      "y": 12.6,
+      "w": 12.4,
+      "h": 13.4
      }
     ],
     "doc": false
    },
    {
-    "text": "Ábrelo. El **asunto** y el **texto** se pueden cambiar antes de aprobar (1). Después pulsa **Aprobar y enviar** (2) o **Descartar** (3) si ya no hace falta.",
-    "tip": null,
+    "text": "Ábrelo. Arriba ves el tipo, el grupo y el motivo (1). El **asunto** y el **texto** se pueden cambiar antes de aprobar (2). Después pulsa **Aprobar y enviar** (3) o **Descartar** (4) si ya no hace falta.",
+    "tip": "La respuesta de la agencia llega al historial del grupo. Copia el **CIF** y la **Razón social** en la ficha de la agencia (Clientes). Se pide una sola vez por agencia.",
     "warn": null,
     "stop": null,
-    "detail": "Si al aprobarlo ya no aplica (por ejemplo, la agencia pagó entretanto), el sistema lo descarta solo y no lo manda.",
-    "labels": [
-     "Editable",
-     "Aprobar",
-     "Descartar"
-    ],
+    "detail": null,
+    "labels": [],
     "img": "img/pendientes-aprobar/02.webp",
-    "w": 1035,
-    "h": 463,
+    "w": 1568,
+    "h": 713,
     "marks": [
      {
-      "x": 2.27,
-      "y": 50.0,
-      "w": 96.21,
-      "h": 42.31
+      "x": 1.6,
+      "y": 19.6,
+      "w": 62.6,
+      "h": 10.4
      },
      {
-      "x": 1.21,
-      "y": 12.31,
-      "w": 10.45,
-      "h": 5.85
+      "x": 1.6,
+      "y": 38.8,
+      "w": 62.6,
+      "h": 50.4
      },
      {
-      "x": 11.82,
-      "y": 12.31,
-      "w": 6.97,
-      "h": 5.85
+      "x": 0.8,
+      "y": 13.0,
+      "w": 6.9,
+      "h": 3.8
+     },
+     {
+      "x": 7.8,
+      "y": 13.0,
+      "w": 4.7,
+      "h": 3.8
      }
     ],
     "doc": false
@@ -1402,28 +1666,28 @@
     "h": 641,
     "marks": [
      {
-      "x": 0.8,
-      "y": 19.56,
+      "x": 0.83,
+      "y": 18.44,
       "w": 64.2,
-      "h": 4.89
+      "h": 4.71
      },
      {
-      "x": 65.6,
-      "y": 21.11,
-      "w": 30.6,
-      "h": 36.67
+      "x": 65.45,
+      "y": 19.97,
+      "w": 33.72,
+      "h": 51.34
      },
      {
-      "x": 7.6,
-      "y": 14.11,
-      "w": 6.5,
-      "h": 4.0
+      "x": 7.64,
+      "y": 13.22,
+      "w": 6.51,
+      "h": 4.2
      },
      {
-      "x": 14.4,
-      "y": 14.11,
-      "w": 8.5,
-      "h": 4.0
+      "x": 14.35,
+      "y": 13.22,
+      "w": 8.53,
+      "h": 4.2
      }
     ],
     "doc": false
@@ -1443,16 +1707,16 @@
     "h": 499,
     "marks": [
      {
-      "x": 50.76,
-      "y": 59.29,
-      "w": 23.48,
-      "h": 10.71
+      "x": 50.86,
+      "y": 57.57,
+      "w": 46.67,
+      "h": 10.64
      },
      {
-      "x": 1.21,
-      "y": 18.14,
-      "w": 14.55,
-      "h": 5.43
+      "x": 1.26,
+      "y": 16.98,
+      "w": 13.83,
+      "h": 5.4
      }
     ],
     "doc": false
@@ -1491,10 +1755,10 @@
     "h": 285,
     "marks": [
      {
-      "x": 1.21,
-      "y": 31.75,
-      "w": 14.55,
-      "h": 9.5
+      "x": 1.26,
+      "y": 29.73,
+      "w": 13.83,
+      "h": 9.46
      }
     ],
     "doc": false
@@ -1514,16 +1778,16 @@
     "h": 499,
     "marks": [
      {
-      "x": 9.67,
-      "y": 79.0,
-      "w": 28.33,
-      "h": 6.57
+      "x": 9.73,
+      "y": 78.95,
+      "w": 28.24,
+      "h": 6.71
      },
      {
-      "x": 8.83,
-      "y": 89.29,
-      "w": 5.67,
-      "h": 5.43
+      "x": 8.91,
+      "y": 89.71,
+      "w": 5.44,
+      "h": 5.4
      }
     ],
     "doc": false
@@ -1568,22 +1832,22 @@
     "h": 484,
     "marks": [
      {
-      "x": 2.27,
-      "y": 20.59,
-      "w": 45.45,
-      "h": 22.06
+      "x": 2.29,
+      "y": 20.36,
+      "w": 46.67,
+      "h": 22.09
      },
      {
-      "x": 2.27,
-      "y": 53.68,
-      "w": 96.21,
-      "h": 36.76
+      "x": 2.29,
+      "y": 54.68,
+      "w": 95.24,
+      "h": 36.42
      },
      {
-      "x": 1.21,
-      "y": 11.76,
-      "w": 10.45,
-      "h": 5.59
+      "x": 1.26,
+      "y": 11.26,
+      "w": 10.32,
+      "h": 5.56
      }
     ],
     "doc": false
@@ -1603,16 +1867,16 @@
     "h": 570,
     "marks": [
      {
-      "x": 65.6,
-      "y": 23.12,
-      "w": 29.2,
-      "h": 61.25
+      "x": 65.45,
+      "y": 22.46,
+      "w": 33.72,
+      "h": 62.32
      },
      {
-      "x": 1.5,
-      "y": 52.25,
-      "w": 14.0,
-      "h": 7.25
+      "x": 1.51,
+      "y": 51.68,
+      "w": 30.8,
+      "h": 7.16
      }
     ],
     "doc": false
@@ -1633,22 +1897,22 @@
     "h": 606,
     "marks": [
      {
-      "x": 65.6,
-      "y": 21.76,
-      "w": 29.2,
-      "h": 37.65
+      "x": 65.45,
+      "y": 56.97,
+      "w": 33.72,
+      "h": 41.11
      },
      {
-      "x": 1.5,
-      "y": 57.41,
-      "w": 11.5,
-      "h": 4.94
+      "x": 1.51,
+      "y": 57.24,
+      "w": 10.16,
+      "h": 4.18
      },
      {
-      "x": 1.5,
-      "y": 16.47,
-      "w": 36.0,
-      "h": 12.35
+      "x": 1.51,
+      "y": 16.27,
+      "w": 62.85,
+      "h": 13.48
      }
     ],
     "doc": false
@@ -1688,10 +1952,10 @@
     "h": 499,
     "marks": [
      {
-      "x": 48.48,
-      "y": 11.86,
-      "w": 12.42,
-      "h": 5.43
+      "x": 48.45,
+      "y": 10.92,
+      "w": 12.3,
+      "h": 5.4
      }
     ],
     "doc": false
@@ -1711,16 +1975,16 @@
     "h": 534,
     "marks": [
      {
-      "x": 2.27,
-      "y": 60.0,
-      "w": 21.21,
-      "h": 11.33
+      "x": 2.29,
+      "y": 59.44,
+      "w": 46.67,
+      "h": 13.15
      },
      {
-      "x": 63.33,
-      "y": 11.07,
-      "w": 11.06,
-      "h": 5.07
+      "x": 63.35,
+      "y": 10.21,
+      "w": 11.01,
+      "h": 5.05
      }
     ],
     "doc": false
@@ -1767,28 +2031,28 @@
     "h": 499,
     "marks": [
      {
-      "x": 9.67,
-      "y": 79.0,
-      "w": 28.33,
-      "h": 6.57
+      "x": 9.73,
+      "y": 78.95,
+      "w": 28.24,
+      "h": 6.71
      },
      {
-      "x": 9.33,
-      "y": 46.43,
-      "w": 33.33,
-      "h": 7.86
+      "x": 9.47,
+      "y": 42.78,
+      "w": 24.78,
+      "h": 7.2
      },
      {
-      "x": 23.33,
-      "y": 90.0,
-      "w": 3.33,
-      "h": 5.14
+      "x": 22.64,
+      "y": 89.75,
+      "w": 3.48,
+      "h": 5.4
      },
      {
-      "x": 8.83,
-      "y": 89.29,
-      "w": 5.67,
-      "h": 5.43
+      "x": 8.91,
+      "y": 89.71,
+      "w": 5.44,
+      "h": 5.4
      }
     ],
     "doc": false
@@ -1833,22 +2097,22 @@
     "h": 627,
     "marks": [
      {
-      "x": 2.27,
-      "y": 29.55,
-      "w": 45.45,
-      "h": 5.23
+      "x": 2.29,
+      "y": 29.0,
+      "w": 46.67,
+      "h": 3.78
      },
      {
-      "x": 2.27,
-      "y": 46.59,
-      "w": 96.21,
-      "h": 47.73
+      "x": 2.6,
+      "y": 47.56,
+      "w": 94.61,
+      "h": 46.88
      },
      {
-      "x": 1.21,
-      "y": 9.09,
-      "w": 10.45,
-      "h": 4.32
+      "x": 1.26,
+      "y": 8.69,
+      "w": 10.32,
+      "h": 4.3
      }
     ],
     "doc": false
@@ -1893,28 +2157,28 @@
     "h": 499,
     "marks": [
      {
-      "x": 0.63,
-      "y": 23.41,
-      "w": 64.62,
-      "h": 10.8
+      "x": 0.83,
+      "y": 23.69,
+      "w": 64.2,
+      "h": 9.49
      },
      {
-      "x": 65.6,
-      "y": 27.14,
-      "w": 29.2,
-      "h": 35.71
+      "x": 65.45,
+      "y": 25.65,
+      "w": 33.72,
+      "h": 55.65
      },
      {
-      "x": 41.59,
-      "y": 10.66,
-      "w": 7.25,
-      "h": 6.71
+      "x": 41.8,
+      "y": 10.92,
+      "w": 6.83,
+      "h": 5.4
      },
      {
-      "x": 48.63,
-      "y": 10.66,
-      "w": 7.59,
-      "h": 6.71
+      "x": 48.84,
+      "y": 10.92,
+      "w": 7.18,
+      "h": 5.4
      }
     ],
     "doc": false
@@ -1931,10 +2195,10 @@
     "h": 534,
     "marks": [
      {
-      "x": 2.27,
-      "y": 50.0,
-      "w": 30.3,
-      "h": 39.33
+      "x": 2.29,
+      "y": 49.81,
+      "w": 46.67,
+      "h": 40.06
      }
     ],
     "doc": false
@@ -1974,10 +2238,10 @@
     "h": 356,
     "marks": [
      {
-      "x": 40.0,
-      "y": 16.0,
-      "w": 11.52,
-      "h": 7.6
+      "x": 47.9,
+      "y": 15.37,
+      "w": 11.12,
+      "h": 7.57
      }
     ],
     "doc": false
@@ -1994,10 +2258,10 @@
     "h": 321,
     "marks": [
      {
-      "x": 12.88,
-      "y": 26.22,
-      "w": 74.25,
-      "h": 58.89
+      "x": 12.89,
+      "y": 25.51,
+      "w": 74.22,
+      "h": 64.5
      }
     ],
     "doc": false
@@ -2017,16 +2281,16 @@
     "h": 356,
     "marks": [
      {
-      "x": 87.27,
-      "y": 15.6,
-      "w": 8.18,
-      "h": 8.4
+      "x": 84.59,
+      "y": 15.31,
+      "w": 10.92,
+      "h": 7.68
      },
      {
-      "x": 86.36,
-      "y": 24.4,
-      "w": 12.42,
-      "h": 34.0
+      "x": 86.48,
+      "y": 23.91,
+      "w": 12.39,
+      "h": 38.76
      }
     ],
     "doc": false
@@ -2036,7 +2300,7 @@
  {
   "title": "Ver los menús de un restaurante",
   "cat": "fichas",
-  "summary": "Cada restaurante guarda en su ficha sus menús con coste, precio de venta y capacidad. Los que vienen de la IA y no se han revisado salen en naranja.",
+  "summary": "En **Menús** están los menús de cada restaurante con coste, precio de venta y capacidad. Si un menú solo tiene la descripción, **Completar platos con IA** lo separa en entrante, principal, postre y bebida.",
   "when": "Quieres saber qué menús y precios tiene un restaurante.",
   "before": [],
   "tags": [
@@ -2046,37 +2310,92 @@
    "precio",
    "carta"
   ],
-  "result": "Ves los menús del restaurante y entras en cualquiera para revisarlo.",
+  "result": "Ves los menús del restaurante y los tienes con sus platos completos.",
   "next": [
    "menu-ia"
   ],
   "id": "menus-restaurante",
   "steps": [
    {
-    "text": "Abre la ficha del restaurante (desde **Restaurantes**) y entra en la pestaña **Menús** (1). Salen sus menús con **coste**, **precio de venta** y capacidad. En **naranja**, los creados por la IA que aún no se han revisado (2).",
-    "tip": "En la pestaña **Restaurante** están su aforo, parking de autobús, tipo de cocina y responsable de grupos.",
+    "text": "En **Menús** salen todos los menús de los restaurantes con **precio coste**, **precio venta** y capacidad (1). **Sin revisar** marca los que ha creado la IA y nadie ha mirado aún (2). **Platos sin completar** marca los que solo tienen el menú escrito de corrido en la descripción, sin separar en platos (3).",
+    "tip": "En la ficha de cada restaurante, pestaña **Menús**, ves solo los suyos.",
     "warn": null,
     "stop": null,
     "detail": null,
-    "labels": [
-     "Menús",
-     "Sin revisar"
-    ],
+    "labels": [],
     "img": "img/menus-restaurante/01.webp",
-    "w": 1035,
-    "h": 570,
+    "w": 1568,
+    "h": 285,
     "marks": [
      {
-      "x": 1.06,
-      "y": 62.13,
-      "w": 97.73,
-      "h": 16.88
+      "x": 73.0,
+      "y": 40.0,
+      "w": 25.4,
+      "h": 47.0
      },
      {
-      "x": 1.06,
-      "y": 72.5,
-      "w": 97.73,
-      "h": 6.0
+      "x": 34.6,
+      "y": 63.5,
+      "w": 4.4,
+      "h": 23.5
+     },
+     {
+      "x": 44.0,
+      "y": 40.0,
+      "w": 3.6,
+      "h": 23.5
+     }
+    ],
+    "doc": false
+   },
+   {
+    "text": "Abre un menú con platos sin completar. El aviso azul lo explica (1) y el menú está escrito en la **Descripción** (2). Pulsa **Completar platos con IA** (3).",
+    "tip": "Desde la lista de **Menús** puedes marcar varios y pulsar **Completar platos con IA** arriba para hacerlos todos a la vez.",
+    "warn": null,
+    "stop": null,
+    "detail": null,
+    "labels": [],
+    "img": "img/menus-restaurante/02.webp",
+    "w": 1145,
+    "h": 513,
+    "marks": [
+     {
+      "x": 2.19,
+      "y": 27.22,
+      "w": 95.62,
+      "h": 6.11
+     },
+     {
+      "x": 1.92,
+      "y": 80.0,
+      "w": 61.64,
+      "h": 6.39
+     },
+     {
+      "x": 0.96,
+      "y": 17.5,
+      "w": 14.79,
+      "h": 6.11
+     }
+    ],
+    "doc": false
+   },
+   {
+    "text": "La IA separa el menú en platos (entrante, principal, postre y bebida) en la pestaña **Platos** (1). La descripción se queda como estaba. Repasa los platos y corrige lo que haga falta.",
+    "tip": null,
+    "warn": null,
+    "stop": null,
+    "detail": null,
+    "labels": [],
+    "img": "img/menus-restaurante/03.webp",
+    "w": 1145,
+    "h": 656,
+    "marks": [
+     {
+      "x": 1.1,
+      "y": 45.65,
+      "w": 97.81,
+      "h": 44.57
      }
     ],
     "doc": false
@@ -2121,28 +2440,28 @@
     "h": 656,
     "marks": [
      {
-      "x": 1.5,
-      "y": 8.15,
-      "w": 20.0,
-      "h": 89.13
+      "x": 2.09,
+      "y": 7.22,
+      "w": 21.75,
+      "h": 89.7
      },
      {
-      "x": 23.5,
-      "y": 8.15,
-      "w": 33.0,
-      "h": 89.13
+      "x": 23.84,
+      "y": 7.22,
+      "w": 56.55,
+      "h": 89.7
      },
      {
-      "x": 80.0,
-      "y": 8.15,
-      "w": 10.0,
-      "h": 89.13
+      "x": 80.38,
+      "y": 7.22,
+      "w": 12.68,
+      "h": 89.7
      },
      {
-      "x": 92.5,
-      "y": 8.15,
-      "w": 3.5,
-      "h": 89.13
+      "x": 93.06,
+      "y": 7.22,
+      "w": 5.27,
+      "h": 89.7
      }
     ],
     "doc": false
@@ -2152,7 +2471,7 @@
  {
   "title": "Baremos de precio estimado",
   "cat": "config",
-  "summary": "Cuando una petición entra sin precio, el sistema pone un precio por persona estimado según el tipo de evento, el público y el día. Esos precios son los baremos.",
+  "summary": "Cada servicio lleva un precio por persona estimado: el que dijo la agencia o, si no dijo nada, el del baremo según tipo de servicio, público y día. Con ese precio el buscador ordena los restaurantes y avisa de los que se salen.",
   "when": "Quieres cambiar el precio orientativo que se pone a las peticiones.",
   "before": [
    "Permiso de administración de Restagrup."
@@ -2163,18 +2482,18 @@
    "precio por persona",
    "orientativo"
   ],
-  "result": "Las peticiones nuevas salen con el precio estimado que has puesto.",
+  "result": "Las peticiones nuevas salen con el precio estimado que has puesto y el buscador ordena por cercanía a ese precio.",
   "next": [
    "peticion-correo"
   ],
   "id": "baremos",
   "steps": [
    {
-    "text": "Ve a **+ → Baremos de precio estimado**. Cada baremo da un **precio por persona** (1) según **tipo de evento**, **público** y **día** (2). Si una petición no trae precio, se le pone el que encaja.",
+    "text": "Ve a **+ → Baremos de precio estimado**. Cada baremo da un **precio por persona** (1) según **tipo de servicio**, **público** y **día** (2). Si una petición no trae precio, se le pone el que encaja.",
     "tip": "Puedes poner una **Ciudad** para que un baremo solo valga allí. **Nuevo** para añadir otro.",
     "warn": null,
     "stop": null,
-    "detail": null,
+    "detail": "**Para qué sirve el precio estimado.** En la búsqueda de restaurantes los resultados se ordenan por **cercanía al precio estimado** del servicio. El precio de cada restaurante es el de su presupuesto (con nuestra comisión) o, si aún no ha contestado, el de su menú más barato. Si un restaurante pasa en más de un **15 %** del estimado, su tarjeta lo avisa: «Se sale del precio estimado». No impide nada: es una ayuda para elegir.",
     "labels": [
      "Precio",
      "Cuándo se aplica"
@@ -2184,16 +2503,16 @@
     "h": 299,
     "marks": [
      {
-      "x": 84.0,
-      "y": 26.19,
-      "w": 6.5,
-      "h": 64.29
+      "x": 84.54,
+      "y": 15.85,
+      "w": 5.33,
+      "h": 76.58
      },
      {
-      "x": 34.5,
-      "y": 26.19,
-      "w": 34.0,
-      "h": 64.29
+      "x": 34.73,
+      "y": 14.75,
+      "w": 40.99,
+      "h": 78.77
      }
     ],
     "doc": false
@@ -2235,22 +2554,22 @@
     "h": 356,
     "marks": [
      {
-      "x": 10.8,
-      "y": 22.0,
-      "w": 15.0,
-      "h": 72.0
+      "x": 11.01,
+      "y": 22.09,
+      "w": 17.9,
+      "h": 74.31
      },
      {
-      "x": 26.4,
-      "y": 22.0,
-      "w": 30.0,
-      "h": 72.0
+      "x": 28.71,
+      "y": 22.09,
+      "w": 43.42,
+      "h": 74.31
      },
      {
-      "x": 80.6,
-      "y": 22.0,
-      "w": 9.5,
-      "h": 72.0
+      "x": 77.76,
+      "y": 22.09,
+      "w": 13.41,
+      "h": 74.31
      }
     ],
     "doc": false

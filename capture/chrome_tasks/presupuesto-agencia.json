@@ -1,10 +1,21 @@
 {
- "title": "Preparar el presupuesto para la agencia",
+ "title": "Enviar la propuesta y el presupuesto a la agencia",
  "cat": "presupuestos",
- "summary": "Elige el restaurante que ha dado presupuesto y crea el presupuesto de venta: lleva el menú, los comensales y el margen de Restagrup ya calculado.",
- "when": "Tienes al menos un restaurante con **Presupuesto recibido**.",
- "before": ["Algún restaurante de la búsqueda sale como **Presupuesto recibido** con su importe."],
- "tags": ["presupuesto", "venta", "agencia", "elegir", "margen", "precio"],
- "result": "Tienes el presupuesto (S000…) listo para revisarlo y enviarlo a la agencia.",
- "next": ["aceptacion-agencia"]
+ "summary": "Desde la petición se envía a la agencia una sola propuesta con todos los servicios; cuando se elige un restaurante por servicio, **Crear presupuesto** hace un único presupuesto de venta con todos ellos y el margen ya calculado.",
+ "when": "Tienes al menos un restaurante **Recibido** en cada servicio.",
+ "before": [
+  "Algún restaurante de la búsqueda sale como **Recibido** con su precio."
+ ],
+ "tags": [
+  "presupuesto",
+  "venta",
+  "agencia",
+  "elegir",
+  "margen",
+  "precio"
+ ],
+ "result": "La agencia tiene el presupuesto (PET…) con el PDF y el enlace para firmarlo, y el presupuesto está en **Presupuesto enviado**.",
+ "next": [
+  "aceptacion-agencia"
+ ]
 }
