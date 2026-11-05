@@ -1,29 +1,84 @@
 [
  {
-  "text": "Abre la ficha del restaurante (desde **Restaurantes**) y entra en la pestaña **Menús** (1). Salen sus menús con **coste**, **precio de venta** y capacidad. En **naranja**, los creados por la IA que aún no se han revisado (2).",
-  "tip": "En la pestaña **Restaurante** están su aforo, parking de autobús, tipo de cocina y responsable de grupos.",
+  "text": "En **Menús** salen todos los menús de los restaurantes con **precio coste**, **precio venta** y capacidad (1). **Sin revisar** marca los que ha creado la IA y nadie ha mirado aún (2). **Platos sin completar** marca los que solo tienen el menú escrito de corrido en la descripción, sin separar en platos (3).",
+  "tip": "En la ficha de cada restaurante, pestaña **Menús**, ves solo los suyos.",
   "warn": null,
   "stop": null,
   "detail": null,
-  "labels": [
-   "Menús",
-   "Sin revisar"
-  ],
+  "labels": [],
   "img": "img/menus-restaurante/01.webp",
-  "w": 1035,
-  "h": 570,
+  "w": 1568,
+  "h": 285,
   "marks": [
    {
-    "x": 1.06,
-    "y": 62.13,
-    "w": 97.73,
-    "h": 16.88
+    "x": 73.0,
+    "y": 40.0,
+    "w": 25.4,
+    "h": 47.0
    },
    {
-    "x": 1.06,
-    "y": 72.5,
-    "w": 97.73,
-    "h": 6.0
+    "x": 34.6,
+    "y": 63.5,
+    "w": 4.4,
+    "h": 23.5
+   },
+   {
+    "x": 44.0,
+    "y": 40.0,
+    "w": 3.6,
+    "h": 23.5
+   }
+  ],
+  "doc": false
+ },
+ {
+  "text": "Abre un menú con platos sin completar. El aviso azul lo explica (1) y el menú está escrito en la **Descripción** (2). Pulsa **Completar platos con IA** (3).",
+  "tip": "Desde la lista de **Menús** puedes marcar varios y pulsar **Completar platos con IA** arriba para hacerlos todos a la vez.",
+  "warn": null,
+  "stop": null,
+  "detail": null,
+  "labels": [],
+  "img": "img/menus-restaurante/02.webp",
+  "w": 1145,
+  "h": 513,
+  "marks": [
+   {
+    "x": 2.19,
+    "y": 27.22,
+    "w": 95.62,
+    "h": 6.11
+   },
+   {
+    "x": 1.92,
+    "y": 80.0,
+    "w": 61.64,
+    "h": 6.39
+   },
+   {
+    "x": 0.96,
+    "y": 17.5,
+    "w": 14.79,
+    "h": 6.11
+   }
+  ],
+  "doc": false
+ },
+ {
+  "text": "La IA separa el menú en platos (entrante, principal, postre y bebida) en la pestaña **Platos** (1). La descripción se queda como estaba. Repasa los platos y corrige lo que haga falta.",
+  "tip": null,
+  "warn": null,
+  "stop": null,
+  "detail": null,
+  "labels": [],
+  "img": "img/menus-restaurante/03.webp",
+  "w": 1145,
+  "h": 656,
+  "marks": [
+   {
+    "x": 1.1,
+    "y": 45.65,
+    "w": 97.81,
+    "h": 44.57
    }
   ],
   "doc": false

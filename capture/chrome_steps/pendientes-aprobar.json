@@ -1,58 +1,64 @@
 [
  {
-  "text": "Entra en **Pendientes de aprobar**. Cada línea es un correo listo para salir: a quién va, de qué grupo o restaurante y **por qué** se ha preparado (1).",
+  "text": "Entra en **Pendientes de aprobar**. Cada línea es un correo listo para salir: a quién va, de qué grupo, agencia o restaurante (1) y **por qué** se ha preparado (2). Por ejemplo, al firmar la agencia, si le faltan el CIF o la razón social, se prepara solo el correo pidiéndoselos.",
   "tip": "La burbuja del sobre, abajo a la izquierda, dice cuántos tienes pendientes.",
   "warn": null,
   "stop": null,
   "detail": null,
-  "labels": [
-   "Motivo"
-  ],
+  "labels": [],
   "img": "img/pendientes-aprobar/01.webp",
   "w": 1568,
-  "h": 214,
+  "h": 713,
   "marks": [
    {
-    "x": 52.8,
-    "y": 36.67,
-    "w": 15.2,
-    "h": 33.33
+    "x": 11.2,
+    "y": 12.6,
+    "w": 50.2,
+    "h": 13.4
+   },
+   {
+    "x": 50.2,
+    "y": 12.6,
+    "w": 12.4,
+    "h": 13.4
    }
   ],
   "doc": false
  },
  {
-  "text": "Ábrelo. El **asunto** y el **texto** se pueden cambiar antes de aprobar (1). Después pulsa **Aprobar y enviar** (2) o **Descartar** (3) si ya no hace falta.",
-  "tip": null,
+  "text": "Ábrelo. Arriba ves el tipo, el grupo y el motivo (1). El **asunto** y el **texto** se pueden cambiar antes de aprobar (2). Después pulsa **Aprobar y enviar** (3) o **Descartar** (4) si ya no hace falta.",
+  "tip": "La respuesta de la agencia llega al historial del grupo. Copia el **CIF** y la **Razón social** en la ficha de la agencia (Clientes). Se pide una sola vez por agencia.",
   "warn": null,
   "stop": null,
-  "detail": "Si al aprobarlo ya no aplica (por ejemplo, la agencia pagó entretanto), el sistema lo descarta solo y no lo manda.",
-  "labels": [
-   "Editable",
-   "Aprobar",
-   "Descartar"
-  ],
+  "detail": null,
+  "labels": [],
   "img": "img/pendientes-aprobar/02.webp",
-  "w": 1035,
-  "h": 463,
+  "w": 1568,
+  "h": 713,
   "marks": [
    {
-    "x": 2.27,
-    "y": 50.0,
-    "w": 96.21,
-    "h": 42.31
+    "x": 1.6,
+    "y": 19.6,
+    "w": 62.6,
+    "h": 10.4
    },
    {
-    "x": 1.21,
-    "y": 12.31,
-    "w": 10.45,
-    "h": 5.85
+    "x": 1.6,
+    "y": 38.8,
+    "w": 62.6,
+    "h": 50.4
    },
    {
-    "x": 11.82,
-    "y": 12.31,
-    "w": 6.97,
-    "h": 5.85
+    "x": 0.8,
+    "y": 13.0,
+    "w": 6.9,
+    "h": 3.8
+   },
+   {
+    "x": 7.8,
+    "y": 13.0,
+    "w": 4.7,
+    "h": 3.8
    }
   ],
   "doc": false

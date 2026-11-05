@@ -1,6 +1,6 @@
 [
  {
-  "text": "En la petición pulsa **Buscar para todos los eventos** (o **Buscar** en la línea de un evento).",
+  "text": "En la petición pulsa **Buscar para todos los servicios** (1), o **Buscar** en la línea de un servicio (2).",
   "tip": null,
   "warn": null,
   "stop": null,
@@ -8,92 +8,119 @@
   "labels": [],
   "img": "img/buscar-restaurantes/01.webp",
   "w": 1035,
-  "h": 379,
-  "marks": [
-   {
-    "x": 2.27,
-    "y": 51.4,
-    "w": 19.55,
-    "h": 9.0
-   }
-  ],
-  "doc": false
- },
- {
-  "text": "Se abre la búsqueda con los datos del grupo: **Ciudad** y **Aforo mínimo** (1). Elige qué **tipo de local** buscar (2). Si cambias algo, pulsa **Buscar restaurantes** (3).",
-  "tip": "**Calle** y **Código postal** acercan la búsqueda a una zona. **Con parking de autobús** deja solo los que lo tienen.",
-  "warn": null,
-  "stop": null,
-  "detail": null,
-  "labels": [
-   "Datos del grupo",
-   "Tipo de local",
-   "Buscar"
-  ],
-  "img": "img/buscar-restaurantes/02.webp",
-  "w": 1035,
   "h": 570,
   "marks": [
    {
     "x": 2.27,
-    "y": 30.63,
-    "w": 45.45,
-    "h": 21.88
+    "y": 36.5,
+    "w": 20.15,
+    "h": 5.75
    },
    {
-    "x": 2.27,
-    "y": 68.75,
-    "w": 18.18,
-    "h": 21.25
-   },
-   {
-    "x": 0.91,
-    "y": 9.75,
-    "w": 13.03,
-    "h": 5.25
+    "x": 70.61,
+    "y": 83.0,
+    "w": 6.97,
+    "h": 4.75
    }
   ],
   "doc": false
  },
  {
-  "text": "Abajo, en **Resultados**, salen primero los restaurantes que ya tenemos (**EN ODOO**) (1) y luego los de **Google** (2). En cada uno: **Interesado** (3) para apuntarlo y **Pedir presupuesto** (4) para escribirle.",
-  "tip": "Si la ficha está incompleta sale **Pedir datos que faltan**: manda un correo al restaurante pidiendo lo que falta.",
+  "text": "Se abre la búsqueda del servicio con el **Grupo**, la **Agencia** y el **Servicio** (1), la ciudad, el aforo y el **Precio estimado** por persona (2). Si quieres afinar, despliega los **Filtros** (3) o escribe parte del nombre en **Buscar restaurante por nombre** (4), y pulsa **Buscar restaurantes** (5). **← Volver a la petición** (6) te lleva de vuelta.",
+  "tip": null,
   "warn": null,
   "stop": null,
-  "detail": "Los de Google no están en Odoo: con **Añadir como contacto** se crea su ficha.",
-  "labels": [
-   "Nuestro",
-   "De Google",
-   "Interesado",
-   "Pedir presupuesto"
-  ],
-  "img": "img/buscar-restaurantes/03.webp",
+  "detail": null,
+  "labels": [],
+  "img": "img/buscar-restaurantes/02.webp",
   "w": 1035,
-  "h": 606,
+  "h": 713,
   "marks": [
    {
-    "x": 2.29,
-    "y": 37.07,
-    "w": 31.74,
-    "h": 49.26
+    "x": 2.12,
+    "y": 25.6,
+    "w": 30.3,
+    "h": 11.4
    },
    {
-    "x": 34.03,
-    "y": 37.07,
-    "w": 31.74,
-    "h": 49.26
+    "x": 2.12,
+    "y": 46.2,
+    "w": 17.58,
+    "h": 5.2
+   },
+   {
+    "x": 2.12,
+    "y": 52.6,
+    "w": 40.91,
+    "h": 3.4
+   },
+   {
+    "x": 50.76,
+    "y": 25.6,
+    "w": 46.21,
+    "h": 5.2
+   },
+   {
+    "x": 14.24,
+    "y": 12.6,
+    "w": 12.73,
+    "h": 4.2
+   },
+   {
+    "x": 0.91,
+    "y": 12.6,
+    "w": 13.33,
+    "h": 4.2
+   }
+  ],
+  "doc": false
+ },
+ {
+  "text": "Abajo, en **Resultados**, salen ordenados por **cercanía al precio estimado** (1). Primero los restaurantes que ya tenemos (**EN ODOO**) (2) y luego los de **Google** (3). Con **👁 Ver menús** (4) ves sus menús con coste y precio de venta. En cada tarjeta: **Interesado** (5) para apuntarlo y **Pedir presupuesto** (6) para escribirle.",
+  "tip": "Si un restaurante se pasa más de un 15 % del precio estimado, su tarjeta lo avisa en amarillo: **Se sale del precio estimado**.",
+  "warn": null,
+  "stop": null,
+  "detail": null,
+  "labels": [],
+  "img": "img/buscar-restaurantes/03.webp",
+  "w": 1035,
+  "h": 713,
+  "marks": [
+   {
+    "x": 2.12,
+    "y": 21.6,
+    "w": 27.27,
+    "h": 4.0
+   },
+   {
+    "x": 2.42,
+    "y": 33.2,
+    "w": 94.85,
+    "h": 41.4
+   },
+   {
+    "x": 2.42,
+    "y": 75.4,
+    "w": 94.85,
+    "h": 24.4
+   },
+   {
+    "x": 12.42,
+    "y": 53.6,
+    "w": 7.58,
+    "h": 3.4
    },
    {
     "x": 3.64,
-    "y": 76.62,
-    "w": 6.56,
-    "h": 4.11
+    "y": 60.8,
+    "w": 6.36,
+    "h": 3.2
    },
    {
-    "x": 15.77,
-    "y": 76.62,
-    "w": 9.79,
-    "h": 4.11
+    "x": 15.91,
+    "y": 60.8,
+    "w": 9.7,
+    "h": 3.2
    }
   ],
   "doc": false

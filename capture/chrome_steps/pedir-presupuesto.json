@@ -1,78 +1,84 @@
 [
  {
-  "text": "En la búsqueda, pulsa **Interesado** en cada restaurante que quieras consultar (1). Queda marcado en amarillo y anotado a la derecha. Arriba aparece **Pedir presupuesto a interesados** (2).",
-  "tip": "Si solo quieres escribir a uno, usa **Pedir presupuesto** dentro de su tarjeta.",
+  "text": "En la búsqueda, pulsa **Interesado** en cada restaurante que quieras consultar. Cada tarjeta muestra en qué punto está: **Interesado → Pedido → Recibido → Elegido** (1). Queda anotado a la derecha (2) y arriba aparece **Pedir presupuesto a interesados** (3).",
+  "tip": null,
   "warn": null,
   "stop": null,
   "detail": null,
-  "labels": [
-   "Interesado",
-   "Pedir a todos"
-  ],
+  "labels": [],
   "img": "img/pedir-presupuesto/01.webp",
   "w": 1568,
-  "h": 606,
+  "h": 713,
   "marks": [
    {
     "x": 2.4,
-    "y": 84.71,
-    "w": 5.5,
-    "h": 4.0
+    "y": 61.6,
+    "w": 12.6,
+    "h": 3.2
    },
    {
-    "x": 46.0,
-    "y": 9.65,
-    "w": 13.6,
-    "h": 4.94
+    "x": 44.3,
+    "y": 61.6,
+    "w": 12.6,
+    "h": 3.2
+   },
+   {
+    "x": 65.8,
+    "y": 23.2,
+    "w": 21.4,
+    "h": 10.6
+   },
+   {
+    "x": 23.3,
+    "y": 12.6,
+    "w": 13.8,
+    "h": 4.4
    }
   ],
   "doc": false
  },
  {
-  "text": "Pulsa **Pedir presupuesto a interesados**. Odoo pide confirmación: al pulsar **Aceptar** se manda el correo a todos los marcados.",
+  "text": "Pulsa **Pedir presupuesto a interesados**. Odoo pide confirmación: al pulsar **Aceptar** (1) se manda el correo a todos los marcados.",
   "tip": null,
-  "warn": "El correo sale de verdad al restaurante. Revisa antes que estén marcados solo los que quieres.",
+  "warn": "El correo sale al momento y de verdad: úsalo solo con restaurantes reales cuando sea en serio.",
   "stop": null,
   "detail": null,
   "labels": [],
   "img": "img/pedir-presupuesto/02.webp",
   "w": 1098,
-  "h": 392,
+  "h": 499,
   "marks": [
    {
-    "x": 26.57,
-    "y": 32.36,
-    "w": 47.71,
-    "h": 44.55
+    "x": 26.86,
+    "y": 52.0,
+    "w": 6.0,
+    "h": 6.29
    }
   ],
   "doc": false
  },
  {
-  "text": "Listo: la búsqueda pasa a **Presupuestos pedidos** (1) y a la derecha queda a quién se ha escrito y a qué correo (2). En la tarjeta del restaurante pone **Solicitado**.",
-  "tip": "Si no contesta, el sistema prepara un **recordatorio** que verás en **Pendientes de aprobar**.",
+  "text": "Listo: la búsqueda pasa a **Presupuestos pedidos** (1) y a la derecha queda a quién se ha escrito y a qué correo (2). En la tarjeta de cada restaurante se enciende **Pedido**. El asunto del correo es «Presupuesto para grupos — localizador — ciudad fecha», y la respuesta del restaurante vuelve sola a esta búsqueda.",
+  "tip": null,
   "warn": null,
   "stop": null,
   "detail": null,
-  "labels": [
-   "Estado",
-   "Enviado a"
-  ],
+  "labels": [],
   "img": "img/pedir-presupuesto/03.webp",
   "w": 1568,
-  "h": 392,
+  "h": 713,
   "marks": [
    {
-    "x": 56.2,
-    "y": 14.55,
-    "w": 8.8,
-    "h": 8.0
+    "x": 29.4,
+    "y": 12.6,
+    "w": 9.9,
+    "h": 4.4
    },
    {
-    "x": 65.6,
-    "y": 34.18,
-    "w": 29.5,
-    "h": 16.73
+    "x": 65.8,
+    "y": 23.0,
+    "w": 33.0,
+    "h": 20.0
    }
   ],
   "doc": false
