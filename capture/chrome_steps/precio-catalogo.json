@@ -1,0 +1,41 @@
+[
+ {
+  "text": "En la búsqueda del servicio, en la tarjeta del restaurante, pulsa **Precio de catálogo**. Con un solo menú se registra directamente; con varios, eliges el menú y su precio se rellena solo.",
+  "tip": null,
+  "warn": "Queda marcado **Disponibilidad sin confirmar**: el restaurante aún no ha dicho que tenga sitio ese día.",
+  "stop": null,
+  "detail": null,
+  "labels": [],
+  "img": null,
+  "w": 0,
+  "h": 0,
+  "marks": [],
+  "doc": false
+ },
+ {
+  "text": "Cuando el restaurante confirme que tiene sitio, pulsa **Disponibilidad OK** en su tarjeta.",
+  "tip": null,
+  "warn": null,
+  "stop": null,
+  "detail": null,
+  "labels": [],
+  "img": null,
+  "w": 0,
+  "h": 0,
+  "marks": [],
+  "doc": false
+ },
+ {
+  "text": "Si te dio el precio por **WhatsApp o por teléfono**, pulsa **Registrar presupuesto**, escribe el precio por persona en el paso 2 y pulsa **Registrar**.",
+  "tip": "No hace falta pegar ningún correo: el paso 1 (leer con IA) es solo para cuando tienes su respuesta escrita.",
+  "warn": null,
+  "stop": null,
+  "detail": null,
+  "labels": [],
+  "img": null,
+  "w": 0,
+  "h": 0,
+  "marks": [],
+  "doc": false
+ }
+]

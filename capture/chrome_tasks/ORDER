@@ -1,15 +1,19 @@
 menu
 avisos
 plantillas
+crear-agencia
 peticion-correo
 asignar
+conversacion-grupo
 buscar-restaurantes
 pedir-presupuesto
 respuesta-restaurante
+precio-catalogo
 menu-ia
 presupuesto-agencia
 aceptacion-agencia
 expediente
+documentos-expediente
 pedir-pago-agencia
 pendientes-aprobar
 justificante-agencia
@@ -21,6 +25,7 @@ reclamar-factura
 factura-restaurante
 cerrar-expediente
 menus-restaurante
+completar-ficha-restaurante
 cortafuegos
 baremos
 actividad-ia

@@ -253,6 +253,96 @@
   ]
  },
  {
+  "title": "Crear una agencia",
+  "cat": "peticiones",
+  "summary": "Dar de alta una agencia nueva con sus datos de facturación, su origen y sus contactos.",
+  "when": "Llega una petición de una agencia que todavía no está en Restagrup.",
+  "before": [
+   "Tienes a mano el CIF, la dirección y el correo de la agencia."
+  ],
+  "tags": [
+   "agencia",
+   "alta",
+   "nueva agencia",
+   "cliente",
+   "origen",
+   "contacto",
+   "facturacion"
+  ],
+  "result": "La agencia queda creada y ya se puede elegir en sus peticiones.",
+  "next": [
+   "peticion-correo"
+  ],
+  "id": "crear-agencia",
+  "steps": [
+   {
+    "text": "En el menú de Restagrup abre **Agencias** y pulsa **Nuevo**.",
+    "tip": null,
+    "warn": null,
+    "stop": null,
+    "detail": null,
+    "labels": [],
+    "img": null,
+    "w": 0,
+    "h": 0,
+    "marks": [],
+    "doc": false
+   },
+   {
+    "text": "En **Datos de facturación** escribe el nombre, el **CIF**, la dirección, el teléfono y el correo de la agencia.",
+    "tip": "Si pegas la dirección entera en «Calle» (por ejemplo copiada de Google Maps), Restagrup separa sola la calle, el código postal y la ciudad.",
+    "warn": null,
+    "stop": null,
+    "detail": null,
+    "labels": [],
+    "img": null,
+    "w": 0,
+    "h": 0,
+    "marks": [],
+    "doc": false
+   },
+   {
+    "text": "En **Datos adicionales** elige el **Origen** (cómo llegó: Rubén, MA, Erika, Amelia, Instagram, Web) y la forma de pago.",
+    "tip": null,
+    "warn": null,
+    "stop": null,
+    "detail": null,
+    "labels": [],
+    "img": null,
+    "w": 0,
+    "h": 0,
+    "marks": [],
+    "doc": false
+   },
+   {
+    "text": "En la pestaña **Contactos** añade a las personas de la agencia que piden grupos, con su correo.",
+    "tip": "Las respuestas y presupuestos se mandan al correo del contacto de la petición.",
+    "warn": null,
+    "stop": null,
+    "detail": null,
+    "labels": [],
+    "img": null,
+    "w": 0,
+    "h": 0,
+    "marks": [],
+    "doc": false
+   },
+   {
+    "text": "Pulsa **Guardar**.",
+    "tip": null,
+    "warn": null,
+    "stop": null,
+    "detail": null,
+    "labels": [],
+    "img": null,
+    "w": 0,
+    "h": 0,
+    "marks": [],
+    "doc": false
+   }
+  ]
+ },
+ {
   "title": "Ha llegado una petición de grupo por correo",
   "cat": "peticiones",
   "summary": "La agencia escribe al buzón de peticiones y Odoo crea la petición sola: la IA saca la referencia del grupo, la ciudad, la fecha, la hora, el servicio, los comensales y el precio por persona, y da de alta la agencia con los datos de su firma.",
@@ -452,6 +542,65 @@
       "h": 8.0
      }
     ],
+    "doc": false
+   }
+  ]
+ },
+ {
+  "title": "Ver toda la conversación del grupo",
+  "cat": "peticiones",
+  "summary": "Todo lo hablado con la agencia y con los restaurantes de un grupo, en un solo sitio y por colores.",
+  "when": "Quieres saber qué se ha dicho con quién sin abrir cada restaurante.",
+  "before": [],
+  "tags": [
+   "conversacion",
+   "chat",
+   "correos",
+   "historial",
+   "hilo",
+   "mensajes"
+  ],
+  "result": "Ves los correos del grupo del más reciente al más antiguo.",
+  "next": [],
+  "id": "conversacion-grupo",
+  "steps": [
+   {
+    "text": "Abre el grupo y entra en la pestaña **Conversación**.",
+    "tip": null,
+    "warn": null,
+    "stop": null,
+    "detail": null,
+    "labels": [],
+    "img": null,
+    "w": 0,
+    "h": 0,
+    "marks": [],
+    "doc": false
+   },
+   {
+    "text": "Cada mensaje tiene su color: **azul** la agencia, **naranja** los restaurantes y **verde** RestaGrup. En los de restaurante pone con cuál.",
+    "tip": null,
+    "warn": null,
+    "stop": null,
+    "detail": null,
+    "labels": [],
+    "img": null,
+    "w": 0,
+    "h": 0,
+    "marks": [],
+    "doc": false
+   },
+   {
+    "text": "Arriba a la derecha, en **Ver**, elige **Agencia** o **Restaurantes** para ver solo esa parte.",
+    "tip": "Las notas internas no salen aquí: siguen en el historial de abajo.",
+    "warn": null,
+    "stop": null,
+    "detail": null,
+    "labels": [],
+    "img": null,
+    "w": 0,
+    "h": 0,
+    "marks": [],
     "doc": false
    }
   ]
@@ -837,6 +986,69 @@
       "h": 5.12
      }
     ],
+    "doc": false
+   }
+  ]
+ },
+ {
+  "title": "Presupuesto sin esperar al restaurante",
+  "cat": "restaurantes",
+  "summary": "Dar el presupuesto con el precio del menú de la ficha, o registrar a mano el que te dieron por WhatsApp o por teléfono.",
+  "when": "Ya sabes lo que cobra el restaurante y no quieres esperar a su correo.",
+  "before": [
+   "Para el precio de catálogo, el restaurante tiene sus menús en la ficha."
+  ],
+  "tags": [
+   "catalogo",
+   "precio de catalogo",
+   "whatsapp",
+   "telefono",
+   "registrar presupuesto",
+   "disponibilidad"
+  ],
+  "result": "El restaurante queda con **presupuesto recibido** y ya se puede elegir y enviar a la agencia.",
+  "next": [
+   "presupuesto-agencia"
+  ],
+  "id": "precio-catalogo",
+  "steps": [
+   {
+    "text": "En la búsqueda del servicio, en la tarjeta del restaurante, pulsa **Precio de catálogo**. Con un solo menú se registra directamente; con varios, eliges el menú y su precio se rellena solo.",
+    "tip": null,
+    "warn": "Queda marcado **Disponibilidad sin confirmar**: el restaurante aún no ha dicho que tenga sitio ese día.",
+    "stop": null,
+    "detail": null,
+    "labels": [],
+    "img": null,
+    "w": 0,
+    "h": 0,
+    "marks": [],
+    "doc": false
+   },
+   {
+    "text": "Cuando el restaurante confirme que tiene sitio, pulsa **Disponibilidad OK** en su tarjeta.",
+    "tip": null,
+    "warn": null,
+    "stop": null,
+    "detail": null,
+    "labels": [],
+    "img": null,
+    "w": 0,
+    "h": 0,
+    "marks": [],
+    "doc": false
+   },
+   {
+    "text": "Si te dio el precio por **WhatsApp o por teléfono**, pulsa **Registrar presupuesto**, escribe el precio por persona en el paso 2 y pulsa **Registrar**.",
+    "tip": "No hace falta pegar ningún correo: el paso 1 (leer con IA) es solo para cuando tienes su respuesta escrita.",
+    "warn": null,
+    "stop": null,
+    "detail": null,
+    "labels": [],
+    "img": null,
+    "w": 0,
+    "h": 0,
+    "marks": [],
     "doc": false
    }
   ]
@@ -1462,6 +1674,84 @@
       "h": 3.8
      }
     ],
+    "doc": false
+   }
+  ]
+ },
+ {
+  "title": "Confirmaciones y documentos del expediente",
+  "cat": "expediente",
+  "summary": "Desde el propio grupo: enviar la confirmación a la agencia y a los restaurantes, y descargar la confirmación de la agencia, la del restaurante y el bono.",
+  "when": "El grupo está en **Expedientes**.",
+  "before": [
+   "El grupo pasó a expediente con su restaurante elegido (al pasar se crea y confirma el pedido)."
+  ],
+  "tags": [
+   "confirmacion",
+   "confirmar agencia",
+   "confirmar restaurante",
+   "bono",
+   "pdf",
+   "descargar",
+   "expediente"
+  ],
+  "result": "La agencia y los restaurantes tienen su confirmación en PDF y queda anotado en el grupo.",
+  "next": [
+   "pedir-pago-agencia",
+   "bono-agencia"
+  ],
+  "id": "documentos-expediente",
+  "steps": [
+   {
+    "text": "Abre el grupo desde **Expedientes**. Arriba están los botones del expediente.",
+    "tip": null,
+    "warn": null,
+    "stop": null,
+    "detail": null,
+    "labels": [],
+    "img": null,
+    "w": 0,
+    "h": 0,
+    "marks": [],
+    "doc": false
+   },
+   {
+    "text": "Pulsa **Enviar confirmación a la agencia**. Le llega un correo con la confirmación en PDF: la reserva queda confirmada y se le pide que complete lo que falte (menú elegido, contacto del guía, intolerancias, número final de comensales).",
+    "tip": "Cuenta como una proforma más en las estadísticas del grupo.",
+    "warn": null,
+    "stop": null,
+    "detail": null,
+    "labels": [],
+    "img": null,
+    "w": 0,
+    "h": 0,
+    "marks": [],
+    "doc": false
+   },
+   {
+    "text": "Pulsa **Enviar confirmación a restaurantes**: cada restaurante recibe la suya en PDF por el hilo de su hoja de servicio, así su OK vuelve ahí.",
+    "tip": null,
+    "warn": null,
+    "stop": null,
+    "detail": null,
+    "labels": [],
+    "img": null,
+    "w": 0,
+    "h": 0,
+    "marks": [],
+    "doc": false
+   },
+   {
+    "text": "Para tener los documentos sin enviarlos, usa **Conf. agencia**, **Conf. restaurante** y **Bono agencia**: se descargan en PDF.",
+    "tip": null,
+    "warn": "El **Bono agencia** solo se descarga cuando el pedido está marcado como **Pagado**.",
+    "stop": null,
+    "detail": null,
+    "labels": [],
+    "img": null,
+    "w": 0,
+    "h": 0,
+    "marks": [],
     "doc": false
    }
   ]
@@ -2398,6 +2688,68 @@
       "h": 44.57
      }
     ],
+    "doc": false
+   }
+  ]
+ },
+ {
+  "title": "Completar las fichas de los restaurantes",
+  "cat": "fichas",
+  "summary": "Rellenar desde Google lo que falta en una ficha y pedir a los restaurantes los datos que solo ellos tienen.",
+  "when": "Una ficha tiene huecos (dirección, teléfono, web) o le faltan los datos de grupos.",
+  "before": [],
+  "tags": [
+   "google",
+   "completar",
+   "ficha incompleta",
+   "datos que faltan",
+   "campaña",
+   "iban",
+   "dia de cierre"
+  ],
+  "result": "Fichas más completas y, para lo que falta, el correo en «Pendientes de aprobar».",
+  "next": [
+   "pendientes-aprobar"
+  ],
+  "id": "completar-ficha-restaurante",
+  "steps": [
+   {
+    "text": "En la ficha del restaurante, pestaña **Restaurante**, pulsa **Completar desde Google**. Rellena solo lo que esté vacío: dirección, código postal, ciudad, teléfono, web, valoración y posición.",
+    "tip": "Lo que hayas escrito a mano no se toca.",
+    "warn": null,
+    "stop": null,
+    "detail": null,
+    "labels": [],
+    "img": null,
+    "w": 0,
+    "h": 0,
+    "marks": [],
+    "doc": false
+   },
+   {
+    "text": "Lo que Google no sabe (día de cierre, responsable de grupos con su móvil y cuenta bancaria) se pide al restaurante. En la lista de **Restaurantes** pulsa **Pedir datos que faltan**.",
+    "tip": null,
+    "warn": null,
+    "stop": null,
+    "detail": null,
+    "labels": [],
+    "img": null,
+    "w": 0,
+    "h": 0,
+    "marks": [],
+    "doc": false
+   },
+   {
+    "text": "Se prepara el correo para cada restaurante con el que habéis trabajado este año y que tiene la ficha incompleta. Los correos quedan en **Pendientes de aprobar**: revísalos y envíalos.",
+    "tip": "A quien ya se le pidió no se le repite. Su respuesta la lee la IA y propone los datos para la ficha.",
+    "warn": null,
+    "stop": null,
+    "detail": null,
+    "labels": [],
+    "img": null,
+    "w": 0,
+    "h": 0,
+    "marks": [],
     "doc": false
    }
   ]

@@ -1,0 +1,41 @@
+[
+ {
+  "text": "En la ficha del restaurante, pestaña **Restaurante**, pulsa **Completar desde Google**. Rellena solo lo que esté vacío: dirección, código postal, ciudad, teléfono, web, valoración y posición.",
+  "tip": "Lo que hayas escrito a mano no se toca.",
+  "warn": null,
+  "stop": null,
+  "detail": null,
+  "labels": [],
+  "img": null,
+  "w": 0,
+  "h": 0,
+  "marks": [],
+  "doc": false
+ },
+ {
+  "text": "Lo que Google no sabe (día de cierre, responsable de grupos con su móvil y cuenta bancaria) se pide al restaurante. En la lista de **Restaurantes** pulsa **Pedir datos que faltan**.",
+  "tip": null,
+  "warn": null,
+  "stop": null,
+  "detail": null,
+  "labels": [],
+  "img": null,
+  "w": 0,
+  "h": 0,
+  "marks": [],
+  "doc": false
+ },
+ {
+  "text": "Se prepara el correo para cada restaurante con el que habéis trabajado este año y que tiene la ficha incompleta. Los correos quedan en **Pendientes de aprobar**: revísalos y envíalos.",
+  "tip": "A quien ya se le pidió no se le repite. Su respuesta la lee la IA y propone los datos para la ficha.",
+  "warn": null,
+  "stop": null,
+  "detail": null,
+  "labels": [],
+  "img": null,
+  "w": 0,
+  "h": 0,
+  "marks": [],
+  "doc": false
+ }
+]

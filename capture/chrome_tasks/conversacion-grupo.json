@@ -1,0 +1,17 @@
+{
+ "title": "Ver toda la conversación del grupo",
+ "cat": "peticiones",
+ "summary": "Todo lo hablado con la agencia y con los restaurantes de un grupo, en un solo sitio y por colores.",
+ "when": "Quieres saber qué se ha dicho con quién sin abrir cada restaurante.",
+ "before": [],
+ "tags": [
+  "conversacion",
+  "chat",
+  "correos",
+  "historial",
+  "hilo",
+  "mensajes"
+ ],
+ "result": "Ves los correos del grupo del más reciente al más antiguo.",
+ "next": []
+}

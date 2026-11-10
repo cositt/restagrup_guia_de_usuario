@@ -1,0 +1,21 @@
+{
+ "title": "Presupuesto sin esperar al restaurante",
+ "cat": "restaurantes",
+ "summary": "Dar el presupuesto con el precio del menú de la ficha, o registrar a mano el que te dieron por WhatsApp o por teléfono.",
+ "when": "Ya sabes lo que cobra el restaurante y no quieres esperar a su correo.",
+ "before": [
+  "Para el precio de catálogo, el restaurante tiene sus menús en la ficha."
+ ],
+ "tags": [
+  "catalogo",
+  "precio de catalogo",
+  "whatsapp",
+  "telefono",
+  "registrar presupuesto",
+  "disponibilidad"
+ ],
+ "result": "El restaurante queda con **presupuesto recibido** y ya se puede elegir y enviar a la agencia.",
+ "next": [
+  "presupuesto-agencia"
+ ]
+}

@@ -1,0 +1,54 @@
+[
+ {
+  "text": "Abre el grupo desde **Expedientes**. Arriba están los botones del expediente.",
+  "tip": null,
+  "warn": null,
+  "stop": null,
+  "detail": null,
+  "labels": [],
+  "img": null,
+  "w": 0,
+  "h": 0,
+  "marks": [],
+  "doc": false
+ },
+ {
+  "text": "Pulsa **Enviar confirmación a la agencia**. Le llega un correo con la confirmación en PDF: la reserva queda confirmada y se le pide que complete lo que falte (menú elegido, contacto del guía, intolerancias, número final de comensales).",
+  "tip": "Cuenta como una proforma más en las estadísticas del grupo.",
+  "warn": null,
+  "stop": null,
+  "detail": null,
+  "labels": [],
+  "img": null,
+  "w": 0,
+  "h": 0,
+  "marks": [],
+  "doc": false
+ },
+ {
+  "text": "Pulsa **Enviar confirmación a restaurantes**: cada restaurante recibe la suya en PDF por el hilo de su hoja de servicio, así su OK vuelve ahí.",
+  "tip": null,
+  "warn": null,
+  "stop": null,
+  "detail": null,
+  "labels": [],
+  "img": null,
+  "w": 0,
+  "h": 0,
+  "marks": [],
+  "doc": false
+ },
+ {
+  "text": "Para tener los documentos sin enviarlos, usa **Conf. agencia**, **Conf. restaurante** y **Bono agencia**: se descargan en PDF.",
+  "tip": null,
+  "warn": "El **Bono agencia** solo se descarga cuando el pedido está marcado como **Pagado**.",
+  "stop": null,
+  "detail": null,
+  "labels": [],
+  "img": null,
+  "w": 0,
+  "h": 0,
+  "marks": [],
+  "doc": false
+ }
+]

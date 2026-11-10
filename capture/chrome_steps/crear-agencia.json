@@ -1,0 +1,67 @@
+[
+ {
+  "text": "En el menú de Restagrup abre **Agencias** y pulsa **Nuevo**.",
+  "tip": null,
+  "warn": null,
+  "stop": null,
+  "detail": null,
+  "labels": [],
+  "img": null,
+  "w": 0,
+  "h": 0,
+  "marks": [],
+  "doc": false
+ },
+ {
+  "text": "En **Datos de facturación** escribe el nombre, el **CIF**, la dirección, el teléfono y el correo de la agencia.",
+  "tip": "Si pegas la dirección entera en «Calle» (por ejemplo copiada de Google Maps), Restagrup separa sola la calle, el código postal y la ciudad.",
+  "warn": null,
+  "stop": null,
+  "detail": null,
+  "labels": [],
+  "img": null,
+  "w": 0,
+  "h": 0,
+  "marks": [],
+  "doc": false
+ },
+ {
+  "text": "En **Datos adicionales** elige el **Origen** (cómo llegó: Rubén, MA, Erika, Amelia, Instagram, Web) y la forma de pago.",
+  "tip": null,
+  "warn": null,
+  "stop": null,
+  "detail": null,
+  "labels": [],
+  "img": null,
+  "w": 0,
+  "h": 0,
+  "marks": [],
+  "doc": false
+ },
+ {
+  "text": "En la pestaña **Contactos** añade a las personas de la agencia que piden grupos, con su correo.",
+  "tip": "Las respuestas y presupuestos se mandan al correo del contacto de la petición.",
+  "warn": null,
+  "stop": null,
+  "detail": null,
+  "labels": [],
+  "img": null,
+  "w": 0,
+  "h": 0,
+  "marks": [],
+  "doc": false
+ },
+ {
+  "text": "Pulsa **Guardar**.",
+  "tip": null,
+  "warn": null,
+  "stop": null,
+  "detail": null,
+  "labels": [],
+  "img": null,
+  "w": 0,
+  "h": 0,
+  "marks": [],
+  "doc": false
+ }
+]

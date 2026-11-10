@@ -1,0 +1,20 @@
+{
+ "title": "Completar las fichas de los restaurantes",
+ "cat": "fichas",
+ "summary": "Rellenar desde Google lo que falta en una ficha y pedir a los restaurantes los datos que solo ellos tienen.",
+ "when": "Una ficha tiene huecos (dirección, teléfono, web) o le faltan los datos de grupos.",
+ "before": [],
+ "tags": [
+  "google",
+  "completar",
+  "ficha incompleta",
+  "datos que faltan",
+  "campaña",
+  "iban",
+  "dia de cierre"
+ ],
+ "result": "Fichas más completas y, para lo que falta, el correo en «Pendientes de aprobar».",
+ "next": [
+  "pendientes-aprobar"
+ ]
+}

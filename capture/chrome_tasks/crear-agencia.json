@@ -1,0 +1,22 @@
+{
+ "title": "Crear una agencia",
+ "cat": "peticiones",
+ "summary": "Dar de alta una agencia nueva con sus datos de facturación, su origen y sus contactos.",
+ "when": "Llega una petición de una agencia que todavía no está en Restagrup.",
+ "before": [
+  "Tienes a mano el CIF, la dirección y el correo de la agencia."
+ ],
+ "tags": [
+  "agencia",
+  "alta",
+  "nueva agencia",
+  "cliente",
+  "origen",
+  "contacto",
+  "facturacion"
+ ],
+ "result": "La agencia queda creada y ya se puede elegir en sus peticiones.",
+ "next": [
+  "peticion-correo"
+ ]
+}

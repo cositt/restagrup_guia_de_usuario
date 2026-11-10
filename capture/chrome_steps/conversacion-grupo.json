@@ -1,0 +1,41 @@
+[
+ {
+  "text": "Abre el grupo y entra en la pestaña **Conversación**.",
+  "tip": null,
+  "warn": null,
+  "stop": null,
+  "detail": null,
+  "labels": [],
+  "img": null,
+  "w": 0,
+  "h": 0,
+  "marks": [],
+  "doc": false
+ },
+ {
+  "text": "Cada mensaje tiene su color: **azul** la agencia, **naranja** los restaurantes y **verde** RestaGrup. En los de restaurante pone con cuál.",
+  "tip": null,
+  "warn": null,
+  "stop": null,
+  "detail": null,
+  "labels": [],
+  "img": null,
+  "w": 0,
+  "h": 0,
+  "marks": [],
+  "doc": false
+ },
+ {
+  "text": "Arriba a la derecha, en **Ver**, elige **Agencia** o **Restaurantes** para ver solo esa parte.",
+  "tip": "Las notas internas no salen aquí: siguen en el historial de abajo.",
+  "warn": null,
+  "stop": null,
+  "detail": null,
+  "labels": [],
+  "img": null,
+  "w": 0,
+  "h": 0,
+  "marks": [],
+  "doc": false
+ }
+]
