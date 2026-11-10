@@ -64,7 +64,7 @@
   "doc": false
  },
  {
-  "text": "Si el restaurante te contesta por teléfono, WhatsApp o desde otro correo, pulsa **Pegar respuesta** en su tarjeta. Pega el texto tal cual (1) y pulsa **Leer con IA: precio y menú** (2). La IA rellena el **precio por persona del restaurante**, el **precio a la agencia** con la comisión, el **total del grupo** y el **menú** (3). Corrige lo que haga falta y pulsa **Registrar** (4).",
+  "text": "Si el restaurante te contesta por teléfono, WhatsApp o desde otro correo, pulsa **Registrar presupuesto** en su tarjeta. Pega el texto tal cual (1) y pulsa **Leer con IA: precio y menú** (2). La IA rellena el **precio por persona del restaurante**, el **precio a la agencia** con la comisión, el **total del grupo** y el **menú** (3). Corrige lo que haga falta y pulsa **Registrar** (4).",
   "tip": null,
   "warn": null,
   "stop": null,

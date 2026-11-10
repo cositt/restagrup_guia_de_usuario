@@ -866,7 +866,7 @@
  {
   "title": "Contestó un restaurante: registrar su presupuesto",
   "cat": "restaurantes",
-  "summary": "La respuesta del restaurante entra sola en la búsqueda. La IA lee el precio y el menú, pero el importe lo confirma siempre una persona con **Confirmar presupuesto**. Si contesta por teléfono o WhatsApp, usa **Pegar respuesta**.",
+  "summary": "La respuesta del restaurante entra sola en la búsqueda. La IA lee el precio y el menú, pero el importe lo confirma siempre una persona con **Confirmar presupuesto**. Si contesta por teléfono o WhatsApp, usa **Registrar presupuesto**.",
   "when": "Un restaurante responde a la consulta de presupuesto.",
   "before": [
    "Le pediste presupuesto desde la búsqueda (su tarjeta sale en **Pedido**).",
@@ -951,7 +951,7 @@
     "doc": false
    },
    {
-    "text": "Si el restaurante te contesta por teléfono, WhatsApp o desde otro correo, pulsa **Pegar respuesta** en su tarjeta. Pega el texto tal cual (1) y pulsa **Leer con IA: precio y menú** (2). La IA rellena el **precio por persona del restaurante**, el **precio a la agencia** con la comisión, el **total del grupo** y el **menú** (3). Corrige lo que haga falta y pulsa **Registrar** (4).",
+    "text": "Si el restaurante te contesta por teléfono, WhatsApp o desde otro correo, pulsa **Registrar presupuesto** en su tarjeta. Pega el texto tal cual (1) y pulsa **Leer con IA: precio y menú** (2). La IA rellena el **precio por persona del restaurante**, el **precio a la agencia** con la comisión, el **total del grupo** y el **menú** (3). Corrige lo que haga falta y pulsa **Registrar** (4).",
     "tip": null,
     "warn": null,
     "stop": null,
