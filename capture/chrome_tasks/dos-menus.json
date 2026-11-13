@@ -1,0 +1,20 @@
+{
+ "title": "Ofrecer dos menús del mismo restaurante",
+ "cat": "restaurantes",
+ "summary": "Cuando un restaurante tiene varios menús que encajan, puedes llevar a la propuesta de la agencia **dos o más menús del mismo restaurante**. Cada menú es una tarjeta con su propio precio.",
+ "when": "El restaurante ya contestó con un menú y quieres ofrecer también otro de los suyos.",
+ "before": [
+  "El restaurante ya tiene un menú registrado o confirmado en la búsqueda (sale **Recibido**)."
+ ],
+ "tags": [
+  "otro menú",
+  "dos menús",
+  "varios menús",
+  "propuesta",
+  "opciones"
+ ],
+ "result": "En la búsqueda hay una tarjeta por menú, y los dos salen como opciones en la propuesta a la agencia.",
+ "next": [
+  "presupuesto-agencia"
+ ]
+}

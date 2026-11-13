@@ -1,0 +1,74 @@
+[
+ {
+  "text": "En la tarjeta del restaurante que ya tiene un menú, pulsa **+ Otro menú** (1).",
+  "tip": null,
+  "warn": null,
+  "stop": null,
+  "detail": null,
+  "labels": [],
+  "img": "img/dos-menus/01.webp",
+  "w": 1019,
+  "h": 463,
+  "marks": [
+   {
+    "x": 52.77,
+    "y": 65.54,
+    "w": 7.08,
+    "h": 5.54
+   }
+  ],
+  "doc": false
+ },
+ {
+  "text": "Se abre la ventana **Otro menú de** ese restaurante. Elige uno de sus **menús** guardados (1) y el precio se rellena solo (2); o pega su respuesta y pulsa **Leer con IA**. Pulsa **Registrar** (3).",
+  "tip": null,
+  "warn": null,
+  "stop": null,
+  "detail": null,
+  "labels": [],
+  "img": "img/dos-menus/02.webp",
+  "w": 816,
+  "h": 627,
+  "marks": [
+   {
+    "x": 18.46,
+    "y": 74.09,
+    "w": 79.62,
+    "h": 4.77
+   },
+   {
+    "x": 2.31,
+    "y": 56.14,
+    "w": 23.08,
+    "h": 16.59
+   },
+   {
+    "x": 2.31,
+    "y": 92.27,
+    "w": 8.85,
+    "h": 4.77
+   }
+  ],
+  "doc": false
+ },
+ {
+  "text": "Ahora el restaurante sale **dos veces**, una tarjeta por menú, cada una con su precio y su coste (1). Las dos pasan a la pestaña **Propuesta** de la petición como opciones distintas para la agencia.",
+  "tip": "Si sobra una, pulsa **Descartar** en esa tarjeta.",
+  "warn": null,
+  "stop": null,
+  "detail": null,
+  "labels": [],
+  "img": "img/dos-menus/03.webp",
+  "w": 1019,
+  "h": 463,
+  "marks": [
+   {
+    "x": 34.77,
+    "y": 28.31,
+    "w": 64.0,
+    "h": 68.92
+   }
+  ],
+  "doc": false
+ }
+]

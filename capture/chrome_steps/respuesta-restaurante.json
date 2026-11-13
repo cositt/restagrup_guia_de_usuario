@@ -1,7 +1,7 @@
 [
  {
-  "text": "Cuando el restaurante contesta por correo, su respuesta aparece a la derecha de la búsqueda y la IA guarda su menú en la ficha (1). En su tarjeta sale el **precio por persona a la agencia** (con nuestra comisión) que ha leído la IA, sin confirmar, y debajo el **coste** que nos cobra el restaurante (2). Pulsa **Confirmar presupuesto** (3).",
-  "tip": null,
+  "text": "Cuando el restaurante contesta, su correo **entra solo en Odoo** y aparece a la derecha de la búsqueda; la IA guarda su menú en la ficha (1). En su tarjeta sale el **precio por persona a la agencia** (con nuestra comisión) que ha leído la IA, sin confirmar, y debajo el **coste** que nos cobra el restaurante (2). Si comprueba que está bien, pulsa **Confirmar menú** (3).",
+  "tip": "Si el restaurante pone el precio **«+ IVA»**, la IA le suma el 10 %: aquí escribió 13 € + IVA y el coste queda en 14,30 €. Mientras haya respuestas sin confirmar, abajo a la izquierda sale el aviso **restaurantes han contestado** (4).",
   "warn": null,
   "stop": null,
   "detail": null,
@@ -12,28 +12,34 @@
   "marks": [
    {
     "x": 65.8,
-    "y": 23.0,
+    "y": 23,
     "w": 33.6,
     "h": 27.8
    },
    {
-    "x": 2.3,
-    "y": 60.2,
-    "w": 16.6,
-    "h": 5.2
+    "x": 23.3,
+    "y": 64.2,
+    "w": 16,
+    "h": 5
    },
    {
-    "x": 12.3,
-    "y": 65.2,
-    "w": 7.8,
-    "h": 3.6
+    "x": 33.2,
+    "y": 69,
+    "w": 5.8,
+    "h": 3.4
+   },
+   {
+    "x": 0.6,
+    "y": 94.4,
+    "w": 2.2,
+    "h": 4.4
    }
   ],
   "doc": false
  },
  {
   "text": "El restaurante pasa a **Recibido** con su precio por persona a la agencia y su coste (1), la búsqueda a **Presupuestos recibidos** (2) y a la derecha queda el importe por persona y el total del grupo (3).",
-  "tip": null,
+  "tip": "Con un menú confirmado aparece **+ Otro menú** en la tarjeta: sirve para ofrecer a la agencia un segundo menú del mismo restaurante (ver **Ofrecer dos menús del mismo restaurante**).",
   "warn": null,
   "stop": null,
   "detail": null,
@@ -43,60 +49,60 @@
   "h": 713,
   "marks": [
    {
-    "x": 2.3,
-    "y": 57.4,
-    "w": 16.6,
-    "h": 8.0
+    "x": 23.3,
+    "y": 61.6,
+    "w": 16,
+    "h": 7.6
    },
    {
     "x": 38.7,
-    "y": 12.6,
-    "w": 10.8,
+    "y": 13,
+    "w": 10.3,
     "h": 4.4
    },
    {
     "x": 65.8,
-    "y": 23.0,
-    "w": 28.8,
-    "h": 5.0
+    "y": 23,
+    "w": 33.6,
+    "h": 4.8
    }
   ],
   "doc": false
  },
  {
-  "text": "Si el restaurante te contesta por teléfono, WhatsApp o desde otro correo, pulsa **Registrar presupuesto** en su tarjeta. Pega el texto tal cual (1) y pulsa **Leer con IA: precio y menú** (2). La IA rellena el **precio por persona del restaurante**, el **precio a la agencia** con la comisión, el **total del grupo** y el **menú** (3). Corrige lo que haga falta y pulsa **Registrar** (4).",
-  "tip": null,
+  "text": "Si el restaurante te contesta por teléfono, WhatsApp o desde otro correo, pulsa **Registrar menú** en su tarjeta. Pega el texto tal cual (1) y pulsa **Leer con IA: precio y menú** (2). La IA rellena el **precio por persona del restaurante**, el **precio a la agencia** con la comisión, el **total del grupo** y el **menú** (3). Corrige lo que haga falta y pulsa **Registrar** (4).",
+  "tip": "Si el precio es «+ IVA», la IA ya le suma el 10 %. Si dice «IVA incluido», lo deja tal cual.",
   "warn": null,
   "stop": null,
   "detail": null,
   "labels": [],
   "img": "img/respuesta-restaurante/03.webp",
   "w": 816,
-  "h": 585,
+  "h": 627,
   "marks": [
    {
     "x": 2.31,
-    "y": 26.1,
+    "y": 31.36,
     "w": 95.38,
-    "h": 8.05
+    "h": 7.27
    },
    {
     "x": 2.31,
-    "y": 35.12,
+    "y": 39.77,
     "w": 15.77,
-    "h": 8.29
+    "h": 7.5
    },
    {
     "x": 2.31,
-    "y": 53.17,
-    "w": 37.69,
-    "h": 22.68
+    "y": 56.14,
+    "w": 57.69,
+    "h": 27.27
    },
    {
     "x": 2.31,
-    "y": 91.71,
+    "y": 92.27,
     "w": 8.85,
-    "h": 5.12
+    "h": 4.77
    }
   ],
   "doc": false

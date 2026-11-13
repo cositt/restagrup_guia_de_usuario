@@ -101,16 +101,19 @@
   ]
  },
  {
-  "title": "Ver lo que tengo pendiente (avisos)",
+  "title": "Ver lo que tengo pendiente y elegir mis avisos",
   "cat": "empezar",
-  "summary": "Las burbujas con número te dicen qué tienes por hacer y te llevan directo a ello.",
+  "summary": "Las burbujas con número te dicen qué tienes por hacer y te llevan directo a ello. En **Avisos** se elige qué avisos recibe cada persona.",
   "when": "Al empezar el día o cuando veas un número nuevo.",
   "before": [],
   "tags": [
    "avisos",
    "burbuja",
    "pendientes",
-   "notificacion"
+   "notificacion",
+   "configurar avisos",
+   "quién recibe",
+   "restaurantes han contestado"
   ],
   "result": "Ves la lista exacta de lo que tienes pendiente y entras en cada cosa.",
   "next": [
@@ -141,7 +144,7 @@
    },
    {
     "text": "Se abre la lista de lo pendiente, aquí **1 presupuesto de restaurante por confirmar**. Entra en la línea para resolverlo.",
-    "tip": null,
+    "tip": "Cuando un restaurante contesta pero no da un precio único, también sale el aviso **restaurantes han contestado: presupuestos por confirmar**: entra y registra su menú.",
     "warn": null,
     "stop": null,
     "detail": null,
@@ -164,6 +167,64 @@
       "y": 40.76,
       "w": 100.0,
       "h": 11.46
+     }
+    ],
+    "doc": false
+   },
+   {
+    "text": "Para elegir **quién recibe qué aviso**, abre el menú **+** de arriba (1) y, en **Actividad IA**, entra en **Avisos** (2).",
+    "tip": null,
+    "warn": null,
+    "stop": null,
+    "detail": null,
+    "labels": [],
+    "img": "img/avisos/03.webp",
+    "w": 706,
+    "h": 392,
+    "marks": [
+     {
+      "x": 56.0,
+      "y": 1.82,
+      "w": 4.0,
+      "h": 7.64
+     },
+     {
+      "x": 57.33,
+      "y": 78.91,
+      "w": 24.44,
+      "h": 6.55
+     }
+    ],
+    "doc": false
+   },
+   {
+    "text": "Pulsa **Nuevo**: sale una fila. Elige el **usuario** (1) y marca los avisos que debe ver (2): pendientes de aprobar, peticiones nuevas, presupuestos por confirmar, el cliente eligió, sin asignar, justificantes, pagos y facturas de restaurante. Con **Todos** los recibe todos. Pulsa **Guardar** (3).",
+    "tip": "Si en Ajustes está activado, cada comercial ve además los avisos de sus propias peticiones.",
+    "warn": null,
+    "stop": null,
+    "detail": null,
+    "labels": [],
+    "img": "img/avisos/04.webp",
+    "w": 1568,
+    "h": 214,
+    "marks": [
+     {
+      "x": 2.0,
+      "y": 54.67,
+      "w": 9.8,
+      "h": 16.0
+     },
+     {
+      "x": 11.8,
+      "y": 54.67,
+      "w": 87.0,
+      "h": 16.0
+     },
+     {
+      "x": 0.8,
+      "y": 20.67,
+      "w": 4.0,
+      "h": 14.67
      }
     ],
     "doc": false
@@ -374,32 +435,32 @@
     "labels": [],
     "img": "img/peticion-correo/01.webp",
     "w": 1568,
-    "h": 214,
+    "h": 207,
     "marks": [
      {
-      "x": 9.2,
-      "y": 54.33,
-      "w": 23.6,
-      "h": 15.33
+      "x": 11.6,
+      "y": 55.86,
+      "w": 24.5,
+      "h": 17.24
      },
      {
-      "x": 36.9,
-      "y": 54.33,
-      "w": 39.8,
-      "h": 15.33
+      "x": 40.4,
+      "y": 55.86,
+      "w": 30.0,
+      "h": 17.24
      },
      {
-      "x": 76.9,
-      "y": 54.33,
-      "w": 8.6,
-      "h": 15.33
+      "x": 70.5,
+      "y": 55.86,
+      "w": 9.5,
+      "h": 17.24
      }
     ],
     "doc": false
    },
    {
-    "text": "Abre la petición. A la derecha tienes el **correo de la agencia** tal cual llegó (1). La petición se llama como la **referencia del grupo** que da la agencia y, con los datos de su firma (teléfono, dirección y web), la IA ha creado la **agencia** y la pone como **Contacto** (2).",
-    "tip": null,
+    "text": "Abre la petición. Debajo del documento sale en grande el **servicio**: ciudad, fecha con año, hora y comensales (1). A la derecha, el **correo de la agencia** tal cual llegó (2). La petición se llama como la **referencia del grupo** y la IA pone como **Contacto** la agencia y la persona que escribe (3).",
+    "tip": "Si hay varios servicios salen todos, uno por línea: «Serv. 1», «Serv. 2»…",
     "warn": null,
     "stop": null,
     "detail": null,
@@ -409,42 +470,86 @@
     "h": 713,
     "marks": [
      {
-      "x": 67.9,
-      "y": 52.0,
-      "w": 26.6,
-      "h": 35.8
+      "x": 1.4,
+      "y": 27.6,
+      "w": 17.6,
+      "h": 4.6
      },
      {
-      "x": 1.6,
-      "y": 37.0,
-      "w": 27.0,
-      "h": 7.4
+      "x": 67.8,
+      "y": 45.8,
+      "w": 27,
+      "h": 39
+     },
+     {
+      "x": 1.4,
+      "y": 46.6,
+      "w": 25,
+      "h": 11.6
      }
     ],
     "doc": false
    },
    {
-    "text": "La primera pestaña, **Servicios**, tiene cada servicio que pide la agencia: fecha, hora, tipo, ciudad, comensales y **precio por persona** (1). Si la agencia no dice precio, se rellena con el **baremo** y se enciende **Estimado** (2). Corrige lo que haga falta y pulsa **Guardar**.",
-    "tip": "Aquí la agencia dijo «unos 35 € por persona», así que **Estimado** sale apagado.",
+    "text": "Si el correo nombra **otra agencia** que no es la de quien escribe, Odoo **no la cambia**: deja la del remitente y avisa arriba en amarillo (1). Queda anotado también en el historial (2). Comprueba con quién trabajas y, si hace falta, cambia el **Contacto**.",
+    "tip": null,
     "warn": null,
     "stop": null,
     "detail": null,
     "labels": [],
     "img": "img/peticion-correo/03.webp",
-    "w": 1019,
-    "h": 321,
+    "w": 1568,
+    "h": 599,
     "marks": [
      {
-      "x": 2.62,
-      "y": 41.33,
-      "w": 96.0,
-      "h": 20.0
+      "x": 1.6,
+      "y": 4.29,
+      "w": 62.6,
+      "h": 5.71
      },
      {
-      "x": 49.54,
-      "y": 42.22,
-      "w": 4.0,
-      "h": 8.89
+      "x": 65.8,
+      "y": 81.67,
+      "w": 33.6,
+      "h": 14.76
+     }
+    ],
+    "doc": false
+   },
+   {
+    "text": "En **Servicios** tienes cada servicio que pide la agencia: fecha, hora, tipo, ciudad, comensales y **precio por persona** (1). Si la agencia no dice la hora, se pone la del servicio: desayuno 08:30, comida 13:30, merienda 17:00 y cena 21:00 (2). Si no dice precio, se rellena con el **baremo** de su tipo de grupo (aquí escolar: 14,50 €) y se enciende **Estimado** (3). Intolerancias, teléfonos o indicaciones van en **Notas para agencia y restaurante** (4): esas sí salen en los correos. Corrige lo que haga falta y pulsa **Guardar**.",
+    "tip": "Si la agencia no dice qué grupo es ni qué servicio, se toma **grupo adulto** y **comida**. La pestaña **Notas internas** es solo para vosotros: nunca sale en ningún correo.",
+    "warn": null,
+    "stop": null,
+    "detail": null,
+    "labels": [],
+    "img": "img/peticion-correo/04.webp",
+    "w": 1019,
+    "h": 214,
+    "marks": [
+     {
+      "x": 2.46,
+      "y": 59.33,
+      "w": 96.31,
+      "h": 24.67
+     },
+     {
+      "x": 17.23,
+      "y": 61.33,
+      "w": 5.54,
+      "h": 16.67
+     },
+     {
+      "x": 49.38,
+      "y": 61.33,
+      "w": 4.62,
+      "h": 16.67
+     },
+     {
+      "x": 56.92,
+      "y": 61.33,
+      "w": 7.38,
+      "h": 23.33
      }
     ],
     "doc": false
@@ -606,6 +711,97 @@
   ]
  },
  {
+  "title": "Notas internas y notas para la agencia y el restaurante",
+  "cat": "peticiones",
+  "summary": "Hay dos tipos de notas: las **internas**, solo para el equipo, que nunca salen en ningún correo ni documento; y las **notas para agencia y restaurante** de cada servicio (alergias, guía, teléfonos, indicaciones), que sí van en los correos y confirmaciones.",
+  "when": "Quieres apuntar algo del grupo: para vosotros o para que lo sepan la agencia y el restaurante.",
+  "before": [
+   "La petición está creada."
+  ],
+  "tags": [
+   "notas",
+   "notas internas",
+   "alergias",
+   "intolerancias",
+   "guía",
+   "observaciones"
+  ],
+  "result": "Lo interno queda en el grupo sin salir de Odoo, y lo que importa a terceros viaja solo en sus correos.",
+  "next": [
+   "pedir-presupuesto",
+   "documentos-expediente"
+  ],
+  "id": "notas-servicio",
+  "steps": [
+   {
+    "text": "En el grupo, la pestaña **Notas internas** (1) es solo para el equipo: lo que escribas aquí (2) **nunca** sale en correos ni documentos.",
+    "tip": null,
+    "warn": null,
+    "stop": null,
+    "detail": null,
+    "labels": [],
+    "img": "img/notas-servicio/01.webp",
+    "w": 1019,
+    "h": 499,
+    "marks": [
+     {
+      "x": 33.69,
+      "y": 62.29,
+      "w": 10.46,
+      "h": 6.29
+     },
+     {
+      "x": 2.62,
+      "y": 71.43,
+      "w": 96.31,
+      "h": 14.29
+     }
+    ],
+    "doc": false
+   },
+   {
+    "text": "Lo que deben saber la agencia o el restaurante va en la pestaña **Servicios**, columna **Notas para agencia y restaurante** (1), en la línea de cada servicio: alergias, contacto del guía, indicaciones… La IA ya la rellena si lo dice el correo de la agencia.",
+    "tip": null,
+    "warn": null,
+    "stop": null,
+    "detail": null,
+    "labels": [],
+    "img": "img/notas-servicio/02.webp",
+    "w": 1019,
+    "h": 228,
+    "marks": [
+     {
+      "x": 56.92,
+      "y": 60.63,
+      "w": 7.38,
+      "h": 22.5
+     }
+    ],
+    "doc": false
+   },
+   {
+    "text": "Esas notas salen solas en lo que se envía de ese servicio: la petición de presupuesto, la confirmación al restaurante (1), la hoja de servicio y la confirmación a la agencia.",
+    "tip": null,
+    "warn": null,
+    "stop": null,
+    "detail": null,
+    "labels": [],
+    "img": "img/notas-servicio/03.webp",
+    "w": 816,
+    "h": 585,
+    "marks": [
+     {
+      "x": 2.31,
+      "y": 47.32,
+      "w": 65.38,
+      "h": 6.1
+     }
+    ],
+    "doc": false
+   }
+  ]
+ },
+ {
   "title": "Buscar restaurantes para un grupo",
   "cat": "restaurantes",
   "summary": "Desde la petición se abre una búsqueda con la ciudad, la fecha y los comensales del grupo. Salen primero nuestros restaurantes (EN ODOO) y después los de Google.",
@@ -635,20 +831,20 @@
     "detail": null,
     "labels": [],
     "img": "img/buscar-restaurantes/01.webp",
-    "w": 1035,
-    "h": 570,
+    "w": 1019,
+    "h": 656,
     "marks": [
      {
-      "x": 2.27,
-      "y": 36.5,
-      "w": 20.15,
-      "h": 5.75
+      "x": 2.46,
+      "y": 45.87,
+      "w": 20.31,
+      "h": 4.57
      },
      {
-      "x": 70.61,
-      "y": 83.0,
-      "w": 6.97,
-      "h": 4.75
+      "x": 78.77,
+      "y": 85.87,
+      "w": 7.08,
+      "h": 4.35
      }
     ],
     "doc": false
@@ -704,51 +900,139 @@
     "doc": false
    },
    {
-    "text": "Abajo, en **Resultados**, salen ordenados por **cercanía al precio estimado** (1). Primero los restaurantes que ya tenemos (**EN ODOO**) (2) y luego los de **Google** (3). Con **👁 Ver menús** (4) ves sus menús con coste y precio de venta. En cada tarjeta: **Interesado** (5) para apuntarlo y **Pedir presupuesto** (6) para escribirle.",
-    "tip": "Si un restaurante se pasa más de un 15 % del precio estimado, su tarjeta lo avisa en amarillo: **Se sale del precio estimado**.",
+    "text": "Abajo, en **Resultados**, salen ordenados por **cercanía al precio estimado** (1). Primero los restaurantes que ya tenemos (**EN ODOO**) (2) y luego los de **Google** (3). Con **👁 Ver menús** (4) ves sus menús con coste y precio de venta. En cada tarjeta: **Interesado** (5) para apuntarlo y **Pedir presupuesto** (6) para escribirle. Si ya sabes su precio: **Registrar menú**, **Precio de catálogo** o **Elegir** (7). A uno de Google lo das de alta con **Añadir como contacto** (8).",
+    "tip": "Si un restaurante se pasa más de un 15 % del precio estimado, su tarjeta lo avisa en amarillo: **Se sale del precio estimado**. Ya salen también los restaurantes sin aforo o sin nivel de precio en Google.",
     "warn": null,
     "stop": null,
     "detail": null,
     "labels": [],
     "img": "img/buscar-restaurantes/03.webp",
-    "w": 1035,
-    "h": 713,
+    "w": 1019,
+    "h": 606,
     "marks": [
      {
-      "x": 2.12,
-      "y": 21.6,
-      "w": 27.27,
+      "x": 2.15,
+      "y": 7.76,
+      "w": 27.69,
+      "h": 4.94
+     },
+     {
+      "x": 59.69,
+      "y": 22.82,
+      "w": 5.54,
       "h": 4.0
      },
      {
-      "x": 2.42,
-      "y": 33.2,
-      "w": 94.85,
-      "h": 41.4
+      "x": 60.31,
+      "y": 76.47,
+      "w": 5.23,
+      "h": 4.0
      },
      {
-      "x": 2.42,
-      "y": 75.4,
-      "w": 94.85,
-      "h": 24.4
+      "x": 44.92,
+      "y": 49.65,
+      "w": 7.69,
+      "h": 4.24
      },
      {
-      "x": 12.42,
-      "y": 53.6,
-      "w": 7.58,
-      "h": 3.4
+      "x": 35.85,
+      "y": 58.12,
+      "w": 6.46,
+      "h": 4.0
      },
      {
-      "x": 3.64,
-      "y": 60.8,
-      "w": 6.36,
-      "h": 3.2
+      "x": 48.31,
+      "y": 58.12,
+      "w": 9.85,
+      "h": 4.0
      },
      {
-      "x": 15.91,
-      "y": 60.8,
-      "w": 9.7,
-      "h": 3.2
+      "x": 35.85,
+      "y": 61.88,
+      "w": 22.62,
+      "h": 4.0
+     },
+     {
+      "x": 40.77,
+      "y": 87.76,
+      "w": 10.77,
+      "h": 4.0
+     }
+    ],
+    "doc": false
+   }
+  ]
+ },
+ {
+  "title": "Dar de alta un restaurante que sale de Google",
+  "cat": "restaurantes",
+  "summary": "Un restaurante de **Google** que te interesa pasa a ser ficha nuestra con un clic: **Añadir como contacto**. Odoo lo marca como restaurante, separa su dirección y busca su email en su web.",
+  "when": "En una búsqueda sale un restaurante de Google con el que quieres trabajar.",
+  "before": [
+   "Búsqueda hecha (**Buscar restaurantes**)."
+  ],
+  "tags": [
+   "google",
+   "añadir contacto",
+   "alta restaurante",
+   "email",
+   "ficha"
+  ],
+  "result": "El restaurante sale como **EN ODOO**, con su ficha creada y, si su web lo publica, con su email.",
+  "next": [
+   "pedir-presupuesto",
+   "completar-ficha-restaurante"
+  ],
+  "id": "anadir-contacto-google",
+  "steps": [
+   {
+    "text": "En los resultados de la búsqueda, los restaurantes de **Google** llevan la etiqueta **GOOGLE** (1). Pulsa **Añadir como contacto** (2) en el que quieras dar de alta.",
+    "tip": null,
+    "warn": null,
+    "stop": null,
+    "detail": null,
+    "labels": [],
+    "img": "img/anadir-contacto-google/01.webp",
+    "w": 1019,
+    "h": 321,
+    "marks": [
+     {
+      "x": 60.31,
+      "y": 55.56,
+      "w": 5.23,
+      "h": 7.56
+     },
+     {
+      "x": 40.77,
+      "y": 76.89,
+      "w": 10.77,
+      "h": 7.56
+     }
+    ],
+    "doc": false
+   },
+   {
+    "text": "Ya es ficha nuestra: sale como **EN ODOO** y marcado como restaurante (1). Si Google da su web, Odoo entra en ella, saca el **email** y lo anota a la derecha (2). La dirección se separa en calle, código postal, ciudad y provincia cuando Google da el código postal.",
+    "tip": "Si no encuentra email, la tarjeta te avisa al pedir presupuesto: abre su ficha y escríbelo a mano.",
+    "warn": "El email sale de la web del restaurante: compruébalo antes del primer envío.",
+    "stop": null,
+    "detail": null,
+    "labels": [],
+    "img": "img/anadir-contacto-google/02.webp",
+    "w": 1568,
+    "h": 713,
+    "marks": [
+     {
+      "x": 22.6,
+      "y": 80,
+      "w": 20.8,
+      "h": 20
+     },
+     {
+      "x": 65.8,
+      "y": 23.4,
+      "w": 33.6,
+      "h": 4.4
      }
     ],
     "doc": false
@@ -789,20 +1073,20 @@
     "h": 713,
     "marks": [
      {
-      "x": 2.4,
-      "y": 61.6,
-      "w": 12.6,
-      "h": 3.2
+      "x": 23.4,
+      "y": 65.2,
+      "w": 12.4,
+      "h": 3.6
      },
      {
-      "x": 44.3,
-      "y": 61.6,
-      "w": 12.6,
-      "h": 3.2
+      "x": 44.4,
+      "y": 65.2,
+      "w": 12.4,
+      "h": 3.6
      },
      {
       "x": 65.8,
-      "y": 23.2,
+      "y": 23.6,
       "w": 21.4,
       "h": 10.6
      },
@@ -816,27 +1100,45 @@
     "doc": false
    },
    {
-    "text": "Pulsa **Pedir presupuesto a interesados**. Odoo pide confirmación: al pulsar **Aceptar** (1) se manda el correo a todos los marcados.",
-    "tip": null,
+    "text": "Pulsa **Pedir presupuesto a interesados**. Se abre la ventana para **revisar y enviar**: a quién va cada correo (1), el asunto con el localizador (2) y el texto (3), que puedes cambiar. Es un texto común: **{restaurante}** y **{menu}** se cambian por los de cada uno, y cada restaurante lo recibe por separado. Las **notas para agencia y restaurante** del servicio (aquí la alergia) ya van dentro. Cuando esté bien, pulsa **Enviar** (4).",
+    "tip": "Al pedir presupuesto a un solo restaurante (botón **Pedir presupuesto** de su tarjeta) puedes elegir a cuál de sus contactos va: la ficha y/o una o varias personas.",
     "warn": "El correo sale al momento y de verdad: úsalo solo con restaurantes reales cuando sea en serio.",
     "stop": null,
     "detail": null,
     "labels": [],
     "img": "img/pedir-presupuesto/02.webp",
-    "w": 1098,
-    "h": 499,
+    "w": 816,
+    "h": 564,
     "marks": [
      {
-      "x": 26.86,
-      "y": 52.0,
-      "w": 6.0,
-      "h": 6.29
+      "x": 2.31,
+      "y": 21.01,
+      "w": 58.46,
+      "h": 7.34
+     },
+     {
+      "x": 12.31,
+      "y": 34.94,
+      "w": 85.38,
+      "h": 4.81
+     },
+     {
+      "x": 2.31,
+      "y": 40.51,
+      "w": 95.38,
+      "h": 43.04
+     },
+     {
+      "x": 2.31,
+      "y": 90.13,
+      "w": 8.85,
+      "h": 5.82
      }
     ],
     "doc": false
    },
    {
-    "text": "Listo: la búsqueda pasa a **Presupuestos pedidos** (1) y a la derecha queda a quién se ha escrito y a qué correo (2). En la tarjeta de cada restaurante se enciende **Pedido**. El asunto del correo es «Presupuesto para grupos — localizador — ciudad fecha», y la respuesta del restaurante vuelve sola a esta búsqueda.",
+    "text": "Listo: la búsqueda pasa a **Presupuestos pedidos** (1) y a la derecha queda a quién se ha escrito y a qué correo (2). En la tarjeta de cada restaurante se enciende **Pedido**. La respuesta del restaurante vuelve sola a esta búsqueda: aunque conteste desde su correo, le llega a Odoo, no al buzón de nadie.",
     "tip": null,
     "warn": null,
     "stop": null,
@@ -848,15 +1150,15 @@
     "marks": [
      {
       "x": 29.4,
-      "y": 12.6,
+      "y": 13,
       "w": 9.9,
       "h": 4.4
      },
      {
       "x": 65.8,
-      "y": 23.0,
-      "w": 33.0,
-      "h": 20.0
+      "y": 23,
+      "w": 33.6,
+      "h": 19.4
      }
     ],
     "doc": false
@@ -864,19 +1166,22 @@
   ]
  },
  {
-  "title": "Contestó un restaurante: registrar su presupuesto",
+  "title": "Contestó un restaurante: registrar su menú",
   "cat": "restaurantes",
-  "summary": "La respuesta del restaurante entra sola en la búsqueda. La IA lee el precio y el menú, pero el importe lo confirma siempre una persona con **Confirmar presupuesto**. Si contesta por teléfono o WhatsApp, usa **Registrar presupuesto**.",
+  "summary": "La respuesta del restaurante entra sola en Odoo, en su búsqueda. La IA lee el precio y el menú (si pone «+ IVA», le suma el 10 %), pero el importe lo confirma siempre una persona con **Confirmar menú**. Si contesta por teléfono o WhatsApp, usa **Registrar menú**.",
   "when": "Un restaurante responde a la consulta de presupuesto.",
   "before": [
    "Le pediste presupuesto desde la búsqueda (su tarjeta sale en **Pedido**).",
    "El restaurante contesta **respondiendo** al correo que le llegó, o te lo dice por otra vía."
   ],
   "tags": [
-   "respuesta",
-   "presupuesto recibido",
+   "confirmar menú",
    "importe",
+   "iva",
+   "presupuesto recibido",
    "registrar",
+   "registrar menú",
+   "respuesta",
    "restaurante contesta"
   ],
   "result": "El restaurante sale como **Recibido** con su precio y su coste, y ya se puede preparar la propuesta a la agencia.",
@@ -887,8 +1192,8 @@
   "id": "respuesta-restaurante",
   "steps": [
    {
-    "text": "Cuando el restaurante contesta por correo, su respuesta aparece a la derecha de la búsqueda y la IA guarda su menú en la ficha (1). En su tarjeta sale el **precio por persona a la agencia** (con nuestra comisión) que ha leído la IA, sin confirmar, y debajo el **coste** que nos cobra el restaurante (2). Pulsa **Confirmar presupuesto** (3).",
-    "tip": null,
+    "text": "Cuando el restaurante contesta, su correo **entra solo en Odoo** y aparece a la derecha de la búsqueda; la IA guarda su menú en la ficha (1). En su tarjeta sale el **precio por persona a la agencia** (con nuestra comisión) que ha leído la IA, sin confirmar, y debajo el **coste** que nos cobra el restaurante (2). Si comprueba que está bien, pulsa **Confirmar menú** (3).",
+    "tip": "Si el restaurante pone el precio **«+ IVA»**, la IA le suma el 10 %: aquí escribió 13 € + IVA y el coste queda en 14,30 €. Mientras haya respuestas sin confirmar, abajo a la izquierda sale el aviso **restaurantes han contestado** (4).",
     "warn": null,
     "stop": null,
     "detail": null,
@@ -899,28 +1204,34 @@
     "marks": [
      {
       "x": 65.8,
-      "y": 23.0,
+      "y": 23,
       "w": 33.6,
       "h": 27.8
      },
      {
-      "x": 2.3,
-      "y": 60.2,
-      "w": 16.6,
-      "h": 5.2
+      "x": 23.3,
+      "y": 64.2,
+      "w": 16,
+      "h": 5
      },
      {
-      "x": 12.3,
-      "y": 65.2,
-      "w": 7.8,
-      "h": 3.6
+      "x": 33.2,
+      "y": 69,
+      "w": 5.8,
+      "h": 3.4
+     },
+     {
+      "x": 0.6,
+      "y": 94.4,
+      "w": 2.2,
+      "h": 4.4
      }
     ],
     "doc": false
    },
    {
     "text": "El restaurante pasa a **Recibido** con su precio por persona a la agencia y su coste (1), la búsqueda a **Presupuestos recibidos** (2) y a la derecha queda el importe por persona y el total del grupo (3).",
-    "tip": null,
+    "tip": "Con un menú confirmado aparece **+ Otro menú** en la tarjeta: sirve para ofrecer a la agencia un segundo menú del mismo restaurante (ver **Ofrecer dos menús del mismo restaurante**).",
     "warn": null,
     "stop": null,
     "detail": null,
@@ -930,60 +1241,60 @@
     "h": 713,
     "marks": [
      {
-      "x": 2.3,
-      "y": 57.4,
-      "w": 16.6,
-      "h": 8.0
+      "x": 23.3,
+      "y": 61.6,
+      "w": 16,
+      "h": 7.6
      },
      {
       "x": 38.7,
-      "y": 12.6,
-      "w": 10.8,
+      "y": 13,
+      "w": 10.3,
       "h": 4.4
      },
      {
       "x": 65.8,
-      "y": 23.0,
-      "w": 28.8,
-      "h": 5.0
+      "y": 23,
+      "w": 33.6,
+      "h": 4.8
      }
     ],
     "doc": false
    },
    {
-    "text": "Si el restaurante te contesta por teléfono, WhatsApp o desde otro correo, pulsa **Registrar presupuesto** en su tarjeta. Pega el texto tal cual (1) y pulsa **Leer con IA: precio y menú** (2). La IA rellena el **precio por persona del restaurante**, el **precio a la agencia** con la comisión, el **total del grupo** y el **menú** (3). Corrige lo que haga falta y pulsa **Registrar** (4).",
-    "tip": null,
+    "text": "Si el restaurante te contesta por teléfono, WhatsApp o desde otro correo, pulsa **Registrar menú** en su tarjeta. Pega el texto tal cual (1) y pulsa **Leer con IA: precio y menú** (2). La IA rellena el **precio por persona del restaurante**, el **precio a la agencia** con la comisión, el **total del grupo** y el **menú** (3). Corrige lo que haga falta y pulsa **Registrar** (4).",
+    "tip": "Si el precio es «+ IVA», la IA ya le suma el 10 %. Si dice «IVA incluido», lo deja tal cual.",
     "warn": null,
     "stop": null,
     "detail": null,
     "labels": [],
     "img": "img/respuesta-restaurante/03.webp",
     "w": 816,
-    "h": 585,
+    "h": 627,
     "marks": [
      {
       "x": 2.31,
-      "y": 26.1,
+      "y": 31.36,
       "w": 95.38,
-      "h": 8.05
+      "h": 7.27
      },
      {
       "x": 2.31,
-      "y": 35.12,
+      "y": 39.77,
       "w": 15.77,
-      "h": 8.29
+      "h": 7.5
      },
      {
       "x": 2.31,
-      "y": 53.17,
-      "w": 37.69,
-      "h": 22.68
+      "y": 56.14,
+      "w": 57.69,
+      "h": 27.27
      },
      {
       "x": 2.31,
-      "y": 91.71,
+      "y": 92.27,
       "w": 8.85,
-      "h": 5.12
+      "h": 4.77
      }
     ],
     "doc": false
@@ -1039,7 +1350,7 @@
     "doc": false
    },
    {
-    "text": "Si te dio el precio por **WhatsApp o por teléfono**, pulsa **Registrar presupuesto**, escribe el precio por persona en el paso 2 y pulsa **Registrar**.",
+    "text": "Si te dio el precio por **WhatsApp o por teléfono**, pulsa **Registrar menú**, escribe el precio por persona en el paso 2 y pulsa **Registrar**.",
     "tip": "No hace falta pegar ningún correo: el paso 1 (leer con IA) es solo para cuando tienes su respuesta escrita.",
     "warn": null,
     "stop": null,
@@ -1049,6 +1360,101 @@
     "w": 0,
     "h": 0,
     "marks": [],
+    "doc": false
+   }
+  ]
+ },
+ {
+  "title": "Ofrecer dos menús del mismo restaurante",
+  "cat": "restaurantes",
+  "summary": "Cuando un restaurante tiene varios menús que encajan, puedes llevar a la propuesta de la agencia **dos o más menús del mismo restaurante**. Cada menú es una tarjeta con su propio precio.",
+  "when": "El restaurante ya contestó con un menú y quieres ofrecer también otro de los suyos.",
+  "before": [
+   "El restaurante ya tiene un menú registrado o confirmado en la búsqueda (sale **Recibido**)."
+  ],
+  "tags": [
+   "otro menú",
+   "dos menús",
+   "varios menús",
+   "propuesta",
+   "opciones"
+  ],
+  "result": "En la búsqueda hay una tarjeta por menú, y los dos salen como opciones en la propuesta a la agencia.",
+  "next": [
+   "presupuesto-agencia"
+  ],
+  "id": "dos-menus",
+  "steps": [
+   {
+    "text": "En la tarjeta del restaurante que ya tiene un menú, pulsa **+ Otro menú** (1).",
+    "tip": null,
+    "warn": null,
+    "stop": null,
+    "detail": null,
+    "labels": [],
+    "img": "img/dos-menus/01.webp",
+    "w": 1019,
+    "h": 463,
+    "marks": [
+     {
+      "x": 52.77,
+      "y": 65.54,
+      "w": 7.08,
+      "h": 5.54
+     }
+    ],
+    "doc": false
+   },
+   {
+    "text": "Se abre la ventana **Otro menú de** ese restaurante. Elige uno de sus **menús** guardados (1) y el precio se rellena solo (2); o pega su respuesta y pulsa **Leer con IA**. Pulsa **Registrar** (3).",
+    "tip": null,
+    "warn": null,
+    "stop": null,
+    "detail": null,
+    "labels": [],
+    "img": "img/dos-menus/02.webp",
+    "w": 816,
+    "h": 627,
+    "marks": [
+     {
+      "x": 18.46,
+      "y": 74.09,
+      "w": 79.62,
+      "h": 4.77
+     },
+     {
+      "x": 2.31,
+      "y": 56.14,
+      "w": 23.08,
+      "h": 16.59
+     },
+     {
+      "x": 2.31,
+      "y": 92.27,
+      "w": 8.85,
+      "h": 4.77
+     }
+    ],
+    "doc": false
+   },
+   {
+    "text": "Ahora el restaurante sale **dos veces**, una tarjeta por menú, cada una con su precio y su coste (1). Las dos pasan a la pestaña **Propuesta** de la petición como opciones distintas para la agencia.",
+    "tip": "Si sobra una, pulsa **Descartar** en esa tarjeta.",
+    "warn": null,
+    "stop": null,
+    "detail": null,
+    "labels": [],
+    "img": "img/dos-menus/03.webp",
+    "w": 1019,
+    "h": 463,
+    "marks": [
+     {
+      "x": 34.77,
+      "y": 28.31,
+      "w": 64.0,
+      "h": 68.92
+     }
+    ],
     "doc": false
    }
   ]
@@ -1164,7 +1570,10 @@
    "agencia",
    "elegir",
    "margen",
-   "precio"
+   "precio",
+   "platos elegidos",
+   "errata",
+   "dos menús"
   ],
   "result": "La agencia tiene el presupuesto (PET…) con el PDF y el enlace para firmarlo, y el presupuesto está en **Presupuesto enviado**.",
   "next": [
@@ -1173,71 +1582,77 @@
   "id": "presupuesto-agencia",
   "steps": [
    {
-    "text": "Vuelve a la petición. Cuando hay presupuestos recibidos aparece la pestaña **Propuesta** (1) con los restaurantes de cada servicio, su menú, el **precio a la agencia** y el **precio del restaurante** por persona (2). En **Menús** (3) tienes los menús de todos los restaurantes candidatos. Pulsa **Enviar propuesta a la agencia** (4).",
+    "text": "Vuelve a la petición. Cuando hay presupuestos recibidos aparece la pestaña **Propuesta** (1) con los restaurantes de cada servicio, su menú, el **precio a la agencia** y el **precio del restaurante** por persona (2). Un restaurante puede salir con dos menús: son dos opciones. En **Menús** (3) tienes los menús de todos los candidatos. Pulsa **Enviar propuesta a la agencia** (4).",
     "tip": "Si ya sabes qué restaurante va, pulsa **Elegir** en su línea y salta al paso de **Crear presupuesto**.",
     "warn": null,
     "stop": null,
     "detail": null,
     "labels": [],
     "img": "img/presupuesto-agencia/01.webp",
-    "w": 1035,
-    "h": 656,
+    "w": 1568,
+    "h": 713,
     "marks": [
      {
-      "x": 9.7,
-      "y": 53.48,
-      "w": 8.18,
-      "h": 5.0
+      "x": 6.4,
+      "y": 60.4,
+      "w": 5.4,
+      "h": 4.4
      },
      {
-      "x": 2.42,
-      "y": 66.09,
-      "w": 94.85,
-      "h": 15.22
+      "x": 1.7,
+      "y": 75.6,
+      "w": 62.6,
+      "h": 13.8
      },
      {
-      "x": 17.58,
-      "y": 53.48,
-      "w": 6.36,
-      "h": 5.0
+      "x": 17.8,
+      "y": 60.4,
+      "w": 4.2,
+      "h": 4.4
      },
      {
-      "x": 64.55,
-      "y": 13.7,
-      "w": 17.58,
-      "h": 4.78
+      "x": 34.6,
+      "y": 13,
+      "w": 11.6,
+      "h": 4.4
      }
     ],
     "doc": false
    },
    {
-    "text": "Comprueba el correo de la agencia y el asunto, que lleva el localizador de la petición (1). Con **Incluir enlace para elegir** la agencia recibe, además del PDF, un enlace donde elige un restaurante por servicio. Si desmarcas **Mostrar los restaurantes**, la agencia ve «Opción 1», «Opción 2»… con su menú y su precio, sin el nombre (2). Pulsa **Enviar** (3).",
-    "tip": "Antes de enviar sale un resumen para revisar: a quién va y qué opciones lleva cada servicio. La propuesta no lleva totales: el total va en el presupuesto.",
+    "text": "Comprueba el correo de la agencia y el asunto, que lleva el localizador de la petición (1). Con **Incluir enlace para elegir** la agencia recibe, además del PDF, un enlace donde elige un restaurante por servicio. Si desmarcas **Mostrar los restaurantes**, la agencia ve «Opción 1», «Opción 2»… con su menú y su precio, sin el nombre (2). El texto del correo lo puedes cambiar (3). Pulsa **Enviar** (4).",
+    "tip": "La propuesta no lleva totales: el total va en el presupuesto.",
     "warn": null,
     "stop": null,
     "detail": null,
     "labels": [],
     "img": "img/presupuesto-agencia/02.webp",
     "w": 816,
-    "h": 464,
+    "h": 457,
     "marks": [
      {
       "x": 2.31,
-      "y": 15.69,
+      "y": 16.25,
       "w": 95.38,
-      "h": 12.0
+      "h": 12.19
      },
      {
       "x": 2.31,
-      "y": 29.23,
-      "w": 20.0,
-      "h": 16.92
+      "y": 30.31,
+      "w": 20.38,
+      "h": 16.25
      },
      {
       "x": 2.31,
-      "y": 87.38,
+      "y": 48.12,
+      "w": 95.38,
+      "h": 21.88
+     },
+     {
+      "x": 2.31,
+      "y": 88.44,
       "w": 6.92,
-      "h": 6.77
+      "h": 7.19
      }
     ],
     "doc": false
@@ -1251,25 +1666,25 @@
     "labels": [],
     "img": "img/presupuesto-agencia/03.webp",
     "w": 816,
-    "h": 343,
+    "h": 357,
     "marks": [
      {
       "x": 2.31,
-      "y": 34.58,
+      "y": 33.2,
       "w": 95.38,
-      "h": 40.83
+      "h": 42.0
      },
      {
       "x": 15.19,
-      "y": 85.0,
+      "y": 86.8,
       "w": 13.46,
-      "h": 9.17
+      "h": 8.8
      }
     ],
     "doc": false
    },
    {
-    "text": "A la derecha queda el correo enviado con el **enlace para elegir** y el **PDF** de la propuesta (1). La petición pasa a **Presupuesto** (2).",
+    "text": "A la derecha queda el correo enviado con el **enlace para elegir** y el **PDF** de la propuesta (1). La petición pasa a **Presupuesto** (2). Desde aquí ya puedes mandar también la **confirmación a la agencia** (3), sin esperar al expediente.",
     "tip": null,
     "warn": null,
     "stop": null,
@@ -1281,21 +1696,27 @@
     "marks": [
      {
       "x": 67.8,
-      "y": 38.4,
-      "w": 26.8,
-      "h": 50.4
+      "y": 36.8,
+      "w": 27,
+      "h": 53.6
      },
      {
       "x": 59.5,
-      "y": 12.6,
-      "w": 5.6,
+      "y": 13,
+      "w": 5.4,
+      "h": 4.4
+     },
+     {
+      "x": 37.7,
+      "y": 13,
+      "w": 12.4,
       "h": 4.4
      }
     ],
     "doc": false
    },
    {
-    "text": "Esto es lo que ve la agencia al abrir el enlace: cada servicio (1) con sus opciones, el menú completo y el precio por persona (2). Pulsa **Elijo este** (3) en el restaurante que prefiere.",
+    "text": "Esto es lo que ve la agencia al abrir el enlace: cada servicio (1) con sus opciones, el menú completo y el precio por persona (2). Puede escribir los **platos elegidos**, alergias u observaciones (3) y pulsar **Elijo este** (4) en el restaurante que prefiere.",
     "tip": "Si la agencia te contesta por correo o por teléfono, elige tú: botón **Elegir** en la pestaña **Propuesta** de la petición.",
     "warn": null,
     "stop": null,
@@ -1306,21 +1727,27 @@
     "h": 713,
     "marks": [
      {
-      "x": 10.0,
-      "y": 13.0,
-      "w": 80.0,
-      "h": 4.2
+      "x": 10.4,
+      "y": 13.4,
+      "w": 79.2,
+      "h": 4.4
      },
      {
-      "x": 10.0,
-      "y": 17.8,
-      "w": 80.0,
-      "h": 50.0
+      "x": 10.4,
+      "y": 18.0,
+      "w": 79.2,
+      "h": 33.0
+     },
+     {
+      "x": 12.0,
+      "y": 52.8,
+      "w": 76.4,
+      "h": 6.6
      },
      {
       "x": 77.2,
-      "y": 61.4,
-      "w": 11.2,
+      "y": 60.2,
+      "w": 10.8,
       "h": 4.8
      }
     ],
@@ -1335,21 +1762,21 @@
     "labels": [],
     "img": "img/presupuesto-agencia/06.webp",
     "w": 784,
-    "h": 499,
+    "h": 463,
     "marks": [
      {
-      "x": 10.0,
-      "y": 25.14,
-      "w": 80.0,
-      "h": 9.14
+      "x": 10.4,
+      "y": 27.38,
+      "w": 79.2,
+      "h": 9.23
      }
     ],
     "doc": false
    },
    {
-    "text": "En la petición queda anotado qué ha elegido la agencia (1) y ese restaurante sale marcado en **Propuesta** (2). Con un restaurante elegido en cada servicio aparece **Crear presupuesto** (3): púlsalo.",
+    "text": "En la petición queda anotado qué ha elegido la agencia y lo que escribió (1). Si un plato tiene una **errata** clara, Odoo lo corrige y lo anota; si pide un plato que **no está en el menú**, avisa para que lo confirmes con la agencia (2). El restaurante sale marcado en **Propuesta** con lo que pidió la agencia (3). Con un restaurante elegido en cada servicio aparece **Crear presupuesto** (4): púlsalo.",
     "tip": null,
-    "warn": null,
+    "warn": "Si sale el aviso de un plato que no está en el menú, confírmalo con la agencia y con el restaurante antes de enviar la confirmación.",
     "stop": null,
     "detail": null,
     "labels": [],
@@ -1359,20 +1786,26 @@
     "marks": [
      {
       "x": 65.8,
-      "y": 23.0,
-      "w": 32.0,
-      "h": 7.4
+      "y": 36.8,
+      "w": 33.6,
+      "h": 15.4
      },
      {
-      "x": 1.6,
-      "y": 64.8,
+      "x": 65.8,
+      "y": 23,
+      "w": 33.6,
+      "h": 14
+     },
+     {
+      "x": 1.7,
+      "y": 73.8,
       "w": 62.6,
-      "h": 5.0
+      "h": 8.8
      },
      {
-      "x": 45.6,
-      "y": 12.6,
-      "w": 8.0,
+      "x": 37.7,
+      "y": 13,
+      "w": 7.6,
       "h": 4.4
      }
     ],
@@ -1390,26 +1823,26 @@
     "h": 713,
     "marks": [
      {
-      "x": 2.6,
+      "x": 1.7,
       "y": 75.6,
-      "w": 62.4,
-      "h": 3.4
+      "w": 63,
+      "h": 4.2
      },
      {
       "x": 33.6,
-      "y": 30.8,
+      "y": 31,
       "w": 11.4,
-      "h": 3.4
+      "h": 3.6
      },
      {
       "x": 1.7,
-      "y": 19.6,
+      "y": 19.8,
       "w": 62.4,
       "h": 4.2
      },
      {
       "x": 0.8,
-      "y": 13.0,
+      "y": 13,
       "w": 12.2,
       "h": 3.8
      }
@@ -1417,33 +1850,39 @@
     "doc": false
    },
    {
-    "text": "Se abre el correo para el contacto de la agencia (1) con el importe total y el PDF del presupuesto adjunto (2). Pulsa **Enviar** (3).",
+    "text": "Se abre el correo para el contacto de la agencia (1) con el importe total (2) y el PDF del presupuesto adjunto (3). Pulsa **Enviar** (4).",
     "tip": null,
     "warn": null,
     "stop": null,
     "detail": null,
     "labels": [],
     "img": "img/presupuesto-agencia/09.webp",
-    "w": 846,
-    "h": 499,
+    "w": 816,
+    "h": 485,
     "marks": [
      {
-      "x": 10.74,
-      "y": 15.71,
-      "w": 11.11,
-      "h": 4.57
+      "x": 3.27,
+      "y": 15.29,
+      "w": 22.31,
+      "h": 5.59
      },
      {
-      "x": 4.81,
-      "y": 77.14,
-      "w": 32.22,
-      "h": 7.71
+      "x": 3.27,
+      "y": 33.53,
+      "w": 90.0,
+      "h": 4.71
      },
      {
-      "x": 4.07,
-      "y": 87.71,
-      "w": 6.67,
-      "h": 5.71
+      "x": 3.27,
+      "y": 78.24,
+      "w": 33.08,
+      "h": 7.06
+     },
+     {
+      "x": 2.31,
+      "y": 88.82,
+      "w": 6.92,
+      "h": 6.47
      }
     ],
     "doc": false
@@ -1461,19 +1900,19 @@
     "marks": [
      {
       "x": 48.4,
-      "y": 13.0,
+      "y": 13,
       "w": 9.4,
       "h": 3.8
      },
      {
       "x": 67.8,
-      "y": 25.6,
-      "w": 27.0,
-      "h": 36.6
+      "y": 25.2,
+      "w": 27,
+      "h": 37
      },
      {
       "x": 1.7,
-      "y": 19.6,
+      "y": 19.8,
       "w": 62.4,
       "h": 4.2
      }
@@ -1587,8 +2026,8 @@
     "doc": false
    },
    {
-    "text": "Ábrelo. El documento pasa a **EXP…** y la etapa a **Expediente** (1). En el historial queda todo lo que ha pasado: quién eligió, cuándo se creó el presupuesto y quién lo firmó (2). **Pedidos** (3) abre el pedido de venta del grupo.",
-    "tip": null,
+    "text": "Ábrelo. El documento pasa a **EXP…** y la etapa a **Expediente** (1). Debajo, los totales del grupo y la casilla **Pagado** (2), que se marca cuando la agencia ha pagado. En el historial queda todo lo que ha pasado: quién eligió, cuándo se creó el presupuesto y quién lo firmó (3). **Pedidos** (4) abre el pedido de venta del grupo.",
+    "tip": "Si el grupo se cancela, al cancelar su pedido se cancelan también sus hojas de servicio.",
     "warn": null,
     "stop": null,
     "detail": null,
@@ -1598,22 +2037,28 @@
     "h": 713,
     "marks": [
      {
-      "x": 1.6,
-      "y": 19.8,
-      "w": 11.0,
-      "h": 2.6
+      "x": 1.4,
+      "y": 29.4,
+      "w": 12.4,
+      "h": 3.6
+     },
+     {
+      "x": 1.7,
+      "y": 68.4,
+      "w": 62.6,
+      "h": 5
      },
      {
       "x": 65.8,
-      "y": 23.4,
-      "w": 32.0,
-      "h": 52.0
+      "y": 18.6,
+      "w": 33.6,
+      "h": 52
      },
      {
-      "x": 50.4,
+      "x": 50.2,
       "y": 6.2,
       "w": 5.4,
-      "h": 4.0
+      "h": 4.6
      }
     ],
     "doc": false
@@ -1679,12 +2124,13 @@
   ]
  },
  {
-  "title": "Confirmaciones y documentos del expediente",
+  "title": "Confirmaciones a la agencia y al restaurante",
   "cat": "expediente",
-  "summary": "Desde el propio grupo: enviar la confirmación a la agencia y a los restaurantes, y descargar la confirmación de la agencia, la del restaurante y el bono.",
-  "when": "El grupo está en **Expedientes**.",
+  "summary": "Enviar la confirmación a la agencia (ya desde **Presupuesto**) y a cada restaurante (en **Expediente**), revisando a quién va y el texto antes de enviar; y descargar la confirmación de la agencia, la del restaurante y el bono.",
+  "when": "Sabes qué restaurante va (Presupuesto) o el grupo ya está en **Expedientes**.",
   "before": [
-   "El grupo pasó a expediente con su restaurante elegido (al pasar se crea y confirma el pedido)."
+   "La agencia ha elegido restaurante en cada servicio (para la agencia).",
+   "El grupo está en expediente (para los restaurantes)."
   ],
   "tags": [
    "confirmacion",
@@ -1693,7 +2139,10 @@
    "bono",
    "pdf",
    "descargar",
-   "expediente"
+   "expediente",
+   "revisar y enviar",
+   "destinatarios",
+   "contactos"
   ],
   "result": "La agencia y los restaurantes tienen su confirmación en PDF y queda anotado en el grupo.",
   "next": [
@@ -1703,55 +2152,175 @@
   "id": "documentos-expediente",
   "steps": [
    {
-    "text": "Abre el grupo desde **Expedientes**. Arriba están los botones del expediente.",
+    "text": "La confirmación a la agencia se puede mandar ya en **Presupuesto** (1), en cuanto sepas qué restaurante va, o más tarde en **Expediente**. Pulsa **Enviar confirmación a la agencia** (2).",
+    "tip": "Enviarla no cambia la fase del grupo. Cuenta como una proforma más en las estadísticas.",
+    "warn": null,
+    "stop": null,
+    "detail": null,
+    "labels": [],
+    "img": "img/documentos-expediente/01.webp",
+    "w": 1019,
+    "h": 428,
+    "marks": [
+     {
+      "x": 91.54,
+      "y": 5.0,
+      "w": 8.31,
+      "h": 7.33
+     },
+     {
+      "x": 58.0,
+      "y": 5.0,
+      "w": 19.08,
+      "h": 7.33
+     }
+    ],
+    "doc": false
+   },
+   {
+    "text": "Si falta algo, sale **Antes de continuar** con lo que falta o no cuadra (1). Puedes **Volver a revisar** o **Continuar de todos modos** (2): queda anotado en el historial.",
     "tip": null,
     "warn": null,
     "stop": null,
     "detail": null,
     "labels": [],
-    "img": null,
-    "w": 0,
-    "h": 0,
-    "marks": [],
+    "img": "img/documentos-expediente/02.webp",
+    "w": 816,
+    "h": 243,
+    "marks": [
+     {
+      "x": 2.31,
+      "y": 48.82,
+      "w": 95.38,
+      "h": 15.88
+     },
+     {
+      "x": 2.31,
+      "y": 78.24,
+      "w": 33.08,
+      "h": 13.53
+     }
+    ],
     "doc": false
    },
    {
-    "text": "Pulsa **Enviar confirmación a la agencia**. Le llega un correo con la confirmación en PDF: la reserva queda confirmada y se le pide que complete lo que falte (menú elegido, contacto del guía, intolerancias, número final de comensales).",
-    "tip": "Cuenta como una proforma más en las estadísticas del grupo.",
+    "text": "Se abre la ventana para **revisar y enviar**. En **Para** (1) eliges a quién va: la ficha de la agencia y/o una o varias de sus personas; en **Otros emails** (2) puedes añadir direcciones sueltas. El asunto y el texto (3) se pueden cambiar: lo que escribas es lo que recibe. La confirmación va en PDF (4). Pulsa **Enviar** (5).",
+    "tip": "El correo pide a la agencia lo que falte: menú elegido, contacto del guía, alergias y número final de comensales.",
     "warn": null,
     "stop": null,
     "detail": null,
     "labels": [],
-    "img": null,
-    "w": 0,
-    "h": 0,
-    "marks": [],
+    "img": "img/documentos-expediente/03.webp",
+    "w": 816,
+    "h": 599,
+    "marks": [
+     {
+      "x": 2.31,
+      "y": 19.52,
+      "w": 95.38,
+      "h": 4.29
+     },
+     {
+      "x": 2.31,
+      "y": 24.05,
+      "w": 95.38,
+      "h": 4.05
+     },
+     {
+      "x": 2.31,
+      "y": 29.05,
+      "w": 95.38,
+      "h": 42.62
+     },
+     {
+      "x": 3.08,
+      "y": 73.1,
+      "w": 39.62,
+      "h": 7.62
+     },
+     {
+      "x": 2.31,
+      "y": 92.14,
+      "w": 8.85,
+      "h": 5.24
+     }
+    ],
     "doc": false
    },
    {
-    "text": "Pulsa **Enviar confirmación a restaurantes**: cada restaurante recibe la suya en PDF por el hilo de su hoja de servicio, así su OK vuelve ahí.",
+    "text": "Ya en **Expediente** (1), tienes además **Enviar confirmación a restaurantes** (2), y **Conf. agencia**, **Conf. restaurante** y **Bono agencia** (3) para descargar los PDF sin enviarlos.",
     "tip": null,
     "warn": null,
     "stop": null,
     "detail": null,
     "labels": [],
-    "img": null,
-    "w": 0,
-    "h": 0,
-    "marks": [],
+    "img": "img/documentos-expediente/04.webp",
+    "w": 1019,
+    "h": 499,
+    "marks": [
+     {
+      "x": 92.31,
+      "y": 4.29,
+      "w": 7.38,
+      "h": 6.29
+     },
+     {
+      "x": 61.85,
+      "y": 4.29,
+      "w": 20.31,
+      "h": 6.29
+     },
+     {
+      "x": 1.23,
+      "y": 10.29,
+      "w": 35.08,
+      "h": 6.29
+     }
+    ],
     "doc": false
    },
    {
-    "text": "Para tener los documentos sin enviarlos, usa **Conf. agencia**, **Conf. restaurante** y **Bono agencia**: se descargan en PDF.",
-    "tip": null,
-    "warn": "El **Bono agencia** solo se descarga cuando el pedido está marcado como **Pagado**.",
+    "text": "Se abre **una ventana por restaurante** (1): elige a qué contactos suyos va (2). El texto ya lleva cada servicio con fecha, hora, comensales y las **notas para el restaurante** (alergias, indicaciones) (3), y la confirmación en PDF (4). Pulsa **Enviar** (5); si hay más restaurantes, se abre la del siguiente.",
+    "tip": "Le llega por el hilo de su hoja de servicio, así su OK vuelve ahí.",
+    "warn": null,
     "stop": null,
     "detail": null,
     "labels": [],
-    "img": null,
-    "w": 0,
-    "h": 0,
-    "marks": [],
+    "img": "img/documentos-expediente/05.webp",
+    "w": 816,
+    "h": 585,
+    "marks": [
+     {
+      "x": 2.31,
+      "y": 3.41,
+      "w": 31.92,
+      "h": 4.63
+     },
+     {
+      "x": 2.31,
+      "y": 20.49,
+      "w": 95.38,
+      "h": 7.07
+     },
+     {
+      "x": 2.31,
+      "y": 47.32,
+      "w": 65.38,
+      "h": 6.1
+     },
+     {
+      "x": 3.08,
+      "y": 71.95,
+      "w": 41.92,
+      "h": 7.8
+     },
+     {
+      "x": 2.31,
+      "y": 91.22,
+      "w": 8.85,
+      "h": 5.37
+     }
+    ],
     "doc": false
    }
   ]

@@ -1,17 +1,20 @@
 {
- "title": "Contestó un restaurante: registrar su presupuesto",
+ "title": "Contestó un restaurante: registrar su menú",
  "cat": "restaurantes",
- "summary": "La respuesta del restaurante entra sola en la búsqueda. La IA lee el precio y el menú, pero el importe lo confirma siempre una persona con **Confirmar presupuesto**. Si contesta por teléfono o WhatsApp, usa **Registrar presupuesto**.",
+ "summary": "La respuesta del restaurante entra sola en Odoo, en su búsqueda. La IA lee el precio y el menú (si pone «+ IVA», le suma el 10 %), pero el importe lo confirma siempre una persona con **Confirmar menú**. Si contesta por teléfono o WhatsApp, usa **Registrar menú**.",
  "when": "Un restaurante responde a la consulta de presupuesto.",
  "before": [
   "Le pediste presupuesto desde la búsqueda (su tarjeta sale en **Pedido**).",
   "El restaurante contesta **respondiendo** al correo que le llegó, o te lo dice por otra vía."
  ],
  "tags": [
-  "respuesta",
-  "presupuesto recibido",
+  "confirmar menú",
   "importe",
+  "iva",
+  "presupuesto recibido",
   "registrar",
+  "registrar menú",
+  "respuesta",
   "restaurante contesta"
  ],
  "result": "El restaurante sale como **Recibido** con su precio y su coste, y ya se puede preparar la propuesta a la agencia.",

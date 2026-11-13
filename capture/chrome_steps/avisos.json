@@ -21,7 +21,7 @@
  },
  {
   "text": "Se abre la lista de lo pendiente, aquí **1 presupuesto de restaurante por confirmar**. Entra en la línea para resolverlo.",
-  "tip": null,
+  "tip": "Cuando un restaurante contesta pero no da un precio único, también sale el aviso **restaurantes han contestado: presupuestos por confirmar**: entra y registra su menú.",
   "warn": null,
   "stop": null,
   "detail": null,
@@ -44,6 +44,64 @@
     "y": 40.76,
     "w": 100.0,
     "h": 11.46
+   }
+  ],
+  "doc": false
+ },
+ {
+  "text": "Para elegir **quién recibe qué aviso**, abre el menú **+** de arriba (1) y, en **Actividad IA**, entra en **Avisos** (2).",
+  "tip": null,
+  "warn": null,
+  "stop": null,
+  "detail": null,
+  "labels": [],
+  "img": "img/avisos/03.webp",
+  "w": 706,
+  "h": 392,
+  "marks": [
+   {
+    "x": 56.0,
+    "y": 1.82,
+    "w": 4.0,
+    "h": 7.64
+   },
+   {
+    "x": 57.33,
+    "y": 78.91,
+    "w": 24.44,
+    "h": 6.55
+   }
+  ],
+  "doc": false
+ },
+ {
+  "text": "Pulsa **Nuevo**: sale una fila. Elige el **usuario** (1) y marca los avisos que debe ver (2): pendientes de aprobar, peticiones nuevas, presupuestos por confirmar, el cliente eligió, sin asignar, justificantes, pagos y facturas de restaurante. Con **Todos** los recibe todos. Pulsa **Guardar** (3).",
+  "tip": "Si en Ajustes está activado, cada comercial ve además los avisos de sus propias peticiones.",
+  "warn": null,
+  "stop": null,
+  "detail": null,
+  "labels": [],
+  "img": "img/avisos/04.webp",
+  "w": 1568,
+  "h": 214,
+  "marks": [
+   {
+    "x": 2.0,
+    "y": 54.67,
+    "w": 9.8,
+    "h": 16.0
+   },
+   {
+    "x": 11.8,
+    "y": 54.67,
+    "w": 87.0,
+    "h": 16.0
+   },
+   {
+    "x": 0.8,
+    "y": 20.67,
+    "w": 4.0,
+    "h": 14.67
    }
   ],
   "doc": false

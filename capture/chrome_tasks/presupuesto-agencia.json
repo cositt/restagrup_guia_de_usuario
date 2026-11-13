@@ -12,7 +12,10 @@
   "agencia",
   "elegir",
   "margen",
-  "precio"
+  "precio",
+  "platos elegidos",
+  "errata",
+  "dos menús"
  ],
  "result": "La agencia tiene el presupuesto (PET…) con el PDF y el enlace para firmarlo, y el presupuesto está en **Presupuesto enviado**.",
  "next": [

@@ -1,0 +1,22 @@
+{
+ "title": "Notas internas y notas para la agencia y el restaurante",
+ "cat": "peticiones",
+ "summary": "Hay dos tipos de notas: las **internas**, solo para el equipo, que nunca salen en ningún correo ni documento; y las **notas para agencia y restaurante** de cada servicio (alergias, guía, teléfonos, indicaciones), que sí van en los correos y confirmaciones.",
+ "when": "Quieres apuntar algo del grupo: para vosotros o para que lo sepan la agencia y el restaurante.",
+ "before": [
+  "La petición está creada."
+ ],
+ "tags": [
+  "notas",
+  "notas internas",
+  "alergias",
+  "intolerancias",
+  "guía",
+  "observaciones"
+ ],
+ "result": "Lo interno queda en el grupo sin salir de Odoo, y lo que importa a terceros viaja solo en sus correos.",
+ "next": [
+  "pedir-presupuesto",
+  "documentos-expediente"
+ ]
+}
