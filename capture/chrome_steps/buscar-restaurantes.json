@@ -7,20 +7,20 @@
   "detail": null,
   "labels": [],
   "img": "img/buscar-restaurantes/01.webp",
-  "w": 1035,
-  "h": 570,
+  "w": 1019,
+  "h": 656,
   "marks": [
    {
-    "x": 2.27,
-    "y": 36.5,
-    "w": 20.15,
-    "h": 5.75
+    "x": 2.46,
+    "y": 45.87,
+    "w": 20.31,
+    "h": 4.57
    },
    {
-    "x": 70.61,
-    "y": 83.0,
-    "w": 6.97,
-    "h": 4.75
+    "x": 78.77,
+    "y": 85.87,
+    "w": 7.08,
+    "h": 4.35
    }
   ],
   "doc": false
@@ -76,51 +76,63 @@
   "doc": false
  },
  {
-  "text": "Abajo, en **Resultados**, salen ordenados por **cercanía al precio estimado** (1). Primero los restaurantes que ya tenemos (**EN ODOO**) (2) y luego los de **Google** (3). Con **👁 Ver menús** (4) ves sus menús con coste y precio de venta. En cada tarjeta: **Interesado** (5) para apuntarlo y **Pedir presupuesto** (6) para escribirle.",
-  "tip": "Si un restaurante se pasa más de un 15 % del precio estimado, su tarjeta lo avisa en amarillo: **Se sale del precio estimado**.",
+  "text": "Abajo, en **Resultados**, salen ordenados por **cercanía al precio estimado** (1). Primero los restaurantes que ya tenemos (**EN ODOO**) (2) y luego los de **Google** (3). Con **👁 Ver menús** (4) ves sus menús con coste y precio de venta. En cada tarjeta: **Interesado** (5) para apuntarlo y **Pedir presupuesto** (6) para escribirle. Si ya sabes su precio: **Registrar menú**, **Precio de catálogo** o **Elegir** (7). A uno de Google lo das de alta con **Añadir como contacto** (8).",
+  "tip": "Si un restaurante se pasa más de un 15 % del precio estimado, su tarjeta lo avisa en amarillo: **Se sale del precio estimado**. Ya salen también los restaurantes sin aforo o sin nivel de precio en Google.",
   "warn": null,
   "stop": null,
   "detail": null,
   "labels": [],
   "img": "img/buscar-restaurantes/03.webp",
-  "w": 1035,
-  "h": 713,
+  "w": 1019,
+  "h": 606,
   "marks": [
    {
-    "x": 2.12,
-    "y": 21.6,
-    "w": 27.27,
+    "x": 2.15,
+    "y": 7.76,
+    "w": 27.69,
+    "h": 4.94
+   },
+   {
+    "x": 59.69,
+    "y": 22.82,
+    "w": 5.54,
     "h": 4.0
    },
    {
-    "x": 2.42,
-    "y": 33.2,
-    "w": 94.85,
-    "h": 41.4
+    "x": 60.31,
+    "y": 76.47,
+    "w": 5.23,
+    "h": 4.0
    },
    {
-    "x": 2.42,
-    "y": 75.4,
-    "w": 94.85,
-    "h": 24.4
+    "x": 44.92,
+    "y": 49.65,
+    "w": 7.69,
+    "h": 4.24
    },
    {
-    "x": 12.42,
-    "y": 53.6,
-    "w": 7.58,
-    "h": 3.4
+    "x": 35.85,
+    "y": 58.12,
+    "w": 6.46,
+    "h": 4.0
    },
    {
-    "x": 3.64,
-    "y": 60.8,
-    "w": 6.36,
-    "h": 3.2
+    "x": 48.31,
+    "y": 58.12,
+    "w": 9.85,
+    "h": 4.0
    },
    {
-    "x": 15.91,
-    "y": 60.8,
-    "w": 9.7,
-    "h": 3.2
+    "x": 35.85,
+    "y": 61.88,
+    "w": 22.62,
+    "h": 4.0
+   },
+   {
+    "x": 40.77,
+    "y": 87.76,
+    "w": 10.77,
+    "h": 4.0
    }
   ],
   "doc": false

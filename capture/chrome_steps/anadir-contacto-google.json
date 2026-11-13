@@ -1,0 +1,54 @@
+[
+ {
+  "text": "En los resultados de la búsqueda, los restaurantes de **Google** llevan la etiqueta **GOOGLE** (1). Pulsa **Añadir como contacto** (2) en el que quieras dar de alta.",
+  "tip": null,
+  "warn": null,
+  "stop": null,
+  "detail": null,
+  "labels": [],
+  "img": "img/anadir-contacto-google/01.webp",
+  "w": 1019,
+  "h": 321,
+  "marks": [
+   {
+    "x": 60.31,
+    "y": 55.56,
+    "w": 5.23,
+    "h": 7.56
+   },
+   {
+    "x": 40.77,
+    "y": 76.89,
+    "w": 10.77,
+    "h": 7.56
+   }
+  ],
+  "doc": false
+ },
+ {
+  "text": "Ya es ficha nuestra: sale como **EN ODOO** y marcado como restaurante (1). Si Google da su web, Odoo entra en ella, saca el **email** y lo anota a la derecha (2). La dirección se separa en calle, código postal, ciudad y provincia cuando Google da el código postal.",
+  "tip": "Si no encuentra email, la tarjeta te avisa al pedir presupuesto: abre su ficha y escríbelo a mano.",
+  "warn": "El email sale de la web del restaurante: compruébalo antes del primer envío.",
+  "stop": null,
+  "detail": null,
+  "labels": [],
+  "img": "img/anadir-contacto-google/02.webp",
+  "w": 1568,
+  "h": 713,
+  "marks": [
+   {
+    "x": 22.6,
+    "y": 80,
+    "w": 20.8,
+    "h": 20
+   },
+   {
+    "x": 65.8,
+    "y": 23.4,
+    "w": 33.6,
+    "h": 4.4
+   }
+  ],
+  "doc": false
+ }
+]

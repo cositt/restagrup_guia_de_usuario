@@ -1,0 +1,21 @@
+{
+ "title": "Dar de alta un restaurante que sale de Google",
+ "cat": "restaurantes",
+ "summary": "Un restaurante de **Google** que te interesa pasa a ser ficha nuestra con un clic: **Añadir como contacto**. Odoo lo marca como restaurante, separa su dirección y busca su email en su web.",
+ "when": "En una búsqueda sale un restaurante de Google con el que quieres trabajar.",
+ "before": [
+  "Búsqueda hecha (**Buscar restaurantes**)."
+ ],
+ "tags": [
+  "google",
+  "añadir contacto",
+  "alta restaurante",
+  "email",
+  "ficha"
+ ],
+ "result": "El restaurante sale como **EN ODOO**, con su ficha creada y, si su web lo publica, con su email.",
+ "next": [
+  "pedir-presupuesto",
+  "completar-ficha-restaurante"
+ ]
+}

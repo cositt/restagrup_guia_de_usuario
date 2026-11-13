@@ -1,10 +1,21 @@
 {
- "title": "Ver lo que tengo pendiente (avisos)",
+ "title": "Ver lo que tengo pendiente y elegir mis avisos",
  "cat": "empezar",
- "summary": "Las burbujas con número te dicen qué tienes por hacer y te llevan directo a ello.",
+ "summary": "Las burbujas con número te dicen qué tienes por hacer y te llevan directo a ello. En **Avisos** se elige qué avisos recibe cada persona.",
  "when": "Al empezar el día o cuando veas un número nuevo.",
  "before": [],
- "tags": ["avisos", "burbuja", "pendientes", "notificacion"],
+ "tags": [
+  "avisos",
+  "burbuja",
+  "pendientes",
+  "notificacion",
+  "configurar avisos",
+  "quién recibe",
+  "restaurantes han contestado"
+ ],
  "result": "Ves la lista exacta de lo que tienes pendiente y entras en cada cosa.",
- "next": ["peticion-correo", "pendientes-aprobar"]
+ "next": [
+  "peticion-correo",
+  "pendientes-aprobar"
+ ]
 }

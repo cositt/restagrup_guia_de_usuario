@@ -1,10 +1,11 @@
 {
- "title": "Confirmaciones y documentos del expediente",
+ "title": "Confirmaciones a la agencia y al restaurante",
  "cat": "expediente",
- "summary": "Desde el propio grupo: enviar la confirmación a la agencia y a los restaurantes, y descargar la confirmación de la agencia, la del restaurante y el bono.",
- "when": "El grupo está en **Expedientes**.",
+ "summary": "Enviar la confirmación a la agencia (ya desde **Presupuesto**) y a cada restaurante (en **Expediente**), revisando a quién va y el texto antes de enviar; y descargar la confirmación de la agencia, la del restaurante y el bono.",
+ "when": "Sabes qué restaurante va (Presupuesto) o el grupo ya está en **Expedientes**.",
  "before": [
-  "El grupo pasó a expediente con su restaurante elegido (al pasar se crea y confirma el pedido)."
+  "La agencia ha elegido restaurante en cada servicio (para la agencia).",
+  "El grupo está en expediente (para los restaurantes)."
  ],
  "tags": [
   "confirmacion",
@@ -13,7 +14,10 @@
   "bono",
   "pdf",
   "descargar",
-  "expediente"
+  "expediente",
+  "revisar y enviar",
+  "destinatarios",
+  "contactos"
  ],
  "result": "La agencia y los restaurantes tienen su confirmación en PDF y queda anotado en el grupo.",
  "next": [

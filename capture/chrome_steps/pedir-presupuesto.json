@@ -11,20 +11,20 @@
   "h": 713,
   "marks": [
    {
-    "x": 2.4,
-    "y": 61.6,
-    "w": 12.6,
-    "h": 3.2
+    "x": 23.4,
+    "y": 65.2,
+    "w": 12.4,
+    "h": 3.6
    },
    {
-    "x": 44.3,
-    "y": 61.6,
-    "w": 12.6,
-    "h": 3.2
+    "x": 44.4,
+    "y": 65.2,
+    "w": 12.4,
+    "h": 3.6
    },
    {
     "x": 65.8,
-    "y": 23.2,
+    "y": 23.6,
     "w": 21.4,
     "h": 10.6
    },
@@ -38,27 +38,45 @@
   "doc": false
  },
  {
-  "text": "Pulsa **Pedir presupuesto a interesados**. Odoo pide confirmación: al pulsar **Aceptar** (1) se manda el correo a todos los marcados.",
-  "tip": null,
+  "text": "Pulsa **Pedir presupuesto a interesados**. Se abre la ventana para **revisar y enviar**: a quién va cada correo (1), el asunto con el localizador (2) y el texto (3), que puedes cambiar. Es un texto común: **{restaurante}** y **{menu}** se cambian por los de cada uno, y cada restaurante lo recibe por separado. Las **notas para agencia y restaurante** del servicio (aquí la alergia) ya van dentro. Cuando esté bien, pulsa **Enviar** (4).",
+  "tip": "Al pedir presupuesto a un solo restaurante (botón **Pedir presupuesto** de su tarjeta) puedes elegir a cuál de sus contactos va: la ficha y/o una o varias personas.",
   "warn": "El correo sale al momento y de verdad: úsalo solo con restaurantes reales cuando sea en serio.",
   "stop": null,
   "detail": null,
   "labels": [],
   "img": "img/pedir-presupuesto/02.webp",
-  "w": 1098,
-  "h": 499,
+  "w": 816,
+  "h": 564,
   "marks": [
    {
-    "x": 26.86,
-    "y": 52.0,
-    "w": 6.0,
-    "h": 6.29
+    "x": 2.31,
+    "y": 21.01,
+    "w": 58.46,
+    "h": 7.34
+   },
+   {
+    "x": 12.31,
+    "y": 34.94,
+    "w": 85.38,
+    "h": 4.81
+   },
+   {
+    "x": 2.31,
+    "y": 40.51,
+    "w": 95.38,
+    "h": 43.04
+   },
+   {
+    "x": 2.31,
+    "y": 90.13,
+    "w": 8.85,
+    "h": 5.82
    }
   ],
   "doc": false
  },
  {
-  "text": "Listo: la búsqueda pasa a **Presupuestos pedidos** (1) y a la derecha queda a quién se ha escrito y a qué correo (2). En la tarjeta de cada restaurante se enciende **Pedido**. El asunto del correo es «Presupuesto para grupos — localizador — ciudad fecha», y la respuesta del restaurante vuelve sola a esta búsqueda.",
+  "text": "Listo: la búsqueda pasa a **Presupuestos pedidos** (1) y a la derecha queda a quién se ha escrito y a qué correo (2). En la tarjeta de cada restaurante se enciende **Pedido**. La respuesta del restaurante vuelve sola a esta búsqueda: aunque conteste desde su correo, le llega a Odoo, no al buzón de nadie.",
   "tip": null,
   "warn": null,
   "stop": null,
@@ -70,15 +88,15 @@
   "marks": [
    {
     "x": 29.4,
-    "y": 12.6,
+    "y": 13,
     "w": 9.9,
     "h": 4.4
    },
    {
     "x": 65.8,
-    "y": 23.0,
-    "w": 33.0,
-    "h": 20.0
+    "y": 23,
+    "w": 33.6,
+    "h": 19.4
    }
   ],
   "doc": false

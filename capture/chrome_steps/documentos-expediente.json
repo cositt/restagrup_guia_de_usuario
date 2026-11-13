@@ -1,54 +1,174 @@
 [
  {
-  "text": "Abre el grupo desde **Expedientes**. Arriba están los botones del expediente.",
+  "text": "La confirmación a la agencia se puede mandar ya en **Presupuesto** (1), en cuanto sepas qué restaurante va, o más tarde en **Expediente**. Pulsa **Enviar confirmación a la agencia** (2).",
+  "tip": "Enviarla no cambia la fase del grupo. Cuenta como una proforma más en las estadísticas.",
+  "warn": null,
+  "stop": null,
+  "detail": null,
+  "labels": [],
+  "img": "img/documentos-expediente/01.webp",
+  "w": 1019,
+  "h": 428,
+  "marks": [
+   {
+    "x": 91.54,
+    "y": 5.0,
+    "w": 8.31,
+    "h": 7.33
+   },
+   {
+    "x": 58.0,
+    "y": 5.0,
+    "w": 19.08,
+    "h": 7.33
+   }
+  ],
+  "doc": false
+ },
+ {
+  "text": "Si falta algo, sale **Antes de continuar** con lo que falta o no cuadra (1). Puedes **Volver a revisar** o **Continuar de todos modos** (2): queda anotado en el historial.",
   "tip": null,
   "warn": null,
   "stop": null,
   "detail": null,
   "labels": [],
-  "img": null,
-  "w": 0,
-  "h": 0,
-  "marks": [],
+  "img": "img/documentos-expediente/02.webp",
+  "w": 816,
+  "h": 243,
+  "marks": [
+   {
+    "x": 2.31,
+    "y": 48.82,
+    "w": 95.38,
+    "h": 15.88
+   },
+   {
+    "x": 2.31,
+    "y": 78.24,
+    "w": 33.08,
+    "h": 13.53
+   }
+  ],
   "doc": false
  },
  {
-  "text": "Pulsa **Enviar confirmación a la agencia**. Le llega un correo con la confirmación en PDF: la reserva queda confirmada y se le pide que complete lo que falte (menú elegido, contacto del guía, intolerancias, número final de comensales).",
-  "tip": "Cuenta como una proforma más en las estadísticas del grupo.",
+  "text": "Se abre la ventana para **revisar y enviar**. En **Para** (1) eliges a quién va: la ficha de la agencia y/o una o varias de sus personas; en **Otros emails** (2) puedes añadir direcciones sueltas. El asunto y el texto (3) se pueden cambiar: lo que escribas es lo que recibe. La confirmación va en PDF (4). Pulsa **Enviar** (5).",
+  "tip": "El correo pide a la agencia lo que falte: menú elegido, contacto del guía, alergias y número final de comensales.",
   "warn": null,
   "stop": null,
   "detail": null,
   "labels": [],
-  "img": null,
-  "w": 0,
-  "h": 0,
-  "marks": [],
+  "img": "img/documentos-expediente/03.webp",
+  "w": 816,
+  "h": 599,
+  "marks": [
+   {
+    "x": 2.31,
+    "y": 19.52,
+    "w": 95.38,
+    "h": 4.29
+   },
+   {
+    "x": 2.31,
+    "y": 24.05,
+    "w": 95.38,
+    "h": 4.05
+   },
+   {
+    "x": 2.31,
+    "y": 29.05,
+    "w": 95.38,
+    "h": 42.62
+   },
+   {
+    "x": 3.08,
+    "y": 73.1,
+    "w": 39.62,
+    "h": 7.62
+   },
+   {
+    "x": 2.31,
+    "y": 92.14,
+    "w": 8.85,
+    "h": 5.24
+   }
+  ],
   "doc": false
  },
  {
-  "text": "Pulsa **Enviar confirmación a restaurantes**: cada restaurante recibe la suya en PDF por el hilo de su hoja de servicio, así su OK vuelve ahí.",
+  "text": "Ya en **Expediente** (1), tienes además **Enviar confirmación a restaurantes** (2), y **Conf. agencia**, **Conf. restaurante** y **Bono agencia** (3) para descargar los PDF sin enviarlos.",
   "tip": null,
   "warn": null,
   "stop": null,
   "detail": null,
   "labels": [],
-  "img": null,
-  "w": 0,
-  "h": 0,
-  "marks": [],
+  "img": "img/documentos-expediente/04.webp",
+  "w": 1019,
+  "h": 499,
+  "marks": [
+   {
+    "x": 92.31,
+    "y": 4.29,
+    "w": 7.38,
+    "h": 6.29
+   },
+   {
+    "x": 61.85,
+    "y": 4.29,
+    "w": 20.31,
+    "h": 6.29
+   },
+   {
+    "x": 1.23,
+    "y": 10.29,
+    "w": 35.08,
+    "h": 6.29
+   }
+  ],
   "doc": false
  },
  {
-  "text": "Para tener los documentos sin enviarlos, usa **Conf. agencia**, **Conf. restaurante** y **Bono agencia**: se descargan en PDF.",
-  "tip": null,
-  "warn": "El **Bono agencia** solo se descarga cuando el pedido está marcado como **Pagado**.",
+  "text": "Se abre **una ventana por restaurante** (1): elige a qué contactos suyos va (2). El texto ya lleva cada servicio con fecha, hora, comensales y las **notas para el restaurante** (alergias, indicaciones) (3), y la confirmación en PDF (4). Pulsa **Enviar** (5); si hay más restaurantes, se abre la del siguiente.",
+  "tip": "Le llega por el hilo de su hoja de servicio, así su OK vuelve ahí.",
+  "warn": null,
   "stop": null,
   "detail": null,
   "labels": [],
-  "img": null,
-  "w": 0,
-  "h": 0,
-  "marks": [],
+  "img": "img/documentos-expediente/05.webp",
+  "w": 816,
+  "h": 585,
+  "marks": [
+   {
+    "x": 2.31,
+    "y": 3.41,
+    "w": 31.92,
+    "h": 4.63
+   },
+   {
+    "x": 2.31,
+    "y": 20.49,
+    "w": 95.38,
+    "h": 7.07
+   },
+   {
+    "x": 2.31,
+    "y": 47.32,
+    "w": 65.38,
+    "h": 6.1
+   },
+   {
+    "x": 3.08,
+    "y": 71.95,
+    "w": 41.92,
+    "h": 7.8
+   },
+   {
+    "x": 2.31,
+    "y": 91.22,
+    "w": 8.85,
+    "h": 5.37
+   }
+  ],
   "doc": false
  }
 ]

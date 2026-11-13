@@ -1,0 +1,68 @@
+[
+ {
+  "text": "En el grupo, la pestaña **Notas internas** (1) es solo para el equipo: lo que escribas aquí (2) **nunca** sale en correos ni documentos.",
+  "tip": null,
+  "warn": null,
+  "stop": null,
+  "detail": null,
+  "labels": [],
+  "img": "img/notas-servicio/01.webp",
+  "w": 1019,
+  "h": 499,
+  "marks": [
+   {
+    "x": 33.69,
+    "y": 62.29,
+    "w": 10.46,
+    "h": 6.29
+   },
+   {
+    "x": 2.62,
+    "y": 71.43,
+    "w": 96.31,
+    "h": 14.29
+   }
+  ],
+  "doc": false
+ },
+ {
+  "text": "Lo que deben saber la agencia o el restaurante va en la pestaña **Servicios**, columna **Notas para agencia y restaurante** (1), en la línea de cada servicio: alergias, contacto del guía, indicaciones… La IA ya la rellena si lo dice el correo de la agencia.",
+  "tip": null,
+  "warn": null,
+  "stop": null,
+  "detail": null,
+  "labels": [],
+  "img": "img/notas-servicio/02.webp",
+  "w": 1019,
+  "h": 228,
+  "marks": [
+   {
+    "x": 56.92,
+    "y": 60.63,
+    "w": 7.38,
+    "h": 22.5
+   }
+  ],
+  "doc": false
+ },
+ {
+  "text": "Esas notas salen solas en lo que se envía de ese servicio: la petición de presupuesto, la confirmación al restaurante (1), la hoja de servicio y la confirmación a la agencia.",
+  "tip": null,
+  "warn": null,
+  "stop": null,
+  "detail": null,
+  "labels": [],
+  "img": "img/notas-servicio/03.webp",
+  "w": 816,
+  "h": 585,
+  "marks": [
+   {
+    "x": 2.31,
+    "y": 47.32,
+    "w": 65.38,
+    "h": 6.1
+   }
+  ],
+  "doc": false
+ }
+]

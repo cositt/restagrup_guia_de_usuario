@@ -1,70 +1,76 @@
 [
  {
-  "text": "Vuelve a la petición. Cuando hay presupuestos recibidos aparece la pestaña **Propuesta** (1) con los restaurantes de cada servicio, su menú, el **precio a la agencia** y el **precio del restaurante** por persona (2). En **Menús** (3) tienes los menús de todos los restaurantes candidatos. Pulsa **Enviar propuesta a la agencia** (4).",
+  "text": "Vuelve a la petición. Cuando hay presupuestos recibidos aparece la pestaña **Propuesta** (1) con los restaurantes de cada servicio, su menú, el **precio a la agencia** y el **precio del restaurante** por persona (2). Un restaurante puede salir con dos menús: son dos opciones. En **Menús** (3) tienes los menús de todos los candidatos. Pulsa **Enviar propuesta a la agencia** (4).",
   "tip": "Si ya sabes qué restaurante va, pulsa **Elegir** en su línea y salta al paso de **Crear presupuesto**.",
   "warn": null,
   "stop": null,
   "detail": null,
   "labels": [],
   "img": "img/presupuesto-agencia/01.webp",
-  "w": 1035,
-  "h": 656,
+  "w": 1568,
+  "h": 713,
   "marks": [
    {
-    "x": 9.7,
-    "y": 53.48,
-    "w": 8.18,
-    "h": 5.0
+    "x": 6.4,
+    "y": 60.4,
+    "w": 5.4,
+    "h": 4.4
    },
    {
-    "x": 2.42,
-    "y": 66.09,
-    "w": 94.85,
-    "h": 15.22
+    "x": 1.7,
+    "y": 75.6,
+    "w": 62.6,
+    "h": 13.8
    },
    {
-    "x": 17.58,
-    "y": 53.48,
-    "w": 6.36,
-    "h": 5.0
+    "x": 17.8,
+    "y": 60.4,
+    "w": 4.2,
+    "h": 4.4
    },
    {
-    "x": 64.55,
-    "y": 13.7,
-    "w": 17.58,
-    "h": 4.78
+    "x": 34.6,
+    "y": 13,
+    "w": 11.6,
+    "h": 4.4
    }
   ],
   "doc": false
  },
  {
-  "text": "Comprueba el correo de la agencia y el asunto, que lleva el localizador de la petición (1). Con **Incluir enlace para elegir** la agencia recibe, además del PDF, un enlace donde elige un restaurante por servicio. Si desmarcas **Mostrar los restaurantes**, la agencia ve «Opción 1», «Opción 2»… con su menú y su precio, sin el nombre (2). Pulsa **Enviar** (3).",
-  "tip": "Antes de enviar sale un resumen para revisar: a quién va y qué opciones lleva cada servicio. La propuesta no lleva totales: el total va en el presupuesto.",
+  "text": "Comprueba el correo de la agencia y el asunto, que lleva el localizador de la petición (1). Con **Incluir enlace para elegir** la agencia recibe, además del PDF, un enlace donde elige un restaurante por servicio. Si desmarcas **Mostrar los restaurantes**, la agencia ve «Opción 1», «Opción 2»… con su menú y su precio, sin el nombre (2). El texto del correo lo puedes cambiar (3). Pulsa **Enviar** (4).",
+  "tip": "La propuesta no lleva totales: el total va en el presupuesto.",
   "warn": null,
   "stop": null,
   "detail": null,
   "labels": [],
   "img": "img/presupuesto-agencia/02.webp",
   "w": 816,
-  "h": 464,
+  "h": 457,
   "marks": [
    {
     "x": 2.31,
-    "y": 15.69,
+    "y": 16.25,
     "w": 95.38,
-    "h": 12.0
+    "h": 12.19
    },
    {
     "x": 2.31,
-    "y": 29.23,
-    "w": 20.0,
-    "h": 16.92
+    "y": 30.31,
+    "w": 20.38,
+    "h": 16.25
    },
    {
     "x": 2.31,
-    "y": 87.38,
+    "y": 48.12,
+    "w": 95.38,
+    "h": 21.88
+   },
+   {
+    "x": 2.31,
+    "y": 88.44,
     "w": 6.92,
-    "h": 6.77
+    "h": 7.19
    }
   ],
   "doc": false
@@ -78,25 +84,25 @@
   "labels": [],
   "img": "img/presupuesto-agencia/03.webp",
   "w": 816,
-  "h": 343,
+  "h": 357,
   "marks": [
    {
     "x": 2.31,
-    "y": 34.58,
+    "y": 33.2,
     "w": 95.38,
-    "h": 40.83
+    "h": 42.0
    },
    {
     "x": 15.19,
-    "y": 85.0,
+    "y": 86.8,
     "w": 13.46,
-    "h": 9.17
+    "h": 8.8
    }
   ],
   "doc": false
  },
  {
-  "text": "A la derecha queda el correo enviado con el **enlace para elegir** y el **PDF** de la propuesta (1). La petición pasa a **Presupuesto** (2).",
+  "text": "A la derecha queda el correo enviado con el **enlace para elegir** y el **PDF** de la propuesta (1). La petición pasa a **Presupuesto** (2). Desde aquí ya puedes mandar también la **confirmación a la agencia** (3), sin esperar al expediente.",
   "tip": null,
   "warn": null,
   "stop": null,
@@ -108,21 +114,27 @@
   "marks": [
    {
     "x": 67.8,
-    "y": 38.4,
-    "w": 26.8,
-    "h": 50.4
+    "y": 36.8,
+    "w": 27,
+    "h": 53.6
    },
    {
     "x": 59.5,
-    "y": 12.6,
-    "w": 5.6,
+    "y": 13,
+    "w": 5.4,
+    "h": 4.4
+   },
+   {
+    "x": 37.7,
+    "y": 13,
+    "w": 12.4,
     "h": 4.4
    }
   ],
   "doc": false
  },
  {
-  "text": "Esto es lo que ve la agencia al abrir el enlace: cada servicio (1) con sus opciones, el menú completo y el precio por persona (2). Pulsa **Elijo este** (3) en el restaurante que prefiere.",
+  "text": "Esto es lo que ve la agencia al abrir el enlace: cada servicio (1) con sus opciones, el menú completo y el precio por persona (2). Puede escribir los **platos elegidos**, alergias u observaciones (3) y pulsar **Elijo este** (4) en el restaurante que prefiere.",
   "tip": "Si la agencia te contesta por correo o por teléfono, elige tú: botón **Elegir** en la pestaña **Propuesta** de la petición.",
   "warn": null,
   "stop": null,
@@ -133,21 +145,27 @@
   "h": 713,
   "marks": [
    {
-    "x": 10.0,
-    "y": 13.0,
-    "w": 80.0,
-    "h": 4.2
+    "x": 10.4,
+    "y": 13.4,
+    "w": 79.2,
+    "h": 4.4
    },
    {
-    "x": 10.0,
-    "y": 17.8,
-    "w": 80.0,
-    "h": 50.0
+    "x": 10.4,
+    "y": 18.0,
+    "w": 79.2,
+    "h": 33.0
+   },
+   {
+    "x": 12.0,
+    "y": 52.8,
+    "w": 76.4,
+    "h": 6.6
    },
    {
     "x": 77.2,
-    "y": 61.4,
-    "w": 11.2,
+    "y": 60.2,
+    "w": 10.8,
     "h": 4.8
    }
   ],
@@ -162,21 +180,21 @@
   "labels": [],
   "img": "img/presupuesto-agencia/06.webp",
   "w": 784,
-  "h": 499,
+  "h": 463,
   "marks": [
    {
-    "x": 10.0,
-    "y": 25.14,
-    "w": 80.0,
-    "h": 9.14
+    "x": 10.4,
+    "y": 27.38,
+    "w": 79.2,
+    "h": 9.23
    }
   ],
   "doc": false
  },
  {
-  "text": "En la petición queda anotado qué ha elegido la agencia (1) y ese restaurante sale marcado en **Propuesta** (2). Con un restaurante elegido en cada servicio aparece **Crear presupuesto** (3): púlsalo.",
+  "text": "En la petición queda anotado qué ha elegido la agencia y lo que escribió (1). Si un plato tiene una **errata** clara, Odoo lo corrige y lo anota; si pide un plato que **no está en el menú**, avisa para que lo confirmes con la agencia (2). El restaurante sale marcado en **Propuesta** con lo que pidió la agencia (3). Con un restaurante elegido en cada servicio aparece **Crear presupuesto** (4): púlsalo.",
   "tip": null,
-  "warn": null,
+  "warn": "Si sale el aviso de un plato que no está en el menú, confírmalo con la agencia y con el restaurante antes de enviar la confirmación.",
   "stop": null,
   "detail": null,
   "labels": [],
@@ -186,20 +204,26 @@
   "marks": [
    {
     "x": 65.8,
-    "y": 23.0,
-    "w": 32.0,
-    "h": 7.4
+    "y": 36.8,
+    "w": 33.6,
+    "h": 15.4
    },
    {
-    "x": 1.6,
-    "y": 64.8,
+    "x": 65.8,
+    "y": 23,
+    "w": 33.6,
+    "h": 14
+   },
+   {
+    "x": 1.7,
+    "y": 73.8,
     "w": 62.6,
-    "h": 5.0
+    "h": 8.8
    },
    {
-    "x": 45.6,
-    "y": 12.6,
-    "w": 8.0,
+    "x": 37.7,
+    "y": 13,
+    "w": 7.6,
     "h": 4.4
    }
   ],
@@ -217,26 +241,26 @@
   "h": 713,
   "marks": [
    {
-    "x": 2.6,
+    "x": 1.7,
     "y": 75.6,
-    "w": 62.4,
-    "h": 3.4
+    "w": 63,
+    "h": 4.2
    },
    {
     "x": 33.6,
-    "y": 30.8,
+    "y": 31,
     "w": 11.4,
-    "h": 3.4
+    "h": 3.6
    },
    {
     "x": 1.7,
-    "y": 19.6,
+    "y": 19.8,
     "w": 62.4,
     "h": 4.2
    },
    {
     "x": 0.8,
-    "y": 13.0,
+    "y": 13,
     "w": 12.2,
     "h": 3.8
    }
@@ -244,33 +268,39 @@
   "doc": false
  },
  {
-  "text": "Se abre el correo para el contacto de la agencia (1) con el importe total y el PDF del presupuesto adjunto (2). Pulsa **Enviar** (3).",
+  "text": "Se abre el correo para el contacto de la agencia (1) con el importe total (2) y el PDF del presupuesto adjunto (3). Pulsa **Enviar** (4).",
   "tip": null,
   "warn": null,
   "stop": null,
   "detail": null,
   "labels": [],
   "img": "img/presupuesto-agencia/09.webp",
-  "w": 846,
-  "h": 499,
+  "w": 816,
+  "h": 485,
   "marks": [
    {
-    "x": 10.74,
-    "y": 15.71,
-    "w": 11.11,
-    "h": 4.57
+    "x": 3.27,
+    "y": 15.29,
+    "w": 22.31,
+    "h": 5.59
    },
    {
-    "x": 4.81,
-    "y": 77.14,
-    "w": 32.22,
-    "h": 7.71
+    "x": 3.27,
+    "y": 33.53,
+    "w": 90.0,
+    "h": 4.71
    },
    {
-    "x": 4.07,
-    "y": 87.71,
-    "w": 6.67,
-    "h": 5.71
+    "x": 3.27,
+    "y": 78.24,
+    "w": 33.08,
+    "h": 7.06
+   },
+   {
+    "x": 2.31,
+    "y": 88.82,
+    "w": 6.92,
+    "h": 6.47
    }
   ],
   "doc": false
@@ -288,19 +318,19 @@
   "marks": [
    {
     "x": 48.4,
-    "y": 13.0,
+    "y": 13,
     "w": 9.4,
     "h": 3.8
    },
    {
     "x": 67.8,
-    "y": 25.6,
-    "w": 27.0,
-    "h": 36.6
+    "y": 25.2,
+    "w": 27,
+    "h": 37
    },
    {
     "x": 1.7,
-    "y": 19.6,
+    "y": 19.8,
     "w": 62.4,
     "h": 4.2
    }

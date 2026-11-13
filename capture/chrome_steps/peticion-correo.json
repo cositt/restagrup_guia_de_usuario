@@ -8,32 +8,32 @@
   "labels": [],
   "img": "img/peticion-correo/01.webp",
   "w": 1568,
-  "h": 214,
+  "h": 207,
   "marks": [
    {
-    "x": 9.2,
-    "y": 54.33,
-    "w": 23.6,
-    "h": 15.33
+    "x": 11.6,
+    "y": 55.86,
+    "w": 24.5,
+    "h": 17.24
    },
    {
-    "x": 36.9,
-    "y": 54.33,
-    "w": 39.8,
-    "h": 15.33
+    "x": 40.4,
+    "y": 55.86,
+    "w": 30.0,
+    "h": 17.24
    },
    {
-    "x": 76.9,
-    "y": 54.33,
-    "w": 8.6,
-    "h": 15.33
+    "x": 70.5,
+    "y": 55.86,
+    "w": 9.5,
+    "h": 17.24
    }
   ],
   "doc": false
  },
  {
-  "text": "Abre la petición. A la derecha tienes el **correo de la agencia** tal cual llegó (1). La petición se llama como la **referencia del grupo** que da la agencia y, con los datos de su firma (teléfono, dirección y web), la IA ha creado la **agencia** y la pone como **Contacto** (2).",
-  "tip": null,
+  "text": "Abre la petición. Debajo del documento sale en grande el **servicio**: ciudad, fecha con año, hora y comensales (1). A la derecha, el **correo de la agencia** tal cual llegó (2). La petición se llama como la **referencia del grupo** y la IA pone como **Contacto** la agencia y la persona que escribe (3).",
+  "tip": "Si hay varios servicios salen todos, uno por línea: «Serv. 1», «Serv. 2»…",
   "warn": null,
   "stop": null,
   "detail": null,
@@ -43,42 +43,86 @@
   "h": 713,
   "marks": [
    {
-    "x": 67.9,
-    "y": 52.0,
-    "w": 26.6,
-    "h": 35.8
+    "x": 1.4,
+    "y": 27.6,
+    "w": 17.6,
+    "h": 4.6
    },
    {
-    "x": 1.6,
-    "y": 37.0,
-    "w": 27.0,
-    "h": 7.4
+    "x": 67.8,
+    "y": 45.8,
+    "w": 27,
+    "h": 39
+   },
+   {
+    "x": 1.4,
+    "y": 46.6,
+    "w": 25,
+    "h": 11.6
    }
   ],
   "doc": false
  },
  {
-  "text": "La primera pestaña, **Servicios**, tiene cada servicio que pide la agencia: fecha, hora, tipo, ciudad, comensales y **precio por persona** (1). Si la agencia no dice precio, se rellena con el **baremo** y se enciende **Estimado** (2). Corrige lo que haga falta y pulsa **Guardar**.",
-  "tip": "Aquí la agencia dijo «unos 35 € por persona», así que **Estimado** sale apagado.",
+  "text": "Si el correo nombra **otra agencia** que no es la de quien escribe, Odoo **no la cambia**: deja la del remitente y avisa arriba en amarillo (1). Queda anotado también en el historial (2). Comprueba con quién trabajas y, si hace falta, cambia el **Contacto**.",
+  "tip": null,
   "warn": null,
   "stop": null,
   "detail": null,
   "labels": [],
   "img": "img/peticion-correo/03.webp",
-  "w": 1019,
-  "h": 321,
+  "w": 1568,
+  "h": 599,
   "marks": [
    {
-    "x": 2.62,
-    "y": 41.33,
-    "w": 96.0,
-    "h": 20.0
+    "x": 1.6,
+    "y": 4.29,
+    "w": 62.6,
+    "h": 5.71
    },
    {
-    "x": 49.54,
-    "y": 42.22,
-    "w": 4.0,
-    "h": 8.89
+    "x": 65.8,
+    "y": 81.67,
+    "w": 33.6,
+    "h": 14.76
+   }
+  ],
+  "doc": false
+ },
+ {
+  "text": "En **Servicios** tienes cada servicio que pide la agencia: fecha, hora, tipo, ciudad, comensales y **precio por persona** (1). Si la agencia no dice la hora, se pone la del servicio: desayuno 08:30, comida 13:30, merienda 17:00 y cena 21:00 (2). Si no dice precio, se rellena con el **baremo** de su tipo de grupo (aquí escolar: 14,50 €) y se enciende **Estimado** (3). Intolerancias, teléfonos o indicaciones van en **Notas para agencia y restaurante** (4): esas sí salen en los correos. Corrige lo que haga falta y pulsa **Guardar**.",
+  "tip": "Si la agencia no dice qué grupo es ni qué servicio, se toma **grupo adulto** y **comida**. La pestaña **Notas internas** es solo para vosotros: nunca sale en ningún correo.",
+  "warn": null,
+  "stop": null,
+  "detail": null,
+  "labels": [],
+  "img": "img/peticion-correo/04.webp",
+  "w": 1019,
+  "h": 214,
+  "marks": [
+   {
+    "x": 2.46,
+    "y": 59.33,
+    "w": 96.31,
+    "h": 24.67
+   },
+   {
+    "x": 17.23,
+    "y": 61.33,
+    "w": 5.54,
+    "h": 16.67
+   },
+   {
+    "x": 49.38,
+    "y": 61.33,
+    "w": 4.62,
+    "h": 16.67
+   },
+   {
+    "x": 56.92,
+    "y": 61.33,
+    "w": 7.38,
+    "h": 23.33
    }
   ],
   "doc": false
