@@ -1,0 +1,80 @@
+[
+ {
+  "text": "En el grupo, abre la pestaña **Propuesta**. Junto a **Pidió la agencia** hay un **lápiz** (1): púlsalo para editar el menú elegido.",
+  "tip": "Sale cuando el restaurante ya está elegido. Pulsar la fila ya no abre ningún formulario.",
+  "warn": null,
+  "stop": null,
+  "detail": null,
+  "labels": [],
+  "img": "img/editar-menu-elegido/01.webp",
+  "w": 1254,
+  "h": 607,
+  "marks": [
+   {
+    "x": 47.2,
+    "y": 77.0,
+    "w": 2.0,
+    "h": 4.5
+   }
+  ],
+  "doc": false
+ },
+ {
+  "text": "Se abre la lista de **platos del menú** por tipo, con los elegidos ya marcados. Marca o desmarca los que cambien (1). Lo que no esté en el menú, escríbelo en **Otros platos o cambios** (2), uno por línea. Pulsa **Guardar** (3).",
+  "tip": "También sirve para completar lo que faltaba, por ejemplo el postre.",
+  "warn": null,
+  "stop": null,
+  "detail": null,
+  "labels": [],
+  "img": "img/editar-menu-elegido/02.webp",
+  "w": 1254,
+  "h": 607,
+  "marks": [
+   {
+    "x": 25.2,
+    "y": 39.0,
+    "w": 49.3,
+    "h": 24.0
+   },
+   {
+    "x": 25.0,
+    "y": 66.0,
+    "w": 50.0,
+    "h": 8.0
+   },
+   {
+    "x": 25.3,
+    "y": 78.0,
+    "w": 4.0,
+    "h": 5.0
+   }
+  ],
+  "doc": false
+ },
+ {
+  "text": "La lista muestra el menú nuevo (1) y en el historial del grupo queda anotado quién lo cambió y con qué platos (2).",
+  "tip": null,
+  "warn": "Si ya enviaste la confirmación o el bono, **vuelve a enviarlos**: los documentos ya enviados no cambian.",
+  "stop": null,
+  "detail": null,
+  "labels": [],
+  "img": "img/editar-menu-elegido/03.webp",
+  "w": 1254,
+  "h": 607,
+  "marks": [
+   {
+    "x": 41.5,
+    "y": 77.0,
+    "w": 12.0,
+    "h": 14.0
+   },
+   {
+    "x": 66.0,
+    "y": 21.0,
+    "w": 31.0,
+    "h": 12.0
+   }
+  ],
+  "doc": false
+ }
+]

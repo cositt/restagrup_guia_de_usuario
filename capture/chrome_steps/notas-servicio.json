@@ -27,7 +27,7 @@
  },
  {
   "text": "Lo que deben saber la agencia o el restaurante va en la pestaña **Servicios**, columna **Notas para agencia y restaurante** (1), en la línea de cada servicio: alergias, contacto del guía, indicaciones… La IA ya la rellena si lo dice el correo de la agencia.",
-  "tip": null,
+  "tip": "El **contacto del guía** y las **intolerancias** del grupo pasan solos a esta columna (si no hay: «Sin intolerancias ni alergias»).",
   "warn": null,
   "stop": null,
   "detail": null,

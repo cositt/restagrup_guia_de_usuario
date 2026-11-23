@@ -21,7 +21,7 @@
  },
  {
   "text": "Se abre la lista de lo pendiente, aquí **1 presupuesto de restaurante por confirmar**. Entra en la línea para resolverlo.",
-  "tip": "Cuando un restaurante contesta pero no da un precio único, también sale el aviso **restaurantes han contestado: presupuestos por confirmar**: entra y registra su menú.",
+  "tip": "Cuando un restaurante contesta pero no da un precio único, también sale el aviso **restaurantes han contestado: presupuestos por confirmar**: entra y registra su menú. Hay dos avisos más: **restaurante ha respondido a la confirmación** y **agencia ha respondido**; se apagan al abrir la petición, y cada persona los activa en **Avisos**.",
   "warn": null,
   "stop": null,
   "detail": null,

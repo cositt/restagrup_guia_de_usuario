@@ -1,0 +1,24 @@
+{
+ "title": "Cambiar el menú elegido",
+ "cat": "restaurantes",
+ "summary": "Si la agencia cambia de idea o confirma un plato por teléfono (por ejemplo el postre), edítalo desde la pestaña **Propuesta** con el lápiz. Queda anotado en el grupo.",
+ "when": "Después de que la agencia haya elegido y quieres corregir, completar o cambiar sus platos.",
+ "before": [
+  "El grupo tiene un restaurante elegido."
+ ],
+ "tags": [
+  "menu",
+  "elegido",
+  "editar",
+  "postre",
+  "platos",
+  "cambiar",
+  "lapiz",
+  "pidio la agencia"
+ ],
+ "result": "El menú elegido queda corregido, anotado en el historial y, si falta algún tipo de plato, te avisa.",
+ "next": [
+  "documentos-expediente",
+  "cerrar-expediente"
+ ]
+}

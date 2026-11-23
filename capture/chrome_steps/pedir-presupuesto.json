@@ -39,7 +39,7 @@
  },
  {
   "text": "Pulsa **Pedir presupuesto a interesados**. Se abre la ventana para **revisar y enviar**: a quién va cada correo (1), el asunto con el localizador (2) y el texto (3), que puedes cambiar. Es un texto común: **{restaurante}** y **{menu}** se cambian por los de cada uno, y cada restaurante lo recibe por separado. Las **notas para agencia y restaurante** del servicio (aquí la alergia) ya van dentro. Cuando esté bien, pulsa **Enviar** (4).",
-  "tip": "Al pedir presupuesto a un solo restaurante (botón **Pedir presupuesto** de su tarjeta) puedes elegir a cuál de sus contactos va: la ficha y/o una o varias personas.",
+  "tip": "Al pedir presupuesto a un solo restaurante (botón **Pedir presupuesto** de su tarjeta) puedes elegir a cuál de sus contactos va: la ficha y/o una o varias personas. Si un restaurante (por ejemplo de Google) **no tiene email**, la ventana se abre igualmente: escribe su email en **Otros emails** y quedará guardado en su tarjeta.",
   "warn": "El correo sale al momento y de verdad: úsalo solo con restaurantes reales cuando sea en serio.",
   "stop": null,
   "detail": null,

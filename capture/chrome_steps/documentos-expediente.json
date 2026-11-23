@@ -27,7 +27,7 @@
  },
  {
   "text": "Si falta algo, sale **Antes de continuar** con lo que falta o no cuadra (1). Puedes **Volver a revisar** o **Continuar de todos modos** (2): queda anotado en el historial.",
-  "tip": null,
+  "tip": "No es un error: es un aviso para que lo revises. También avisa si falta elegir un plato (por ejemplo el postre) o la cuenta bancaria del restaurante.",
   "warn": null,
   "stop": null,
   "detail": null,
