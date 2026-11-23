@@ -1,7 +1,7 @@
 [
  {
   "text": "Abre el grupo en **Expedientes** y pulsa **Cerrar expediente** (1). Odoo te pide confirmación.",
-  "tip": "La pestaña **Cierre** dice qué falta antes de cerrar.",
+  "tip": "La pestaña **Pendiente para cerrar** dice qué falta antes de cerrar.",
   "warn": null,
   "stop": null,
   "detail": null,
