@@ -1,0 +1,40 @@
+[
+ {
+  "text": "En la pestaña **Resultados**, las tarjetas de los restaurantes **Interesado**, **Pedido** o **Recibido** tienen **borde naranja** (1); el elegido lo lleva verde. Los que solo has visto o descartado quedan sin marcar. **Ver menús** sale en **verde** si el restaurante tiene menús (2) y **apagado** si no tiene ninguno (3). Pulsa el **nombre** (4) para abrir su ficha.",
+  "tip": "**Registrar menú** sigue visible aunque el restaurante ya tenga presupuesto: así puedes guardar varios menús.",
+  "warn": null,
+  "stop": null,
+  "detail": null,
+  "labels": [],
+  "img": "img/restaurantes-con-interes/01.webp",
+  "w": 996,
+  "h": 371,
+  "marks": [
+   {
+    "x": 0.5,
+    "y": 1.92,
+    "w": 32.33,
+    "h": 95.0
+   },
+   {
+    "x": 1.97,
+    "y": 54.81,
+    "w": 7.72,
+    "h": 5.77
+   },
+   {
+    "x": 67.4,
+    "y": 59.62,
+    "w": 7.72,
+    "h": 5.77
+   },
+   {
+    "x": 1.97,
+    "y": 5.38,
+    "w": 7.72,
+    "h": 4.42
+   }
+  ],
+  "doc": false
+ }
+]

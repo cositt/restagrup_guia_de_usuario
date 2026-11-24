@@ -1,0 +1,22 @@
+[
+ {
+  "text": "En la pestaña **Resultados**, junto al teléfono de cada tarjeta, pulsa el botón verde **WhatsApp** (1). Funciona igual con un restaurante que ya está en Odoo y con uno que viene de Google, siempre que tenga teléfono. Se abre `wa.me` en una pestaña nueva con el número ya normalizado.",
+  "tip": "El botón solo aparece si la tarjeta tiene teléfono. En la ficha del restaurante también hay uno junto al teléfono.",
+  "warn": "Si el teléfono de la tarjeta tiene varios números (separados por `/` o `,`) o una extensión, Odoo avisa con un error en vez de abrir un enlace que no funcionaría. Corrige el teléfono para que quede un solo número completo.",
+  "stop": null,
+  "detail": null,
+  "labels": [],
+  "img": "img/whatsapp-restaurante/01.webp",
+  "w": 996,
+  "h": 371,
+  "marks": [
+   {
+    "x": 14.41,
+    "y": 48.08,
+    "w": 7.34,
+    "h": 5.96
+   }
+  ],
+  "doc": false
+ }
+]

@@ -1,0 +1,26 @@
+{
+ "title": "Imprimir o descargar los documentos",
+ "cat": "expediente",
+ "summary": "El botón amarillo **Imprimir** del grupo da los PDF de Restagrup sin enviarlos a nadie: la propuesta a la agencia, la confirmación de la agencia, la confirmación del restaurante y el bono. Sirve, por ejemplo, para mandar el presupuesto por WhatsApp antes de enviarlo.",
+ "when": "Cuando necesitas el PDF para revisarlo, guardarlo o mandarlo por otro canal (WhatsApp, teléfono) sin que Odoo envíe nada.",
+ "before": [
+  "El grupo tiene al menos una búsqueda con restaurantes (para la propuesta).",
+  "Para las confirmaciones, el grupo ya tiene pedido; para el bono, el pago de la agencia está recibido."
+ ],
+ "tags": [
+  "imprimir",
+  "pdf",
+  "descargar",
+  "documentos",
+  "whatsapp",
+  "presupuesto",
+  "confirmacion",
+  "bono",
+  "propuesta"
+ ],
+ "result": "Se descarga el PDF elegido. No se envía correo ni se cambia nada en el grupo.",
+ "next": [
+  "documentos-expediente",
+  "bono-agencia"
+ ]
+}

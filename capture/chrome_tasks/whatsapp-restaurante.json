@@ -1,0 +1,25 @@
+{
+ "title": "Escribir a un restaurante por WhatsApp",
+ "cat": "restaurantes",
+ "summary": "En cada tarjeta de restaurante que tiene teléfono hay un botón verde **WhatsApp**. Al pulsarlo se abre una conversación de WhatsApp con ese número, ya preparado, sin copiar ni pegar nada.",
+ "when": "Cuando quieres contactar rápido con un restaurante por WhatsApp en lugar de llamar o escribir un correo.",
+ "before": [
+  "El restaurante tiene teléfono en su tarjeta (de Odoo o de Google).",
+  "Tienes WhatsApp en el ordenador (WhatsApp Web o la aplicación) o en el móvil."
+ ],
+ "tags": [
+  "whatsapp",
+  "wasap",
+  "movil",
+  "telefono",
+  "contactar",
+  "restaurante",
+  "tarjeta",
+  "mensaje"
+ ],
+ "result": "Se abre WhatsApp en una pestaña nueva con el número del restaurante, listo para escribir.",
+ "next": [
+  "pedir-presupuesto",
+  "respuesta-restaurante"
+ ]
+}
