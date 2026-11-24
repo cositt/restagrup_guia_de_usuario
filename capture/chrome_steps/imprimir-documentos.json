@@ -1,0 +1,42 @@
+[
+ {
+  "text": "En la fila de botones de arriba del grupo, pulsa el botón amarillo **Imprimir** (1). Está en la petición, en el presupuesto y en el expediente.",
+  "tip": "Ya no hay tres botones sueltos de descarga: todo está en este.",
+  "warn": null,
+  "stop": null,
+  "detail": null,
+  "labels": [],
+  "img": "img/imprimir-documentos/01.webp",
+  "w": 972,
+  "h": 44,
+  "marks": [
+   {
+    "x": 85.48,
+    "y": 14.52,
+    "w": 8.52,
+    "h": 65.32
+   }
+  ],
+  "doc": false
+ },
+ {
+  "text": "Se abre la lista de documentos (1). Pulsa el que quieras: se descarga el PDF, sin enviar nada. La ventana sigue abierta para sacar otro documento; ciérrala con **Cerrar**.",
+  "tip": "La propuesta sale en cuanto hay búsquedas. Las confirmaciones, cuando el grupo ya tiene pedido. El bono, cuando se ha recibido el pago de la agencia.",
+  "warn": "Si un documento aún no se puede generar, Odoo te dice qué falta en vez de descargar un PDF vacío.",
+  "stop": null,
+  "detail": null,
+  "labels": [],
+  "img": "img/imprimir-documentos/02.webp",
+  "w": 815,
+  "h": 335,
+  "marks": [
+   {
+    "x": 1.54,
+    "y": 38.72,
+    "w": 95.0,
+    "h": 39.15
+   }
+  ],
+  "doc": false
+ }
+]

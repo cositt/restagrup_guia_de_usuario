@@ -1,7 +1,7 @@
 [
  {
   "text": "Abre la hoja de servicio del restaurante (desde el pedido de venta → **Hojas de servicio**, o desde **Pagos a restaurantes**). Cuando hayas hecho la transferencia en el banco, pulsa **Transferencia hecha** (1).",
-  "tip": null,
+  "tip": "En **Pagos a restaurantes**, el filtro **Vencen en 1 semana** deja solo los pagos con fecha límite en los próximos 7 días. En la hoja de servicio ya no aparece el botón estándar **Enviar SdP** (Solicitud de Presupuesto): el presupuesto al restaurante se pide siempre desde la búsqueda de restaurantes.",
   "warn": "Este botón no paga nada: solo anota que tú ya has hecho la transferencia.",
   "stop": null,
   "detail": null,

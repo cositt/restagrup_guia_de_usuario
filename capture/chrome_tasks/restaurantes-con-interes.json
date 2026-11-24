@@ -1,0 +1,24 @@
+{
+ "title": "Ver de un vistazo qué restaurantes interesan",
+ "cat": "restaurantes",
+ "summary": "En la búsqueda de restaurantes, las tarjetas de los restaurantes **en los que hay interés** llevan un **borde naranja**. Además, **Ver menús** se pone en verde si el restaurante tiene menús, y el nombre abre su ficha.",
+ "when": "Cuando tienes muchos resultados y quieres localizar enseguida con cuáles estás trabajando.",
+ "before": [
+  "El grupo tiene una búsqueda de restaurantes con resultados."
+ ],
+ "tags": [
+  "tarjetas",
+  "borde",
+  "naranja",
+  "interesado",
+  "ver menus",
+  "ficha",
+  "resultados",
+  "registrar menu"
+ ],
+ "result": "Distingues a simple vista los restaurantes con interés, los que ya tienen menús y puedes abrir su ficha desde el nombre.",
+ "next": [
+  "pedir-presupuesto",
+  "respuesta-restaurante"
+ ]
+}

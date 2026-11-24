@@ -1,0 +1,24 @@
+{
+ "title": "Nombre del menú y aviso de menú repetido",
+ "cat": "restaurantes",
+ "summary": "Al registrar un menú (o leer la respuesta de un restaurante con IA) puedes **ponerle o corregirle el nombre** en el mismo diálogo. Y si en la ficha del restaurante ya hay un menú igual o casi igual, Odoo te **avisa antes de crear otro**.",
+ "when": "Cuando registras el menú de un restaurante, sobre todo si pegas su respuesta y pulsas «Leer con IA».",
+ "before": [
+  "La tarjeta del restaurante está en la búsqueda del grupo y el restaurante está en Odoo (tiene ficha)."
+ ],
+ "tags": [
+  "menu",
+  "nombre",
+  "registrar menu",
+  "duplicado",
+  "repetido",
+  "parecido",
+  "leer con ia",
+  "menu grupos"
+ ],
+ "result": "El menú queda con un nombre que lo distingue y sin menús repetidos en la ficha del restaurante.",
+ "next": [
+  "menu-ia",
+  "menus-restaurante"
+ ]
+}

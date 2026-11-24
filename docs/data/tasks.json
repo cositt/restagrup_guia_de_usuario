@@ -1040,6 +1040,119 @@
   ]
  },
  {
+  "title": "Ver de un vistazo qué restaurantes interesan",
+  "cat": "restaurantes",
+  "summary": "En la búsqueda de restaurantes, las tarjetas de los restaurantes **en los que hay interés** llevan un **borde naranja**. Además, **Ver menús** se pone en verde si el restaurante tiene menús, y el nombre abre su ficha.",
+  "when": "Cuando tienes muchos resultados y quieres localizar enseguida con cuáles estás trabajando.",
+  "before": [
+   "El grupo tiene una búsqueda de restaurantes con resultados."
+  ],
+  "tags": [
+   "tarjetas",
+   "borde",
+   "naranja",
+   "interesado",
+   "ver menus",
+   "ficha",
+   "resultados",
+   "registrar menu"
+  ],
+  "result": "Distingues a simple vista los restaurantes con interés, los que ya tienen menús y puedes abrir su ficha desde el nombre.",
+  "next": [
+   "pedir-presupuesto",
+   "respuesta-restaurante"
+  ],
+  "id": "restaurantes-con-interes",
+  "steps": [
+   {
+    "text": "En la pestaña **Resultados**, las tarjetas de los restaurantes **Interesado**, **Pedido** o **Recibido** tienen **borde naranja** (1); el elegido lo lleva verde. Los que solo has visto o descartado quedan sin marcar. **Ver menús** sale en **verde** si el restaurante tiene menús (2) y **apagado** si no tiene ninguno (3). Pulsa el **nombre** (4) para abrir su ficha.",
+    "tip": "**Registrar menú** sigue visible aunque el restaurante ya tenga presupuesto: así puedes guardar varios menús.",
+    "warn": null,
+    "stop": null,
+    "detail": null,
+    "labels": [],
+    "img": "img/restaurantes-con-interes/01.webp",
+    "w": 996,
+    "h": 371,
+    "marks": [
+     {
+      "x": 0.5,
+      "y": 1.92,
+      "w": 32.33,
+      "h": 95.0
+     },
+     {
+      "x": 1.97,
+      "y": 54.81,
+      "w": 7.72,
+      "h": 5.77
+     },
+     {
+      "x": 67.4,
+      "y": 59.62,
+      "w": 7.72,
+      "h": 5.77
+     },
+     {
+      "x": 1.97,
+      "y": 5.38,
+      "w": 7.72,
+      "h": 4.42
+     }
+    ],
+    "doc": false
+   }
+  ]
+ },
+ {
+  "title": "Escribir a un restaurante por WhatsApp",
+  "cat": "restaurantes",
+  "summary": "En cada tarjeta de restaurante que tiene teléfono hay un botón verde **WhatsApp**. Al pulsarlo se abre una conversación de WhatsApp con ese número, ya preparado, sin copiar ni pegar nada.",
+  "when": "Cuando quieres contactar rápido con un restaurante por WhatsApp en lugar de llamar o escribir un correo.",
+  "before": [
+   "El restaurante tiene teléfono en su tarjeta (de Odoo o de Google).",
+   "Tienes WhatsApp en el ordenador (WhatsApp Web o la aplicación) o en el móvil."
+  ],
+  "tags": [
+   "whatsapp",
+   "wasap",
+   "movil",
+   "telefono",
+   "contactar",
+   "restaurante",
+   "tarjeta",
+   "mensaje"
+  ],
+  "result": "Se abre WhatsApp en una pestaña nueva con el número del restaurante, listo para escribir.",
+  "next": [
+   "pedir-presupuesto",
+   "respuesta-restaurante"
+  ],
+  "id": "whatsapp-restaurante",
+  "steps": [
+   {
+    "text": "En la pestaña **Resultados**, junto al teléfono de cada tarjeta, pulsa el botón verde **WhatsApp** (1). Funciona igual con un restaurante que ya está en Odoo y con uno que viene de Google, siempre que tenga teléfono. Se abre `wa.me` en una pestaña nueva con el número ya normalizado.",
+    "tip": "El botón solo aparece si la tarjeta tiene teléfono. En la ficha del restaurante también hay uno junto al teléfono.",
+    "warn": "Si el teléfono de la tarjeta tiene varios números (separados por `/` o `,`) o una extensión, Odoo avisa con un error en vez de abrir un enlace que no funcionaría. Corrige el teléfono para que quede un solo número completo.",
+    "stop": null,
+    "detail": null,
+    "labels": [],
+    "img": "img/whatsapp-restaurante/01.webp",
+    "w": 996,
+    "h": 371,
+    "marks": [
+     {
+      "x": 14.41,
+      "y": 48.08,
+      "w": 7.34,
+      "h": 5.96
+     }
+    ],
+    "doc": false
+   }
+  ]
+ },
+ {
   "title": "Pedir presupuesto a los restaurantes",
   "cat": "restaurantes",
   "summary": "Marca como **Interesado** los restaurantes que te convienen y pídeles presupuesto a todos a la vez. A cada uno le llega un correo con la fecha, el servicio y los comensales.",
@@ -1139,7 +1252,7 @@
    },
    {
     "text": "Listo: la búsqueda pasa a **Presupuestos pedidos** (1) y a la derecha queda a quién se ha escrito y a qué correo (2). En la tarjeta de cada restaurante se enciende **Pedido**. La respuesta del restaurante vuelve sola a esta búsqueda: aunque conteste desde su correo, le llega a Odoo, no al buzón de nadie.",
-    "tip": null,
+    "tip": "En el **Chatter** de la búsqueda queda **una sola nota** con a cuántos restaurantes has pedido presupuesto, sus nombres y sus correos, y el asunto y el texto una sola vez. El correo completo de cada restaurante sigue en su propia conversación.",
     "warn": null,
     "stop": null,
     "detail": null,
@@ -1657,6 +1770,85 @@
     "w": 1145,
     "h": 713,
     "marks": [],
+    "doc": false
+   }
+  ]
+ },
+ {
+  "title": "Nombre del menú y aviso de menú repetido",
+  "cat": "restaurantes",
+  "summary": "Al registrar un menú (o leer la respuesta de un restaurante con IA) puedes **ponerle o corregirle el nombre** en el mismo diálogo. Y si en la ficha del restaurante ya hay un menú igual o casi igual, Odoo te **avisa antes de crear otro**.",
+  "when": "Cuando registras el menú de un restaurante, sobre todo si pegas su respuesta y pulsas «Leer con IA».",
+  "before": [
+   "La tarjeta del restaurante está en la búsqueda del grupo y el restaurante está en Odoo (tiene ficha)."
+  ],
+  "tags": [
+   "menu",
+   "nombre",
+   "registrar menu",
+   "duplicado",
+   "repetido",
+   "parecido",
+   "leer con ia",
+   "menu grupos"
+  ],
+  "result": "El menú queda con un nombre que lo distingue y sin menús repetidos en la ficha del restaurante.",
+  "next": [
+   "menu-ia",
+   "menus-restaurante"
+  ],
+  "id": "menu-parecido",
+  "steps": [
+   {
+    "text": "En la tarjeta del restaurante pulsa **Registrar menú**. Debajo del menú (1) tienes **Nombre del menú** (2): escríbelo o corrígelo ahí mismo. El año se añade solo («Menú peregrino» pasa a «Menú peregrino 2026»).",
+    "tip": "Si el restaurante no puso nombre al menú, la IA lo llama «Menú grupos» y sale un aviso amarillo para que le pongas uno que lo distinga.",
+    "warn": null,
+    "stop": null,
+    "detail": null,
+    "labels": [],
+    "img": "img/menu-parecido/01.webp",
+    "w": 646,
+    "h": 521,
+    "marks": [
+     {
+      "x": 1.46,
+      "y": 70.0,
+      "w": 97.09,
+      "h": 4.93
+     },
+     {
+      "x": 1.46,
+      "y": 74.93,
+      "w": 97.09,
+      "h": 4.93
+     }
+    ],
+    "doc": false
+   },
+   {
+    "text": "Si pegas la respuesta y pulsas **Leer con IA** y la ficha ya tiene un menú igual o casi igual (mismo nombre o al menos la mitad de los platos), **no se crea nada todavía**: sale este aviso (1) con lo que ya hay, el precio de la respuesta y los platos que cambian. Elige una opción (2).",
+    "tip": "**Usar el que ya hay** lo asigna sin crear otro. **Crear uno nuevo igualmente** lo guarda aparte, enlazado al parecido (no sale si son idénticos). **No guardar el menú** deja solo el precio propuesto.",
+    "warn": "El precio que leyó la IA ya queda propuesto en el presupuesto, elijas lo que elijas: revísalo antes de **Registrar**.",
+    "stop": null,
+    "detail": null,
+    "labels": [],
+    "img": "img/menu-parecido/02.webp",
+    "w": 646,
+    "h": 229,
+    "marks": [
+     {
+      "x": 1.46,
+      "y": 29.69,
+      "w": 97.09,
+      "h": 43.75
+     },
+     {
+      "x": 1.46,
+      "y": 82.81,
+      "w": 53.4,
+      "h": 12.5
+     }
+    ],
     "doc": false
    }
   ]
@@ -2431,6 +2623,75 @@
   ]
  },
  {
+  "title": "Imprimir o descargar los documentos",
+  "cat": "expediente",
+  "summary": "El botón amarillo **Imprimir** del grupo da los PDF de Restagrup sin enviarlos a nadie: la propuesta a la agencia, la confirmación de la agencia, la confirmación del restaurante y el bono. Sirve, por ejemplo, para mandar el presupuesto por WhatsApp antes de enviarlo.",
+  "when": "Cuando necesitas el PDF para revisarlo, guardarlo o mandarlo por otro canal (WhatsApp, teléfono) sin que Odoo envíe nada.",
+  "before": [
+   "El grupo tiene al menos una búsqueda con restaurantes (para la propuesta).",
+   "Para las confirmaciones, el grupo ya tiene pedido; para el bono, el pago de la agencia está recibido."
+  ],
+  "tags": [
+   "imprimir",
+   "pdf",
+   "descargar",
+   "documentos",
+   "whatsapp",
+   "presupuesto",
+   "confirmacion",
+   "bono",
+   "propuesta"
+  ],
+  "result": "Se descarga el PDF elegido. No se envía correo ni se cambia nada en el grupo.",
+  "next": [
+   "documentos-expediente",
+   "bono-agencia"
+  ],
+  "id": "imprimir-documentos",
+  "steps": [
+   {
+    "text": "En la fila de botones de arriba del grupo, pulsa el botón amarillo **Imprimir** (1). Está en la petición, en el presupuesto y en el expediente.",
+    "tip": "Ya no hay tres botones sueltos de descarga: todo está en este.",
+    "warn": null,
+    "stop": null,
+    "detail": null,
+    "labels": [],
+    "img": "img/imprimir-documentos/01.webp",
+    "w": 972,
+    "h": 44,
+    "marks": [
+     {
+      "x": 85.48,
+      "y": 14.52,
+      "w": 8.52,
+      "h": 65.32
+     }
+    ],
+    "doc": false
+   },
+   {
+    "text": "Se abre la lista de documentos (1). Pulsa el que quieras: se descarga el PDF, sin enviar nada. La ventana sigue abierta para sacar otro documento; ciérrala con **Cerrar**.",
+    "tip": "La propuesta sale en cuanto hay búsquedas. Las confirmaciones, cuando el grupo ya tiene pedido. El bono, cuando se ha recibido el pago de la agencia.",
+    "warn": "Si un documento aún no se puede generar, Odoo te dice qué falta en vez de descargar un PDF vacío.",
+    "stop": null,
+    "detail": null,
+    "labels": [],
+    "img": "img/imprimir-documentos/02.webp",
+    "w": 815,
+    "h": 335,
+    "marks": [
+     {
+      "x": 1.54,
+      "y": 38.72,
+      "w": 95.0,
+      "h": 39.15
+     }
+    ],
+    "doc": false
+   }
+  ]
+ },
+ {
   "title": "Pedir el pago a la agencia",
   "cat": "pagos",
   "summary": "7 días antes del servicio, si la agencia no ha pagado, el sistema prepara solo el correo pidiéndole la transferencia. A las 72 horas, si sigue sin pagar, prepara la reclamación urgente.",
@@ -2906,7 +3167,7 @@
   "steps": [
    {
     "text": "Abre la hoja de servicio del restaurante (desde el pedido de venta → **Hojas de servicio**, o desde **Pagos a restaurantes**). Cuando hayas hecho la transferencia en el banco, pulsa **Transferencia hecha** (1).",
-    "tip": null,
+    "tip": "En **Pagos a restaurantes**, el filtro **Vencen en 1 semana** deja solo los pagos con fecha límite en los próximos 7 días. En la hoja de servicio ya no aparece el botón estándar **Enviar SdP** (Solicitud de Presupuesto): el presupuesto al restaurante se pide siempre desde la búsqueda de restaurantes.",
     "warn": "Este botón no paga nada: solo anota que tú ya has hecho la transferencia.",
     "stop": null,
     "detail": null,

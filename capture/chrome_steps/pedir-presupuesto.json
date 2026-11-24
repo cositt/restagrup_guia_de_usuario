@@ -77,7 +77,7 @@
  },
  {
   "text": "Listo: la búsqueda pasa a **Presupuestos pedidos** (1) y a la derecha queda a quién se ha escrito y a qué correo (2). En la tarjeta de cada restaurante se enciende **Pedido**. La respuesta del restaurante vuelve sola a esta búsqueda: aunque conteste desde su correo, le llega a Odoo, no al buzón de nadie.",
-  "tip": null,
+  "tip": "En el **Chatter** de la búsqueda queda **una sola nota** con a cuántos restaurantes has pedido presupuesto, sus nombres y sus correos, y el asunto y el texto una sola vez. El correo completo de cada restaurante sigue en su propia conversación.",
   "warn": null,
   "stop": null,
   "detail": null,

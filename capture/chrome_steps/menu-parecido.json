@@ -1,0 +1,54 @@
+[
+ {
+  "text": "En la tarjeta del restaurante pulsa **Registrar menú**. Debajo del menú (1) tienes **Nombre del menú** (2): escríbelo o corrígelo ahí mismo. El año se añade solo («Menú peregrino» pasa a «Menú peregrino 2026»).",
+  "tip": "Si el restaurante no puso nombre al menú, la IA lo llama «Menú grupos» y sale un aviso amarillo para que le pongas uno que lo distinga.",
+  "warn": null,
+  "stop": null,
+  "detail": null,
+  "labels": [],
+  "img": "img/menu-parecido/01.webp",
+  "w": 646,
+  "h": 521,
+  "marks": [
+   {
+    "x": 1.46,
+    "y": 70.0,
+    "w": 97.09,
+    "h": 4.93
+   },
+   {
+    "x": 1.46,
+    "y": 74.93,
+    "w": 97.09,
+    "h": 4.93
+   }
+  ],
+  "doc": false
+ },
+ {
+  "text": "Si pegas la respuesta y pulsas **Leer con IA** y la ficha ya tiene un menú igual o casi igual (mismo nombre o al menos la mitad de los platos), **no se crea nada todavía**: sale este aviso (1) con lo que ya hay, el precio de la respuesta y los platos que cambian. Elige una opción (2).",
+  "tip": "**Usar el que ya hay** lo asigna sin crear otro. **Crear uno nuevo igualmente** lo guarda aparte, enlazado al parecido (no sale si son idénticos). **No guardar el menú** deja solo el precio propuesto.",
+  "warn": "El precio que leyó la IA ya queda propuesto en el presupuesto, elijas lo que elijas: revísalo antes de **Registrar**.",
+  "stop": null,
+  "detail": null,
+  "labels": [],
+  "img": "img/menu-parecido/02.webp",
+  "w": 646,
+  "h": 229,
+  "marks": [
+   {
+    "x": 1.46,
+    "y": 29.69,
+    "w": 97.09,
+    "h": 43.75
+   },
+   {
+    "x": 1.46,
+    "y": 82.81,
+    "w": 53.4,
+    "h": 12.5
+   }
+  ],
+  "doc": false
+ }
+]
